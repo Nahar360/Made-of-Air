@@ -4,10 +4,9 @@ import com.madeofair.DatabaseFactory.dbQuery
 import com.madeofair.models.db.MusicDB
 import com.madeofair.models.domain.Months
 import com.madeofair.models.domain.Music
+import com.madeofair.models.domain.Years
 import org.jetbrains.exposed.sql.*
 import org.jetbrains.exposed.sql.transactions.transaction
-
-import java.time.Year
 
 object MusicRepository {
 
@@ -110,7 +109,7 @@ object MusicRepository {
         }
     }
 
-    suspend fun getAllByRatingThreshold(rating: Int): List<Music> {
+    suspend fun getAllByRatingThreshold(rating: String): List<Music> {
         return dbQuery {
             MusicDB.select {
                 MusicDB.rating greaterEq rating
@@ -159,7 +158,7 @@ object MusicRepository {
     private fun ResultRow.toMusic(): Music {
         return Music(
             id = this[MusicDB.id],
-            year = Year.parse(this[MusicDB.year]),
+            year = Years.valueOf(this[MusicDB.year]),
             month = Months.valueOf(this[MusicDB.month]),
             band = this[MusicDB.band],
             album = this[MusicDB.album],

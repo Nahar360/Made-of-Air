@@ -1,8 +1,7 @@
 package com.madeofair.webapp.pages
 
 import com.madeofair.models.UserSession
-import com.madeofair.models.domain.Music
-import com.madeofair.models.domain.monthStringToMonthEnum
+import com.madeofair.models.domain.*
 import com.madeofair.redirect
 import com.madeofair.repositories.MusicRepository
 import com.madeofair.repositories.UsersRepository
@@ -26,14 +25,20 @@ const val ADD_ALBUM = "/add_album"
 @Location(ADD_ALBUM)
 class AddAlbum
 
-fun Route.addAlbum(usersRepository: UsersRepository, musicRepository: MusicRepository) {
+fun Route.addAlbum(usersRepository: UsersRepository, musicRepository: MusicRepository, years: ArrayList<String>) {
     get<AddAlbum> {
         val user = call.sessions.get<UserSession>()?.let { usersRepository.get(it.userId) }
+
+        val months = getAllMonthsString()
 
         call.respond(
             FreeMarkerContent(
                 "add_album.ftl",
-                mapOf("user" to user)
+                mapOf(
+                    "user" to user,
+                    "years" to years,
+                    "months" to months
+                )
             )
         )
     }
@@ -51,12 +56,12 @@ fun Route.addAlbum(usersRepository: UsersRepository, musicRepository: MusicRepos
 
 private fun addAlbum(params: Parameters): Music {
     return Music(
-        year = Year.parse(params.getValue("year")),
+        year = yearStringToYearEnum(params.getValue("year")),
         month = monthStringToMonthEnum(params.getValue("month")),
         band = params.getValue("band"),
         album = params.getValue("album"),
         genre = params.getValue("genre"),
-        rating = params.getValue("rating").toInt(),
+        rating = params.getValue("rating"),
         bestSong = params.getValue("bestSong")
     )
 }

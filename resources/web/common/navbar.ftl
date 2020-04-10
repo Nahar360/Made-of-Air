@@ -9,11 +9,9 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color: #D3D3D3">Music</a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="/music/year/2016">2016</a>
-          <a class="dropdown-item" href="/music/year/2017">2017</a>
-          <a class="dropdown-item" href="/music/year/2018">2018</a>
-          <a class="dropdown-item" href="/music/year/2019">2019</a>
-          <a class="dropdown-item" href="/music/year/2020">2020</a>
+          <#list years as year>
+            <a class="dropdown-item" href="/music/year/${year}">${year}</a>
+          </#list>
         </div>
       </li>
       <#if user??>

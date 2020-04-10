@@ -26,7 +26,7 @@ const val MUSIC_PER_YEAR = "/music/year/{year}"
 @Location(MUSIC_PER_YEAR)
 class MusicPerYear(val year: String)
 
-fun Route.musicPerYear(usersRepository: UsersRepository, musicRepository: MusicRepository) {
+fun Route.musicPerYear(usersRepository: UsersRepository, musicRepository: MusicRepository, years: ArrayList<String>) {
     get<MusicPerYear> {
         val user = call.sessions.get<UserSession>()?.let { usersRepository.get(it.userId) }
 
@@ -37,7 +37,7 @@ fun Route.musicPerYear(usersRepository: UsersRepository, musicRepository: MusicR
         val year =
             params["year"] ?: return@get call.respond(status = HttpStatusCode.BadRequest, message = "Bad request")
         for (month in months)
-            music.add(musicRepository.getAllByYearAndByMonth(year, month).sortedBy { it.band }
+            music.add(musicRepository.getAllByYearAndByMonth("YEAR_$year", month).sortedBy { it.band }
                 .sortedBy { it.month }.sortedBy { it.year })
 
         call.respond(
@@ -47,7 +47,8 @@ fun Route.musicPerYear(usersRepository: UsersRepository, musicRepository: MusicR
                     "user" to user,
                     "music" to music,
                     "months" to months,
-                    "year" to year
+                    "year" to year,
+                    "years" to years
                 )
             )
         )
@@ -62,7 +63,8 @@ fun Route.musicPerYear(usersRepository: UsersRepository, musicRepository: MusicR
                 call.redirect(MusicPerYear(it.year))
             }
         } else if (getAction(params) == Actions.CLEAR) {
-            musicRepository.clearAllByYear(it.year)
+            val year = it.year
+            musicRepository.clearAllByYear("YEAR_$year")
             call.redirect(MusicPerYear(it.year))
         }
     }

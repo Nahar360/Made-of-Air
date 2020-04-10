@@ -71,7 +71,7 @@
                         <tbody>
                             <#list month as album>
                                 <tr>
-                                    <td style="text-align: center; vertical-align: middle;">${album.year}</td>
+                                    <td style="text-align: center; vertical-align: middle;">${album.year[5..]}</td>
                                     <td style="text-align: center; vertical-align: middle;">${album.month}</td>
                                     <th scope="row" style="text-align: center; vertical-align: middle;">${album.band}</th>
                                     <td style="text-align: center; vertical-align: middle;">${album.album}</td>

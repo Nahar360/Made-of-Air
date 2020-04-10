@@ -22,7 +22,7 @@ const val SIGN_IN = "signin"
 @Location(SIGN_IN)
 data class SignIn(val userId: String = "", val error: String = "")
 
-fun Route.signIn(usersRepository: UsersRepository) {
+fun Route.signIn(usersRepository: UsersRepository, years: ArrayList<String>) {
     get<SignIn> {
         val user = call.sessions.get<UserSession>()?.let { usersRepository.get(it.userId) }
         call.respond(
@@ -30,7 +30,8 @@ fun Route.signIn(usersRepository: UsersRepository) {
                 "signin.ftl",
                 mapOf(
                     "user" to user,
-                    "error" to it.error
+                    "error" to it.error,
+                    "years" to years
                 )
             )
         )

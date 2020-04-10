@@ -16,14 +16,17 @@ const val HOME = "/"
 @Location(HOME)
 class Home
 
-fun Route.home(usersRepository: UsersRepository) {
+fun Route.home(usersRepository: UsersRepository, years: ArrayList<String>) {
     get<Home> {
         val user = call.sessions.get<UserSession>()?.let { usersRepository.get(it.userId) }
 
         call.respond(
             FreeMarkerContent(
                 "home.ftl",
-                mapOf("user" to user)
+                mapOf(
+                    "user" to user,
+                    "years" to years
+                )
             )
         )
     }

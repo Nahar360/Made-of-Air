@@ -16,14 +16,17 @@ const val ABOUT = "/about"
 @Location(ABOUT)
 class About
 
-fun Route.about(usersRepository: UsersRepository) {
+fun Route.about(usersRepository: UsersRepository, years: ArrayList<String>) {
     get<About> {
         val user = call.sessions.get<UserSession>()?.let { usersRepository.get(it.userId) }
 
         call.respond(
             FreeMarkerContent(
                 "about.ftl",
-                mapOf("user" to user)
+                mapOf(
+                    "user" to user,
+                    "years" to years
+                )
             )
         )
     }

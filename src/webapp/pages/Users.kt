@@ -27,7 +27,7 @@ const val USERS = "users"
 @Location(USERS)
 data class Users(val error: String = "")
 
-fun Route.users(usersRepository: UsersRepository) {
+fun Route.users(usersRepository: UsersRepository, years: ArrayList<String>) {
     get<Users> {
         val user = call.sessions.get<UserSession>()?.let { usersRepository.get(it.userId) }
         val users = usersRepository.getAll()
@@ -38,7 +38,8 @@ fun Route.users(usersRepository: UsersRepository) {
                 mapOf(
                     "error" to it.error,
                     "user" to user,
-                    "users" to users
+                    "users" to users,
+                    "years" to years
                 )
             )
         )

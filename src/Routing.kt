@@ -1,5 +1,6 @@
 package com.madeofair
 
+import com.madeofair.models.domain.getAllYearsString
 import com.madeofair.repositories.MusicRepository
 import com.madeofair.repositories.UsersRepository
 import com.madeofair.webapp.pages.*
@@ -17,19 +18,21 @@ fun Routing.web(
     usersRepository: UsersRepository,
     musicRepository: MusicRepository
 ) {
-    home(usersRepository)
+    val years = getAllYearsString()
 
-    signIn(usersRepository)
-    users(usersRepository)
+    home(usersRepository, years)
+
+    signIn(usersRepository, years)
+    users(usersRepository, years)
     signOut()
 
-    addAlbum(usersRepository, musicRepository)
-    musicPerYear(usersRepository, musicRepository)
-    modifyAlbum(usersRepository, musicRepository)
+    addAlbum(usersRepository, musicRepository, years)
+    musicPerYear(usersRepository, musicRepository, years)
+    modifyAlbum(usersRepository, musicRepository, years)
 
-    stats(usersRepository)
+    stats(usersRepository, musicRepository, years)
 
-    about(usersRepository)
+    about(usersRepository, years)
 
     loadCsv(musicRepository)
 }

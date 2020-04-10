@@ -9,6 +9,6 @@ object MusicDB : Table() {
     val band = varchar("band", 100)
     val album = varchar("album", 100)
     val genre = varchar("genre", 50)
-    val rating = integer("rating")
+    val rating = varchar("rating", 5)
     val bestSong = varchar("bestSong", 100)
 }

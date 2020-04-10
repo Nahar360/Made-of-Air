@@ -1,9 +1,7 @@
 package com.madeofair.webapp.pages
 
 import com.madeofair.models.UserSession
-import com.madeofair.models.domain.Music
-import com.madeofair.models.domain.getAllMonthsString
-import com.madeofair.models.domain.monthStringToMonthEnum
+import com.madeofair.models.domain.*
 import com.madeofair.redirect
 import com.madeofair.repositories.MusicRepository
 import com.madeofair.repositories.UsersRepository
@@ -28,10 +26,7 @@ const val MODIFY_ALBUM = "music/{id}"
 @Location(MODIFY_ALBUM)
 class ModifyAlbum(val id: String)
 
-fun Route.modifyAlbum(
-    usersRepository: UsersRepository,
-    musicRepository: MusicRepository
-) {
+fun Route.modifyAlbum(usersRepository: UsersRepository, musicRepository: MusicRepository, years: ArrayList<String>) {
     get<ModifyAlbum> {
         val user = call.sessions.get<UserSession>()?.let { usersRepository.get(it.userId) }
 
@@ -43,7 +38,6 @@ fun Route.modifyAlbum(
                 params["id"] ?: return@get call.respond(status = HttpStatusCode.BadRequest, message = "Bad request")
             val album = musicRepository.get(id)
 
-            val years = listOf("2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020")
             val months = getAllMonthsString()
 
             when (album != null) {
@@ -77,12 +71,12 @@ fun Route.modifyAlbum(
 private fun createAlbumToUpdate(params: Parameters): Music {
     return Music(
         id = params.getValue("id"),
-        year = Year.parse(params.getValue("year")),
+        year = yearStringToYearEnum(params.getValue("year")),
         month = monthStringToMonthEnum(params.getValue("month")),
         band = params.getValue("band"),
         album = params.getValue("album"),
         genre = params.getValue("genre"),
-        rating = params.getValue("rating").toInt(),
+        rating = params.getValue("rating"),
         bestSong = params.getValue("bestSong")
     )
 }

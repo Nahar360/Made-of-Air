@@ -2,6 +2,7 @@ package com.madeofair.webapp.pages
 
 import com.madeofair.models.domain.Music
 import com.madeofair.models.domain.monthStringToMonthEnum
+import com.madeofair.models.domain.yearStringToYearEnum
 import com.madeofair.redirect
 import com.madeofair.repositories.MusicRepository
 import io.ktor.application.call
@@ -49,9 +50,9 @@ fun Route.loadCsv(musicRepository: MusicRepository) {
                 if (year != "" && month != "" && band != "" && album != "" && genre != "") {
                     // album without rating
                     val albumToAdd = if (rating == "") {
-                        Music("", Year.parse(year), monthStringToMonthEnum(month), band, album, genre, 0, bestSong)
+                        Music("", yearStringToYearEnum(year), monthStringToMonthEnum(month), band, album, genre, "", bestSong)
                     } else
-                        Music("", Year.parse(year), monthStringToMonthEnum(month), band, album, genre, Integer.parseInt(rating) * 10, bestSong)
+                        Music("", yearStringToYearEnum(year), monthStringToMonthEnum(month), band, album, genre, (rating.toInt() * 10).toString(), bestSong)
 
 //                    if (!genres.contains(genre))
 //                        genres.add((genre))
