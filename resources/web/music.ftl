@@ -7,6 +7,12 @@
 
 <br>
 <h1>Music ${year}</h1>
+
+<#assign numTotalAlbums = 0>
+<#list music as month>
+    <#assign numTotalAlbums += month?size>
+</#list>
+<h6>[${numTotalAlbums} albums]</h6>
 <br>
 
 <div class="panel-body">
@@ -45,6 +51,7 @@
                     <div class="tab-pane fade"             role="tabpanel" id="pills-${months[monthIndex]}-table" aria-labelledby="pills-${months[monthIndex]}-tab-table">
                 </#if>
                 <#if (month?size > 0)>
+                    <h6>${month?size} albums.</h6>
                     <table class="table table-bordered">
                         <thead class="thead-dark">
                             <tr>
@@ -123,6 +130,7 @@
                     <div class="tab-pane fade"             role="tabpanel" id="pills-${months[monthIndex]}-grid" aria-labelledby="pills-${months[monthIndex]}-tab-grid">
                 </#if>
                     <#if (month?size > 0)>
+                        <h6>${month?size} albums.</h6>
                         <div class="row">
                             <#list month as album>
                                 <div class="col-sm-3">
