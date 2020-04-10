@@ -27,6 +27,8 @@ fun Routing.web(
     musicPerYear(usersRepository, musicRepository)
     modifyAlbum(usersRepository, musicRepository)
 
+    stats(usersRepository)
+
     about(usersRepository)
 
     loadCsv(musicRepository)

@@ -22,6 +22,9 @@
         </li>
       </#if>
       <li class="nav-item">
+        <a class="nav-link" href="/stats" style="color: #D3D3D3">Stats</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="/about" style="color: #D3D3D3">About</a>
       </li>
     </ul>
