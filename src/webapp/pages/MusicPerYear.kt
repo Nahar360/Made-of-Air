@@ -1,6 +1,8 @@
 package com.madeofair.webapp.pages
 
 import com.madeofair.models.UserSession
+import com.madeofair.models.domain.Music
+import com.madeofair.models.domain.getAllMonthsString
 import com.madeofair.redirect
 import com.madeofair.repositories.MusicRepository
 import com.madeofair.repositories.UsersRepository
@@ -8,6 +10,7 @@ import com.madeofair.webapp.Actions
 import com.madeofair.webapp.getAction
 import io.ktor.application.call
 import io.ktor.freemarker.FreeMarkerContent
+import io.ktor.http.HttpStatusCode
 import io.ktor.http.Parameters
 import io.ktor.locations.Location
 import io.ktor.locations.get
@@ -18,38 +21,49 @@ import io.ktor.routing.Route
 import io.ktor.sessions.get
 import io.ktor.sessions.sessions
 
-const val MUSIC = "/music"
+const val MUSIC_PER_YEAR = "/music/year/{year}"
 
-@Location(MUSIC)
-class Music
+@Location(MUSIC_PER_YEAR)
+class MusicPerYear(val year: String)
 
-fun Route.music(usersRepository: UsersRepository, musicRepository: MusicRepository) {
-    get<Music> {
+fun Route.musicPerYear(usersRepository: UsersRepository, musicRepository: MusicRepository) {
+    get<MusicPerYear> {
         val user = call.sessions.get<UserSession>()?.let { usersRepository.get(it.userId) }
-        val music = musicRepository.getAll()
+
+        val months = getAllMonthsString()
+
+        val music = ArrayList<List<Music>>()
+        val params: Parameters = call.parameters
+        val year =
+            params["year"] ?: return@get call.respond(status = HttpStatusCode.BadRequest, message = "Bad request")
+        for (month in months)
+            music.add(musicRepository.getAllByYearAndByMonth(year, month).sortedBy { it.band }
+                .sortedBy { it.month }.sortedBy { it.year })
 
         call.respond(
             FreeMarkerContent(
                 "music.ftl",
                 mapOf(
                     "user" to user,
-                    "music" to music
+                    "music" to music,
+                    "months" to months,
+                    "year" to year
                 )
             )
         )
     }
 
-    post<Music> {
+    post<MusicPerYear> {
         val params = call.receiveParameters()
 
         if (getAction(params) == Actions.DELETE) {
             val id = params.getValue("musicId")
             if (musicRepository.remove(id)) {
-                call.redirect(Music())
+                call.redirect(MusicPerYear(it.year))
             }
         } else if (getAction(params) == Actions.CLEAR) {
-            musicRepository.clearAll()
-            call.redirect(Music())
+            musicRepository.clearAllByYear(it.year)
+            call.redirect(MusicPerYear(it.year))
         }
     }
 }
