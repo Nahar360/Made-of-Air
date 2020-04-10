@@ -2,6 +2,8 @@ package com.madeofair.webapp.pages
 
 import com.madeofair.models.UserSession
 import com.madeofair.models.domain.Music
+import com.madeofair.models.domain.getAllMonthsString
+import com.madeofair.models.domain.monthStringToMonthEnum
 import com.madeofair.redirect
 import com.madeofair.repositories.MusicRepository
 import com.madeofair.repositories.UsersRepository
@@ -19,6 +21,7 @@ import io.ktor.response.respond
 import io.ktor.routing.Route
 import io.ktor.sessions.get
 import io.ktor.sessions.sessions
+import java.time.Year
 
 const val MODIFY_ALBUM = "music/{id}"
 
@@ -41,23 +44,10 @@ fun Route.modifyAlbum(
             val album = musicRepository.get(id)
 
             val years = listOf("2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020")
-            val months = listOf(
-                "JANUARY",
-                "FEBRUARY",
-                "MARCH",
-                "APRIL",
-                "MAY",
-                "JUNE",
-                "JULY",
-                "AUGUST",
-                "SEPTEMBER",
-                "OCTOBER",
-                "NOVEMBER",
-                "DECEMBER"
-            )
+            val months = getAllMonthsString()
 
             when (album != null) {
-                false -> call.redirect(Music())
+                false -> call.redirect(MusicPerYear("2016"))
                 true -> {
                     call.respond(
                         FreeMarkerContent(
@@ -79,7 +69,7 @@ fun Route.modifyAlbum(
         val params = call.receiveParameters()
 
         if (getAction(params) == Actions.MODIFY && musicRepository.update(createAlbumToUpdate(params)) != null) {
-            call.redirect(Music())
+            call.redirect(MusicPerYear(params.getValue("year")))
         }
     }
 }
@@ -87,8 +77,8 @@ fun Route.modifyAlbum(
 private fun createAlbumToUpdate(params: Parameters): Music {
     return Music(
         id = params.getValue("id"),
-        year = params.getValue("year"),
-        month = params.getValue("month"),
+        year = Year.parse(params.getValue("year")),
+        month = monthStringToMonthEnum(params.getValue("month")),
         band = params.getValue("band"),
         album = params.getValue("album"),
         genre = params.getValue("genre"),

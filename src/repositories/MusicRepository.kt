@@ -2,9 +2,12 @@ package com.madeofair.repositories
 
 import com.madeofair.DatabaseFactory.dbQuery
 import com.madeofair.models.db.MusicDB
+import com.madeofair.models.domain.Months
 import com.madeofair.models.domain.Music
 import org.jetbrains.exposed.sql.*
 import org.jetbrains.exposed.sql.transactions.transaction
+
+import java.time.Year
 
 object MusicRepository {
 
@@ -13,8 +16,8 @@ object MusicRepository {
             val insertStatement = transaction {
                 MusicDB.insert {
                     it[id] = createRandomId()
-                    it[year] = music.year
-                    it[month] = music.month
+                    it[year] = music.year.toString()
+                    it[month] = music.month.name
                     it[band] = music.band
                     it[album] = music.album
                     it[genre] = music.genre
@@ -33,8 +36,8 @@ object MusicRepository {
                 MusicDB.update(
                     where = { MusicDB.id eq music.id!! }
                 ) {
-                    it[year] = music.year
-                    it[month] = music.month
+                    it[year] = music.year.toString()
+                    it[month] = music.month.name
                     it[band] = music.band
                     it[album] = music.album
                     it[genre] = music.genre
@@ -67,6 +70,56 @@ object MusicRepository {
         }
     }
 
+    suspend fun getAllByYear(year: String): List<Music> {
+        return dbQuery {
+            MusicDB.select {
+                MusicDB.year eq year
+            }.mapNotNull {
+                it.toMusic()
+            }
+        }
+    }
+
+    suspend fun getAllByMonth(month: String): List<Music> {
+        return dbQuery {
+            MusicDB.select {
+                MusicDB.month eq month
+            }.mapNotNull {
+                it.toMusic()
+            }
+        }
+    }
+
+    suspend fun getAllByYearAndByMonth(year: String, month: String): List<Music> {
+        return dbQuery {
+            MusicDB.select {
+                (MusicDB.year eq year) and (MusicDB.month eq month)
+            }.mapNotNull {
+                it.toMusic()
+            }
+        }
+    }
+
+    suspend fun getAllByGenre(genre: String): List<Music> {
+        return dbQuery {
+            MusicDB.select {
+                MusicDB.genre eq genre
+            }.mapNotNull {
+                it.toMusic()
+            }
+        }
+    }
+
+    suspend fun getAllByRatingThreshold(rating: Int): List<Music> {
+        return dbQuery {
+            MusicDB.select {
+                MusicDB.rating greaterEq rating
+            }.mapNotNull {
+                it.toMusic()
+            }
+        }
+    }
+
     suspend fun remove(id: String): Boolean {
         return dbQuery {
             val count = transaction {
@@ -88,11 +141,26 @@ object MusicRepository {
         }
     }
 
+    suspend fun clearAllByYear(year: String): Boolean {
+        return dbQuery {
+            val count = transaction {
+                MusicDB.deleteWhere {
+                    MusicDB.year eq year
+                }
+            }
+
+            when (count) {
+                0 -> false
+                else -> true
+            }
+        }
+    }
+
     private fun ResultRow.toMusic(): Music {
         return Music(
             id = this[MusicDB.id],
-            year = this[MusicDB.year],
-            month = this[MusicDB.month],
+            year = Year.parse(this[MusicDB.year]),
+            month = Months.valueOf(this[MusicDB.month]),
             band = this[MusicDB.band],
             album = this[MusicDB.album],
             genre = this[MusicDB.genre],

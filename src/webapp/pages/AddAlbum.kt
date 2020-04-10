@@ -2,6 +2,7 @@ package com.madeofair.webapp.pages
 
 import com.madeofair.models.UserSession
 import com.madeofair.models.domain.Music
+import com.madeofair.models.domain.monthStringToMonthEnum
 import com.madeofair.redirect
 import com.madeofair.repositories.MusicRepository
 import com.madeofair.repositories.UsersRepository
@@ -18,6 +19,7 @@ import io.ktor.response.respond
 import io.ktor.routing.Route
 import io.ktor.sessions.get
 import io.ktor.sessions.sessions
+import java.time.Year
 
 const val ADD_ALBUM = "/add_album"
 
@@ -41,7 +43,7 @@ fun Route.addAlbum(usersRepository: UsersRepository, musicRepository: MusicRepos
 
         if (getAction(params) == Actions.ADD) {
             if (musicRepository.add(addAlbum(params)) != null) {
-                call.redirect(Music())
+                call.redirect(MusicPerYear(params.getValue("year")))
             }
         }
     }
@@ -49,8 +51,8 @@ fun Route.addAlbum(usersRepository: UsersRepository, musicRepository: MusicRepos
 
 private fun addAlbum(params: Parameters): Music {
     return Music(
-        year = params.getValue("year"),
-        month = params.getValue("month"),
+        year = Year.parse(params.getValue("year")),
+        month = monthStringToMonthEnum(params.getValue("month")),
         band = params.getValue("band"),
         album = params.getValue("album"),
         genre = params.getValue("genre"),

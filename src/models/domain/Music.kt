@@ -1,11 +1,11 @@
 package com.madeofair.models.domain
 
-import java.time.Month
+import java.time.Year
 
 data class Music(
     val id: String? = null,
-    val year: String,
-    val month: String,
+    val year: Year,
+    val month: Months,
     val band: String,
     val album: String,
     val genre: String,

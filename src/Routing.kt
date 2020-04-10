@@ -24,8 +24,10 @@ fun Routing.web(
     signOut()
 
     addAlbum(usersRepository, musicRepository)
-    music(usersRepository, musicRepository)
+    musicPerYear(usersRepository, musicRepository)
     modifyAlbum(usersRepository, musicRepository)
 
     about(usersRepository)
+
+    loadCsv(musicRepository)
 }
