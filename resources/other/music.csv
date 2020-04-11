@@ -1,784 +1,1994 @@
-YEAR,MONTH,BAND,ALBUM,GENRE,RATING,BEST SONG,
-2016,JANUARY,Anderson .Paak,Malibu,Rap,7,“The Season | Carry Me”,
-2016,JANUARY,Bloc Party,Hymns,Indie Rock,6,“Into The Earth”,
-2016,JANUARY,Chairlift,Moth,Electro Pop,8,“Polymorphing”,
-2016,JANUARY,Daughter,Not To Disappear,Indie Folk,8,“How”,
-2016,JANUARY,David Bowie,Blackstar,Rock,8,“Blackstar”,
-2016,JANUARY,Eleanor Friedberger,New View,Indie Pop,8,“He Didn't Mention His Mother”,
-2016,JANUARY,Federico Albanese,The Blue Hour,Ambient,8,“Migrants”,
-2016,JANUARY,Jesu & Sun Kil Moon,Jesu / Sun Kil Moon,Indie Folk,8,“Exodus”,
-2016,JANUARY,Kevin Gates,Islah,Rap,8,“Hard For”,
-2016,JANUARY,Majical Cloudz,Wait & See EP,Chamber Pop,7,“Wait & See”,
-2016,JANUARY,Rihanna,ANTI,Pop,8,“Kiss It Better”,
-2016,JANUARY,Savages,Adore Life,Indie Rock,7,“Adore”,
-2016,JANUARY,Shearwater,Jet Plane and Oxbow,Indie Rock,7,“Only Child”,
-2016,JANUARY,Sia,This Is Acting,Pop,7,“Reaper”,
-2016,JANUARY,Suede,Final Thoughts,Indie Rock,8,“Outsiders”,
-2016,JANUARY,Tindersticks,The Waiting Room,Indie Folk,8,“Second Chance Man”,
-2016,JANUARY,Tortoise,The Catastrophist,Post Rock,6,,
-2016,JANUARY,Ty Segall,Emotional Mugger,Indie Rock,4,,
-,,,,,,,
-2016,FEBRUARY,The 1975,"I Like It When You Sleep, For You Are So Beautiful Yet So Unaware of It",Indie Rock,9,“Somebody Else”,
-2016,FEBRUARY,Animal Collective,Painting With,Psychedelic Pop,6,,
-2016,FEBRUARY,CFCF,On Vacation,Electronic,7,“Arto”,
-2016,FEBRUARY,Charli XCX,Vroom Vroom EP,Electro Pop,6,,
-2016,FEBRUARY,DIIV,Is the Is Are,Indie Rock,6,“Bent (Roi's Song)”,
-2016,FEBRUARY,Field Music,Commontime,Indie Rock,5,,
-2016,FEBRUARY,Future,EVOL,Rap,5,,
-2016,FEBRUARY,Kanye West,The Life of Pablo,Rap,9,“Real Friends”,
-2016,FEBRUARY,LNZNDRF,LNZNDRF,Indie Rock,5,,
-2016,FEBRUARY,Lucinda Williams,The Ghosts of Highway 20,Country,8,“Place in My Heart”,
-2016,FEBRUARY,Mothers,When You Walk a Long Distance You Are Tired,Indie Folk,7,“It Hurts Until It Doesn't”,
-2016,FEBRUARY,Mount Moriah,How To Dance,Country,6,“How To Dance”,
-2016,FEBRUARY,Pinegrove,Cardinal,Indie Rock,8,“Old Friends”,
-2016,FEBRUARY,Porches,Pool,Electro Pop,8,“Be Apart”,
-2016,FEBRUARY,Sarah Neufeld,The Ridge,Instrumental,7,“Where The Light Comes In”,
-2016,FEBRUARY,School of Seven Bells,SVIIB,Dream Pop,6,“Open Your Eyes”,
-2016,FEBRUARY,Seth Bogart,Seth Bogart,Synthpop,6,“Plastic!”,
-2016,FEBRUARY,Wild Nothing,Life of Pause,Dream Pop,7,“Life of Pause”,
-2016,FEBRUARY,Yuck,Stranger Things,Indie Rock,7,“As I Walk Away”,
-,,,,,,,
-2016,MARCH,Anenon,Petrol,Electronic,7,“Machines”,
-2016,MARCH,Anna Meredith,Varmints,Electronic,8,“Something Helpful”,
-2016,MARCH,Azealia Banks,SLAY-Z,Rap,7,“Queen of Clubs”,
-2016,MARCH,Cullen Omory,New Misery,Indie Rock,6,“Cinnamon”,
-2016,MARCH,Esperanza Spalding,Emily's D+Evolution,R&B,8,“Rest in Pleasure”,
-2016,MARCH,Gun Outfit,Two Way Player EP,Indie Rock,7,“Expansion Pact”,
-2016,MARCH,Iggy Pop,Post Pop Depression,Rock,7,“Sunday”,
-2016,MARCH,Into It. Over It.,Standards,Indie Rock,7,“Old Lace & Ivory”,
-2016,MARCH,Ital Tek,Hollowed,Electronic,6,“Murmur”,
-2016,MARCH,Kamaiyah,A Good Night in the Ghetto,Rap,6,“How Does It Feel”,
-2016,MARCH,Kendrick Lamar,untitled unmastered.,Rap,8,“untitled 08 | 09.06.2014.”,
-2016,MARCH,La Sera,Music for Listening to Music to,Indie Pop,5,,
-2016,MARCH,Lust For Youth,Compassion,Synthpop,6,“In Return”,
-2016,MARCH,M. Ward,More Rain,Indie Folk,6,“Slow Driving Man”,
-2016,MARCH,Poliça,United Crushers,Indie Rock,8,“Summer Please”,
-2016,MARCH,Primal Scream,Chaosmosis,Indie Rock,7,“Where the Light Gets In”,
-2016,MARCH,The Range,Potential,Electronic,8,“Florida”,
-2016,MARCH,SBTRKT,Save Yourself,Electronic,6,“Gemini”,
-2016,MARCH,Sheer Mag,III EP,Punk,7,“Can't Stop Fighting”,
-2016,MARCH,Underworld,"Barbara Barbara, We Face a Shining Future",Electronic,7,“Low Burn”,
-2016,MARCH,Vijay Iyer & Wadada Leo Smith,A Cosmic Rhythm With Each Stroke,Jazz,4,“Passage”,
-,,,,,,,
-2016,APRIL,Andrew Bird,Are You Serious,Indie Folk,8,“Left Handed Kisses”,
-2016,APRIL,Andy Stott,Too Many Voices,Electronic,6,,
-2016,APRIL,A$AP Ferg,Always Strive and Prosper,Rap,2,,
-2016,APRIL,Beyoncé,Lemonade,R&B,9,“All Night”,
-2016,APRIL,Black Mountain,IV,Rock,7,“Line Them All Up”,
-2016,APRIL,Brian Eno,The Ship,Ambient,8,“Fickle Sun (II) The Hour Is Thin”,
-2016,APRIL,Colin Stetson,Sorrow: A Reimagining Of Gorecki’s 3rd Symphony,Classical,8,“Sorrow I”,
-2016,APRIL,Deakin,Sleep Cycle,Psychedelic Pop,6,“Just Am”,
-2016,APRIL,Deftones,Gore,Rock,7,“Prayers/Triangles”,
-2016,APRIL,Drake,Views,Rap,8,“Feel No Ways”,
-2016,APRIL,dvsn,Sept. 5th,R&B,9,“The Line”,
-2016,APRIL,Explosions In the Sky,The Wilderness,Post Rock,8,“Disintegration Anxiety”,
-2016,APRIL,The Field,The Follower,Electronic,7,“Soft Streams”,
-2016,APRIL,Frankie Cosmos,Next Thing,Indie Pop,7,“Floated In”,
-2016,APRIL,Frightened Rabbit,Painting of a Panic Attack,Indie Rock,6,,
-2016,APRIL,Gallant,Ology,R&B,7,“Bone + Tissue”,
-2016,APRIL,Kevin Morby,Singing Saw,Indie Rock,7,“I Have Been to the Mountain”,
-2016,APRIL,The Last Shadow Puppets,Everything You've Come To Expect,Indie Rock,6,“Miracle Aligner”,
-2016,APRIL,Leon Vynehall,Rojus,Electronic,8,“Blush”,
-2016,APRIL,M83,Junk,Synthpop,7,“Atlantique Sud”,
-2016,APRIL,Moderat,III,Electronic,7,“Eating Hooks”,
-2016,APRIL,Mogwai,Atomic,Post Rock,7,“Are You a Dancer?”,
-2016,APRIL,Niki and the Dove,Everybody's Heart Is Broken Now,Electro Pop,8,“So Much It Hurts”,
-2016,APRIL,Parquet Courts,Human Performance,Indie Rock,5,,
-2016,APRIL,PJ Harvey,The Hope Six Demolition Project,Indie Rock,7,“The Community Of Hope”,
-2016,APRIL,Sturgill Simpson,A Sailor's Guide to Earth,Country,8,“Welcome to Earth (Pollywog)”,
-2016,APRIL,Tim Hecker,Love Streams,Ambient,8,“Castrati Stack”,
-2016,APRIL,Travis,Everything at Once,Indie Rock,7,“Idlewild (feat. Josephine Oniyama)”,
-2016,APRIL,Weezer,The White Album,Indie Rock,7,“L.A. Girlz”,
-2016,APRIL,Woods,City Sun Eater in the River of Light,Folk Rock,7,“Sun City Creeps”,
-,,,,,,,
-2016,MAY,ANOHNI,HOPELESSNESS,Art Pop,9,“Hopelessness”,
-2016,MAY,Big Thief,Masterpiece,Indie Rock,8,"""Paul""",
-2016,MAY,Braids,Companion EP,Art Rock,6,“Companion”,
-2016,MAY,Car Seat Headrest,Teens of Denial,Indie Rock,8,“Drunk Drivers / Killer Whales”,
-2016,MAY,Chance the Rapper,Coloring Book,Rap,9,"“Finish Line / Drown (feat. T-Pain, Kirk Franklin, Eryn Allen Kane, Noname)”",
-2016,MAY,Death Grips,Bottomless Pit,Rap,3,,
-2016,MAY,Digitalism,Mirage,Electronic,7,“Utopia”,
-2016,MAY,Flume,Skin,Electronic,7,“Lose It (feat. Vic Mensa)”,
-2016,MAY,The Hotelier,Goodness,Punk Rock,8,“You in This Light”,
-2016,MAY,James Blake,The Colour in Anything,Electronic,8,“I Need A Forest Fire (feat. Bon Iver)”,
-2016,MAY,Jessy Lanza,Oh No,Electronic,8,“It Means I Love You”,
-2016,MAY,Julianna Barwick,Will,Ambient,7,“See Know”,
-2016,MAY,Kaytranada,99.9%,Electronic,7,“Track Uno”,
-2016,MAY,Kristin Kontrol,X-Communicate,Indie Pop,5,“X-Communicate”,
-2016,MAY,Lone,Levitate,Electronic,5,,
-2016,MAY,LUH,Spiritual Songs for Lovers to Sing,Indie Rock,8,“Lament”,
-2016,MAY,Mark Kozelek,Mark Kozelek Sings Favorites,Indie Folk,7,“Float On”,
-2016,MAY,Mark Pritchard,Under the Sun,Electronic,7,“Beautiful People (feat. Thom Yorke)”,
-2016,MAY,Marissa Nadler,Strangers,Indie Folk,6,,
-2016,MAY,Mutual Benefit,Skip a Sinking Stone,Indie Folk,6,,
-2016,MAY,Pantha du Prince,The Triad,Electronic,7,“Wallflower for Pale Saints”,
-2016,MAY,Radiohead,A Moon Shaped Pool,Indie Rock,9,“Identikit”,
-2016,MAY,White Lung,Paradise,Punk Rock,8,“Below”,
-,,,,,,,
-2016,JUNE,Band of Horses,Why Are You OK,Indie Rock,6,“In A Drawer”,
-2016,JUNE,case/lang/veirs,case/lang/veirs,Indie Folk,8,“Atomic Number”,
-2016,JUNE,Classixx,Faraway Reach,Electronic,6,“Just Let Go (feat. How to Dress Well)”,
-2016,JUNE,Delorean,Muzik,Electro Pop,7,“Limbo”,
-2016,JUNE,Desiigner,New English,Rap,4,“Panda”,
-2016,JUNE,DJ Shadow,The Mountain Will Fall,Electronic,7,“Ashes to Oceans”,
-2016,JUNE,G.L.O.S.S.,Trans Day of Revenge EP,Punk,6,,
-2016,JUNE,Huerco S.,For Those Of You Who Have Never (And Also Those Who Have),Ambient,8,“Promises Of Fertility”,
-2016,JUNE,If These Trees Could Talk,The Bones of a Dying World,Post Rock,7,“The Here and Hereafter”,
-2016,JUNE,James Ferraro,Human Story 3,Electronic,7,“Market Collapse”,
-2016,JUNE,Joey Purp,iiiDrops,Rap,8,“GIRLS @ (feat. Chance the Rapper)”,
-2016,JUNE,Minor Victories,Minor Victories,Indie Rock,8,“Scattered Ashes (Song for Richard)”,
-2016,JUNE,Mitski,Puberty 2,Indie Pop,8,“Your Best American Girl” / “I Bet on Losing Dogs”,
-2016,JUNE,Red Hot Chili Peppers,The Getaway,Rock,8,“Sick Love”,
-2016,JUNE,The Strokes,Future Present Past EP,Indie Rock,7,“Oblivius”,
-2016,JUNE,Swans,The Glowing Man,Indie Rock,7,“When Will I Return?”,
-2016,JUNE,Tegan and Sara,Love You to Death,Indie Pop,8,“Boyfriend”,
-2016,JUNE,Whitney,Light Upon the Lake,Indie Rock,8,“Dave's Song”,
-,,,,,,,
-2016,JULY,The Amazing,Ambulance,Indie Rock,8,“Ambulance”,
-2016,JULY,Aphex Twin,Cheetah EP,Electronic,7,“CHEETAHT7b”,
-2016,JULY,AraabMuzik,Dream World,Electronic,6,“Chasing Pirates (feat. Raiche)”,
-2016,JULY,Arca,Entrañas EP,Electronic,6,,
-2016,JULY,The Avalanches,Wildflower,Electronic,9,“If I Was A Folkstar (feat. Toro y Moi)”,
-2016,JULY,BADBADNOTGOOD,IV,Jazz,6,,
-2016,JULY,Bat For Lashes,The Bride,Indie Pop,5,“Sunday Love”,
-2016,JULY,Blood Orange,Freetown Sound,R&B,9,“Hadron Collider”,
-2016,JULY,Clams Casino,32 Levels,Electronic,7,“A Breath Away (Feat. Kelela)”,
-2016,JULY,Elysia Crampton,Elysia Crampton Presents: Demon City,Electronic,7,“Red Eyez”,
-2016,JULY,Elza Soares,A Mulher do Fim do Mundo,World Music,6,“Coraçao do Mar / Mulher do Fim do Mundo”,
-2016,JULY,Floating Points,Kuiper EP,Electronic,6,“For Marmish Part II”,
-2016,JULY,Ian William Craig,Centres,Ambient,7,“Contain (Cedar Version)”,
-2016,JULY,Jamila Woods,HEAVN,R&B,8,“VRY BLK ft. Noname (prod. by oddCouple and Kweku Collins)”,
-2016,JULY,Jay Som,Turn Into,Indie Rock,7,“Unlimited Touch”,
-2016,JULY,Jeremih,Late Nights: Europe,R&B,7,"“London Feat. Stefflon Don, Krept & Konan”",
-2016,JULY,Maxwell,blackSUMMERS'night,R&B,8,“Gods”,
-2016,JULY,Michael Kiwanuka,Love & Hate,Soul,8,“Cold Little Heart”,
-2016,JULY,Nao,For All We Know,R&B,6,“Bad Blood”,
-2016,JULY,Schoolboy Q,Blank Face,Rap,7,“Neva CHange (feat. SZA)”,
-2016,JULY,Shura,Nothing's Real,Synthpop,8,“Touch”,
-,,,,,,,
-2016,AUGUST,Cass McCombs,Mangy Love,Indie Folk,8,“Medusa's Outhouse”,
-2016,AUGUST,Crystal Castles,AMNESTY (I),Electronic,8,“Kept”,
-2016,AUGUST,Dinosaur Jr.,Give a Glimpse of What Yer Not,Indie Rock,7,“Be A Part”,
-2016,AUGUST,Frank Ocean,Blond,R&B,9,“Nights”,
-2016,AUGUST,Frank Ocean,Endless,R&B,8,“Slide On Me”,
-2016,AUGUST,Jefre Cantu-Ledesma,In Summer EP,Ambient,6,“Love's Refrain”,
-2016,AUGUST,Kyle Dixon & Michael Stein,"Stranger Things, Vol. 1",OST,8,-,
-2016,AUGUST,Lydia Loveless,Real,Country,8,“Longer”,
-2016,AUGUST,Of Montreal,Innocence Reaches,Indie Rock,5,,
-2016,AUGUST,Porches,Water EP,Electro Pop,6,“Black Dress”,
-2016,AUGUST,Russian Circles,Guidance,Post Rock,7,“Afrika”,
-2016,AUGUST,Vince Staples,Prima Donna EP,Rap,5,,
-2016,AUGUST,Wild Beasts,Boy King,Indie Rock,6,“Dreamliner”,
-2016,AUGUST,Young Thug,"No, My Name is JEFFERY",Rap,8,“Kanye West (feat. Wyclef Jean)”,
-,,,,,,,
-2016,SEPTEMBER,Alcest,Kodama,Post Metal,8,“Eclosion”,
-2016,SEPTEMBER,AlunaGeorge,I Remember,Electro Pop,7,“Full Swing”,
-2016,SEPTEMBER,Angel Olsen,My Woman,Indie Folk,9,“Sister”,
-2016,SEPTEMBER,Bon Iver,"22, A Million",Indie Folk,9,“33 “GOD””,
-2016,SEPTEMBER,Cymbals Eat Guitars,Pretty Years,Indie Rock,8,“Dancing Days”,
-2016,SEPTEMBER,Danny Brown,Atrocity Exhibition,Rap,5,,
-2016,SEPTEMBER,Drive-By Truckers,American Band,Indie Rock,8,“When The Sun Don't Shine”,
-2016,SEPTEMBER,Francis and the Lights,"Farewell, Starlite!",Indie Pop,7,“Friends (feat. Bon Iver and Kanye West)”,
-2016,SEPTEMBER,Hamilton Leithauser + Rostam,I Had A Dream That You Were Mine,Indie Rock,8,“A 1000 Times”,
-2016,SEPTEMBER,How to Dress Well,Care,Electro Pop,7,“Salt Song”,
-2016,SEPTEMBER,Isaiah Rashad,The Sun's Tirade,Rap,8,“4r Da Squaw”,
-2016,SEPTEMBER,James Vincent McMorrow,We Move,Indie Folk,7,“Last Story”,
-2016,SEPTEMBER,Jenny Hval,Blood Bitch,Art Pop,8,“Conceptual Romance”,
-2016,SEPTEMBER,Julius Eastman,Femenine,Electronic,,,
-2016,SEPTEMBER,Kaitlyn Aurelia Smith / Suzanne Ciani,Sunergy,Electronic,5,,
-2016,SEPTEMBER,Kyle Dixon & Michael Stein,"Stranger Things, Vol. 2",OST,7,-,
-2016,SEPTEMBER,Local Natives,Sunlit Youth,Indie Rock,6,“Past Lives”,
-2016,SEPTEMBER,M.I.A.,A.I.M.,Rap,6,“Freedun”,
-2016,SEPTEMBER,Merchandise,A Corpse Wired For Sound,Indie Rock,6,“Right Back To The Start”,
-2016,SEPTEMBER,Nick Cave and The Bad Seeds,Skeleton Tree,Indie Rock,9,“I Need You”,
-2016,SEPTEMBER,Nicolas Jaar,Nymphs,Electronic,8,“The three sides of Audrey and why she's all alone now”,
-2016,SEPTEMBER,Nicolas Jaar,Sirens,Electronic,7,“No”,
-2016,SEPTEMBER,Okkervil River,Away,Indie Rock,8,“Call Yourself Renee”,
-2016,SEPTEMBER,Pixies,Head Carrier,Rock,7,“Tenement Song”,
-2016,SEPTEMBER,Preoccupations,Preoccupations,Indie Rock,7,“Degraded”,
-2016,SEPTEMBER,serpentwithfeet,blisters EP,R&B,7,“blisters”,
-2016,SEPTEMBER,Solange,A Seat at the Table,R&B,7,“Don't Touch My Hair”,
-2016,SEPTEMBER,Tycho,Epoch,Electronic,6,“Glider”,
-2016,SEPTEMBER,Warpaint,Heads Up,Indie Rock,6,“New Song”,
-2016,SEPTEMBER,Wilco,Schmilco,Indie Rock,6,“If I Ever Was a Child”,
-,,,,,,,
-2016,OCTOBER,American Football,American Football,Indie Rock,8,“Give Me the Gun”,
-2016,OCTOBER,D.R.A.M.,Big Baby D.R.A.M.,Rap,7,“Monticello Ave”,
-2016,OCTOBER,Empire of the Sun,Two Vines,Synthpop,6,“There's No Need”,
-2016,OCTOBER,Jamie Lidell,Building a Beginning,Electro Pop,6,,
-2016,OCTOBER,Kings of Leon,WALLS,Rock,8,“Around the World”,
-2016,OCTOBER,Leonard Cohen,You Want It Darker,Folk,8,“Treaty”,
-2016,OCTOBER,Moby & The Void Pacific Choir,These Systems Are Failing,Electronic,4,,
-2016,OCTOBER,Mono,Requiem For Hell,Post Rock,7,“Requiem For Hell”,
-2016,OCTOBER,NxWorries,Yes Lawd!,Rap,7,“Can’t Stop”,
-2016,OCTOBER,Phantogram,Three,Electro Pop,5,“Calling All”,
-2016,OCTOBER,Powell,Sport,Electronic,3,,
-2016,OCTOBER,The Radio Dept.,Running Out of Love,Dream Pop,8,“Swedish Guns”,
-2016,OCTOBER,Ricky Eat Acid,Talk To You Soon,Electronic,7,“Call My Name”,
-2016,OCTOBER,Two Door Cinema Club,Gameshow,Electro Pop,6,,
-2016,OCTOBER,Weyes Blood,Front Row Seat to Earth,Indie Folk,8,“Do You Need My Love”,
-,,,,,,,
-2016,NOVEMBER,Burial,Young Death EP,Electronic,6,,
-2016,NOVEMBER,Dawn Richard,Redemption,R&B,8,“LA (feat. Trombone Shorty)”,
-2016,NOVEMBER,Hope Sandoval & the Warm Inventions,Until the Hunter,Indie Folk,6,“Let Me Get There (feat. Kurt Vile)”,
-2016,NOVEMBER,Jim James,Eternally Even,Indie Folk,7,“We Ain't Getting Any Younger Pt. 1”,
-2016,NOVEMBER,Justice,Woman,Electronic,7,“Fire”,
-2016,NOVEMBER,Kate Bush,Before the Dawn,Baroque Pop,8,“Sunset”,
-2016,NOVEMBER,Lambchop,FLOTUS,Indie Rock,8,“In Care Of 8675309”,
-2016,NOVEMBER,The Men,Devil Music,Indie Rock,5,“Devil Music”,
-2016,NOVEMBER,Sleigh Bells,Jessica Rabbit,Noise Pop,6,“I Can't Stand You Anymore”,
-2016,NOVEMBER,A Tribe Called Quest,We Got It From Here... Thank You 4 Your Service,Rap,5,,
-2016,NOVEMBER,The Weeknd,Starboy,R&B,6,“Sidewalks (feat. Kendrick Lamar)”,
-,,,,,,,
-2016,DECEMBER,Grouper,Paradise Valley EP,Ambient,8,“I'm Clean Now”,
-2016,DECEMBER,Nine Inch Nails,Not the Actual Events EP,Rock,3,,
-2016,DECEMBER,Vulfpeck,The Beautiful Game,Funk,,,
-,,,,,,,
-2017,JANUARY,Brian Eno,Reflection,Ambient,5,,
-2017,JANUARY,CEP,Drawing the Target Around the Arrow,Ambient,3,,
-2017,JANUARY,Cloud Nothings,Life Without Sound,Indie Rock,7,“Up to the Surface”,
-2017,JANUARY,The Flaming Lips,Oczy Mlody,Indie Rock,5,“The Castle”,
-2017,JANUARY,Foxygen,Hang,Indie Rock,8,“Follow the Leader”,
-2017,JANUARY,Japandroids,Near to the Wild Heart of Life,Rock,6,,
-2017,JANUARY,Julie Byrne,Not Even Happiness,Indie Folk,8,“Follow My Voice”,
-2017,JANUARY,Migos,Culture,Rap,7,"""Bad and Boujee (feat. Lil Uzi Vert)""",
-2017,JANUARY,Neil Cicierega,Mouth Moods,Electronic,8,"""The Starting Line""",
-2017,JANUARY,Priests,Nothing Feels Natural,Punk,5,“Nothing Feels Natural”,
-2017,JANUARY,Run the Jewels,Run the Jewels 3,Rap,6,“2100 (feat. BOOTS)”,
-2017,JANUARY,William Basinski,A Shadow in Time,Ambient,6,,
-2017,JANUARY,The xx,I See You,Indie Pop,9,“On Hold”,
-,,,,,,,
-2017,FEBRUARY,Dirty Projectors,Dirty Projectors,Indie Rock,8,“Cool Your Heart”,
-2017,FEBRUARY,Jens Lekman,Life Will See You Now,Indie Pop,8,“What's That Perfume That You Wear?”,
-2017,FEBRUARY,Jesca Hoop,Memories Are Now,Indie Folk,8,“The Lost Sky”,
-2017,FEBRUARY,Peter Silberman ,Impermanence ,Indie Rock,6,,
-2017,FEBRUARY,Power Trip,Nightmare Logic,Metal,6,,
-2017,FEBRUARY,Ryan Adams,Prisoner,Indie Rock,9,“Anything I Say To You Now”,
-2017,FEBRUARY,Sampha,Process,R&B,8,“(No One Knows Me) Like The Piano”,
-2017,FEBRUARY,Sun Kil Moon,Common As Light and Love Are Red Valleys of Blood,Indie Folk,6,“Bergen to Trondheim”,
-2017,FEBRUARY,Thundercat,Drunk,R&B,7,“Walk On By (feat. Kendrick Lamar)”,
-2017,FEBRUARY,Vagabon,Infinite Worlds,Indie Rock,8,“Cold Apartment”,
-2017,FEBRUARY,Visible Cloaks,Reassemblage,Electronic,7,“Neume (feat. Matt Carlson)”,
-2017,FEBRUARY,Xiu Xiu,Forget,Art Rock,8,“Get Up”,
-,,,,,,,
-2017,MARCH,Aimee Mann,Mental Illness,Indie Rock,7,“Goose Snow Cone”,
-2017,MARCH,ANOHNI,PARADISE EP,Art Pop,7,“In My Dreams”,
-2017,MARCH,Blanck Mass,World Eater,Electronic,8,“Silent Treatment”,
-2017,MARCH,Charli XCX,Number 1 Angel,Electro Pop,7,“ILY2”,
-2017,MARCH,Drake,More Life,Rap,7,“Passionfruit”,
-2017,MARCH,Jay Som,Everybody Works,Indie Rock,9,“Baybee”,
-2017,MARCH,Kelly Lee Owens,Kelly Lee Owens,Electronic,6,,
-2017,MARCH,Laura Marling,Semper Femina,Indie Folk,6,“Wild Fire”,
-2017,MARCH,Lydia Ainsworth,Darling of the Afterglow,Indie Pop,7,“The Road”,
-2017,MARCH,Mount Eerie,A Crow Looked At Me,Lo-Fi,7,“Ravens”,
-2017,MARCH,Passion Pit,Tremendous Sea of Love,Electro Pop,8,“The Undertow”,
-2017,MARCH,Pallbearer,Heartless,Metal,8,“A Plea for Understanding”,
-2017,MARCH,Pharmakon,Contact,Industrial,1,,
-2017,MARCH,Real Estate,In Mind,Indie Rock,7,“Darling”,
-2017,MARCH,The Shins,Heartworms,Indie Rock,7,“Fantasy Island”,
-2017,MARCH,Spoon,Hot Thoughts,Indie Rock,7,“Tear It Down”,
-2017,MARCH,Tennis,Yours Conditionally,Indie Pop,8,“In The Morning I'll Be Better”,
-2017,MARCH,Valerie June,The Order of Time,Country,7,"""Got Soul""",
-2017,MARCH,Various Artists,Mono No Aware,Electronic,8,“Limerence”,
-2017,MARCH,Yaeji,Yaeji EP,Electronic,5,,
-,,,,,,,
-2017,APRIL,Actress,AZD,Electronic,6,,
-2017,APRIL,Arca,Arca,Electronic,9,“Desafio”,
-2017,APRIL,Colin Stetson,All This I Do For Glory,Jazz,5,,
-2017,APRIL,Father John Misty,Pure Comedy,Indie Rock,7,“Total Entertainment Forever”,
-2017,APRIL,Feist,Pleasure,Indie Pop,7,“A Man Is Not His Song”,
-2017,APRIL,Future Islands,The Far Field,Indie Rock,8,“Shadows”,
-2017,APRIL,Gas,Narkopop,Ambient,7,“Narkopop 3”,
-2017,APRIL,Gorillaz,Humanz,Indie Rock,7,“Andromeda (feat. D.R.A.M.)”,
-2017,APRIL,Kendrick Lamar,DAMN.,Rap,9,“LOVE. (FEAT. ZACARI.)”,
-2017,APRIL,The New Pornographers,Whiteout Conditions,Indie Rock,6,“We've Been Here Before”,
-2017,APRIL,The New Year,Snow,Indie Rock,5,“Recent History”,
-2017,APRIL,Ryuichi Sakamoto,Async,Ambient,7,“andata”,
-2017,APRIL,Timber Timbre,"Sincerely, Future Pollution",Indie Folk,6,,
-2017,APRIL,Woods,Love Is Love,Folk Rock,7,“Bleeding Blue”,
-,,,,,,,
-2017,MAY,The Afghan Whigs,In Spades,Indie Rock,7,“The Spell”,
-2017,MAY,Burial,Subtemple EP,Electronic,5,,
-2017,MAY,Forest Swords,Compassion,Electronic,8,“War It”,
-2017,MAY,Girlpool,Powerplant,Indie Rock,7,“It Gets More Blue”,
-2017,MAY,Jesu & Sun Kil Moon,30 Seconds to the Decline of Planet Earth,Indie Folk,6,,
-2017,MAY,Jlin,Black Origami,Electronic,4,,
-2017,MAY,Johnny Jewel,Windswept,Synthpop,7,“Saturday”,
-2017,MAY,Mac DeMarco,This Old Dog,Indie Rock,7,“One More Love Song”,
-2017,MAY,The Mountain Goats,Goths,Indie Rock,8,“Andrew Eldritch Is Moving Back To Leeds”,
-2017,MAY,Paramore,After Laughter,Pop Rock,8,“Pool”,
-2017,MAY,Perfume Genius,No Shape,Indie Pop,8,“Sides”,
-2017,MAY,(Sandy) Alex G,Rocket,Indie Rock,8,“Bobby”,
-2017,MAY,Sam Amidon,The Following Mountain,Folk,5,“Gendel in 5”,
-2017,MAY,Slowdive,Slowdive,Shoegaze,9,“Sugar for the Pill”,
-,,,,,,,
-2017,JUNE,Algiers,The Underside of Power,Indie Rock,6,"""The Underside of Power""",
-2017,JUNE,Allie X,COLLXTION II,Electro Pop,8,"""Vintage""",
-2017,JUNE,Alt-J,Relaxer,Indie Rock,6,“Last Year”,
-2017,JUNE,Amber Coffman,City of No Reply,Indie Folk,7,“Under the Sun”,
-2017,JUNE,Baio,Man of the World,Electronic,6,"""I'm Not Curious""",
-2017,JUNE,Beach House,B-Sides and Rarities,Dream Pop,7,"""Chariot""",
-2017,JUNE,Big Boi,Boomiverse,Rap,8,"""Order of Operations""",
-2017,JUNE,Big Thief,Capacity,Indie Rock,8,"""Mary""",
-2017,JUNE,BROCKHAMPTON,SATURATION,Rap,,,
-2017,JUNE,Calvin Harris,Funk Wav Bounces Vol. 1,Pop,6,"""Slide (feat. Frank Ocean & Migos)""",
-2017,JUNE,Cigarettes After Sex,Cigarettes After Sex,Dream Pop,8,“Apocalypse”,
-2017,JUNE,Clams Casino,Instrumental 4,Electronic,6,,
-2017,JUNE,Cornelius,Mellow Waves,Electronic,7,"""If You're Here""",
-2017,JUNE,DJ Sports,Modern Species,Electronic,8,"""Entry Mode""",
-2017,JUNE,Fleet Foxes,Crack-Up,Indie Folk,7,"""Fool's Errand""",
-2017,JUNE,Jay Z,04:44,Rap,6,"""4:44""",
-2017,JUNE,Kevin Morby,City Music,Indie Rock,7,"""Pearly Gates""",
-2017,JUNE,Kirin J Callinan,Bravado,Indie Rock,9,"""Bravado""",
-2017,JUNE,Laurel Halo,Dust,Electronic,7,"""Moontalk""",
-2017,JUNE,Lorde,Melodrama,Pop,9,"""Perfect Places""",
-2017,JUNE,Marika Hackman,I'm Not Your Man,Indie Folk,6,"""My Lover Cindy""",
-2017,JUNE,MIKE,May God Bless Your Hustle,Rap,6,,
-2017,JUNE,Phoenix,Ti Amo,Indie Rock,7,"""J-Boy""",
-2017,JUNE,Saint Etienne,Home Counties,Indie Pop,6,"""Out of My Mind""",
-2017,JUNE,"Sufjan Stevens, Bryce Dessner, Nico Muhly & James McAlister",Planetarium,Indie Folk,8,“Neptune”,
-2017,JUNE,SZA,CTRL,R&B,8,"""Supermodel""",
-2017,JUNE,Vince Staples,Big Fish Theory,Rap,8,"""Crabs In A Bucket""",
-2017,JUNE,Washed Out,Mister Mellow,Synthpop,5,,
-2017,JUNE,Young Thug,Beautiful Thugger Girls,Rap,8,"""Relationship (feat. Future)""",
-,,,,,,,
-2017,JULY,Arcade Fire,Everything Now,Indie Rock,7,"""Put Your Money on Me""",
-2017,JULY,Avey Tare,Eucalyptus,Indie Rock,4,,
-2017,JULY,Broken Social Scene,Hug of Thunder,Indie Rock,9,"""Mouth Guards of the Apocalypse""",
-2017,JULY,HAIM,Something to Tell You,Indie Pop,8,"""You Never Knew""",
-2017,JULY,Lana del Rey,Lust For Life,Indie Pop,8,"""Change""",
-2017,JULY,Manchester Orchestra,A Black Mile to the Surface,Indie Rock,6,"""The Gold""",
-2017,JULY,Nine Inch Nails,Add Violence EP,Rock,5,,
-2017,JULY,Shabazz Palaces,Quazarz: Born on a Gangster Star,Rap,4,“Shine a Light (feat. Thaddillac)”,
-2017,JULY,Shabazz Palaces,Quazarz Vs. The Jealous Machines,Rap,3,,
-2017,JULY,Sheer Mag,Need to Feel Your Love,Punk,6,,
-2017,JULY,Toro Y Moi,Boo Boo,Electronic,7,"""Girl Like You""",
-2017,JULY,"Tyler, the Creator",Flower Boy,Rap,5,"""Boredom""",
-2017,JULY,Vic Mensa,The Autobiography,Rap,6,"""Homewrecker (feat. Weezer)""",
-2017,JULY,Waxahatchee,Out In the Storm,Indie Rock,7,"""Silver""",
-,,,,,,,
-2017,AUGUST,Alice Glass,Alice Glass EP,Electro Pop,4,,
-2017,AUGUST,Brand New,Science Fiction,Rock,9,"""Can't Get It Out""",
-2017,AUGUST,BROCKHAMPTON,SATURATION II,Rap,,,
-2017,AUGUST,EMA,Exile in the Outer Ring,Indie Rock,5,"""7 Years""",
-2017,AUGUST,Frankie Rose,Cage Tropical,Indie Rock,6,,
-2017,AUGUST,Grizzly Bear,Painted Ruins,Indie Rock,7,"""Aquarian""",
-2017,AUGUST,Joseph Shabason,Aytche,Jazz,7,"""Aytche""",
-2017,AUGUST,Lil B,Black Ken,Rap,4,,
-2017,AUGUST,Photay,Onism,Electronic,8,"""Outré Lux (feat. Madison McFerrin)""",
-2017,AUGUST,Samantha Urbani,Policies of Power EP,Indie Pop,8,"""U Know I Know""",
-2017,AUGUST,The War On Drugs,A Deeper Understanding,Indie Rock,9,"""Thinking Of A Place""",
-,,,,,,,
-2017,SEPTEMBER,Alex Cameron,Forced Witness,Indie Rock,9,"""Stranger's Kiss (Duet with Angel Olsen)""",
-2017,SEPTEMBER,Ariel Pink,Dedicated to Bobby Jameson,Indie Rock,5,,
-2017,SEPTEMBER,Alvvays,Antisocialites,Indie Pop,7,"""Dreams Tonite""",
-2017,SEPTEMBER,Ben Frost,The Center Cannot Hold,Electronic,6,,
-2017,SEPTEMBER,Chelsea Wolfe,Hiss Spun,Neofolk,,,
-2017,SEPTEMBER,Cut Copy,Haiku From Zero,Electronic,6,,
-2017,SEPTEMBER,Foo Fighters,Concrete and Gold,Rock,,,
-2017,SEPTEMBER,Four Tet,New Energy,Electronic,9,"""Scientists""",
-2017,SEPTEMBER,Godspeed! You Black Emperor,Luciferian Towers,Post Rock,8,"""Anthem For No State""",
-2017,SEPTEMBER,Hercules & Love Affair,Omnion,Electronic,7,"""Are You Still Certain? (feat. Mashrou' Leila)""",
-2017,SEPTEMBER,The Horrors,V,Indie Rock,,,
-2017,SEPTEMBER,Hundred Waters,Communicating,Synthpop,7,"""Fingers""",
-2017,SEPTEMBER,Ibeyi,Ash,R&B,8,"""Deathless (feat.  Kamasi Washington)""",
-2017,SEPTEMBER,Iglooghost,Ne? Wax Bloom,Electronic,,,
-2017,SEPTEMBER,Kamasi Washington,Harmony of Difference EP,Jazz,8,"""Perspective""",
-2017,SEPTEMBER,The Killers,Wonderful Wonderful,Indie Rock,6,"""Some Kind of Love""",
-2017,SEPTEMBER,LCD Soundsystem,American Dream,Indie Rock,8,"""call the police""",
-2017,SEPTEMBER,Mogwai,Every Country's Sun,Post Rock,8,"""Don't Believe the Fife""",
-2017,SEPTEMBER,Moses Sumney,Aromanticism,R&B,8,"""Doomed""",
-2017,SEPTEMBER,Mount Kimbie,Love What Survives,Electronic,7,"""How We Got By""",
-2017,SEPTEMBER,The National,Sleep Well Beast,Indie Rock,8,"""The System Only Dreams In Total Darkness""",
-2017,SEPTEMBER,Nosaj Thing,Parallels,Electronic,6,"""Way We Were""",
-2017,SEPTEMBER,The Pains of Being Pure at Heart,The Echo of Pleasure,Indie Rock,6,,
-2017,SEPTEMBER,Phoebe Bridgers,Stranger in the Alps,Indie Folk,,,
-2017,SEPTEMBER,Protomartyr,Relatives in Descent,Punk,,,
-2017,SEPTEMBER,Rostam,Half-Light,Indie Rock,7,"""Hold You (feat. Angel Deradoorian)""",
-2017,SEPTEMBER,Susanne Sundfør,Music For People In Trouble,Synthpop,9,"""Undercover""",
-2017,SEPTEMBER,Torres,Three Futures,Indie Rock,8,"""Skim""",
-2017,SEPTEMBER,Various Artists,Twin Peaks (Limited Event Series Soundtrack),OST,7,"""Twin Peaks Theme""",
-2017,SEPTEMBER,Various Artists,Twin Peaks (Music from the Limited Event Series),OST,8,"""No Stars""",
-2017,SEPTEMBER,The World Is A Beautiful Place & I Am No Longer Afraid To Die,Always Foreign,Indie Rock,,,
-2017,SEPTEMBER,Yves Tumor,Experiencing The Deposit Of Faith,Experimental,7,"""AfricaAshes""",
-2017,SEPTEMBER,Zola Jesus,Okovi,Electro Pop,8,"""Siphon""",
-,,,,,,,
-2017,OCTOBER,Beck,Colors,Indie Rock,7,"""Wow""",
-2017,OCTOBER,Courtney Barnett & Kurt Vile,Lotta Sea Lice,Indie Rock,7,"""Over Everything""",
-2017,OCTOBER,Cults,Offering,Indie Pop,7,"""Offering""",
-2017,OCTOBER,Daphni,Joli Mai,Electronic,6,"""Carry On""",
-2017,OCTOBER,Destroyer,ken,Indie Rock,8,"""Saw You at the Hospital""",
-2017,OCTOBER,dvsn,Morning After,R&B,7,"""Mood""",
-2017,OCTOBER,Fever Ray,Plunge,Electronic,6,,
-2017,OCTOBER,Jessie Ware,Glasshouse,Indie Pop,9,"""Last Of The True Believers""",
-2017,OCTOBER,John Maus,Screen Memories,Ambient,4,,
-2017,OCTOBER,Julien Baker,Turn Out the Lights,Indie Folk,8,"""Turn Out the Lights""",
-2017,OCTOBER,Kelela,Take Me Apart,R&B,7,"""Frontline""",
-2017,OCTOBER,King Krule,The Ooz,Indie Rock,6,"""Dum Surfer""",
-2017,OCTOBER,Lindstrøm,It’s Alright Between Us As It Is,Electronic,7,"""Drift""",
-2017,OCTOBER,Rina Sawayama,Rina EP,Indie Pop,8,"""Cyber Stockholm Syndrome""",
-2017,OCTOBER,St. Vincent,MASSEDUCTION,Indie Rock,7,"""New York""",
-2017,OCTOBER,Weezer,Pacific Daydream,Indie Rock,7,"""Any Friend of Diane's""",
-2017,OCTOBER,Wild Beasts,Punk Drunk and Trembling EP,Indie Rock,5,,
-,,,,,,,
-2017,NOVEMBER,Angel Olsen,Phases,Indie Folk,6,,
-2017,NOVEMBER,Baths,Romaplasm,Electronic,7,"""Yeoman""",
-2017,NOVEMBER,Bibio,Phantom Brickworks,Ambient,7,"""Phantom Brickworks II""",
-2017,NOVEMBER,Björk,Utopia,Art Pop,8,"""Saint""",
-2017,NOVEMBER,Charlotte Gainsbourg,Rest,Indie Pop,7,"""Rest""",
-2017,NOVEMBER,Converge,The Dusk In Us,Metal,,,
-2017,NOVEMBER,Gun Outfit,Out of Range,Indie Rock,,,
-2017,NOVEMBER,Morrissey,Low In High School,Indie Rock,,,
-2017,NOVEMBER,Sam Smith,The Thrill of It All,Pop,7,"""Too Good At Goodbyes""",
-2017,NOVEMBER,Sleigh Bells,Kid Kruschev,Noise Pop,5,,
-2017,NOVEMBER,Sufjan Stevens,"The Greatest Gift Mixtape - Outtakes, Remixes & Demos from Carrie & Lowell",Indie Folk,8,"""City of Roses""",
-2017,NOVEMBER,Tennis,We Can Die Happy EP,Indie Pop,6,"""No Exit""",
-2017,NOVEMBER,Vulfpeck,Mr. Finish Line,Funk,7,"""Birds of a Feather, We Rock Together (feat. Antwaun Stanley)""",
-2017,NOVEMBER,Yaeji,Yaeji EP2,Electronic,6,"""passionfruit""",
-,,,,,,,
-2017,DECEMBER,BROCKHAMPTON,SATURATION III,Rap,,,
-2017,DECEMBER,Charli XCX,Pop 2,Electro Pop,6,"""Out of My Head (feat. Tove Lo and ALMA)""",
-2017,DECEMBER,Francis and the Lights,Just For Us,Indie Pop,6,"""Just For Us""",
-2017,DECEMBER,Miguel,War & Leisure,R&B,8,"""Banana Clip""",
-2017,DECEMBER,Prurient,Rainbow Mirror,Noise,,,
-2017,DECEMBER,Visible Cloaks,Lex EP,Electronic,7,"""World""",
-,,,,,,,
-2018,JANUARY,cupcakKe,Ephorize,Rap,,,
-2018,JANUARY,First Aid Kit,Ruins,Indie Folk,,,
-2018,JANUARY,Jeff Rosenstock,POST-,Indie Rock,9,"""9/10""",
-2018,JANUARY,Johnny Jewel,Digital Rain,Synthpop,7,,
-2018,JANUARY,Migos,Culture II,Rap,,,
-2018,JANUARY,Nils Frahm,All Melody,Ambient,7,"""#2""",
-2018,JANUARY,Panda Bear,A Day With the Homies EP,Psychedelic Pop,4,,
-2018,JANUARY,Pendant,Make Me Know You Sweet,Ambient,5,,
-2018,JANUARY,Porches,The House,Electro Pop,7,"""Now the Water""",
-2018,JANUARY,tUnE-yArDs,I Can Feel You Creep Into My Private Life,Indie Rock,,,
-,,,,,,,
-2018,FEBRUARY,A.A.L (Against All Logic),2012-2017,Electronic,9,"""I Never Dream""",
-2018,FEBRUARY,Car Seat Headrest,Twin Fantasy,Indie Rock,9,"""Sober to Death""",
-2018,FEBRUARY,Ezra Furman,Transangelic Exodus,Indie Rock,,,
-2018,FEBRUARY,Justin Timberlake,Man of the Woods,Pop,4,,
-2018,FEBRUARY,MGMT,Little Dark Age,Indie Rock,7,"""Me and Michael""",
-2018,FEBRUARY,Ought,Room Inside the World,Indie Rock,,,
-2018,FEBRUARY,Rhye,Blood,R&B,6,"""Blood Knows""",
-2018,FEBRUARY,S. Carey,Hundred Acres,Indie Folk,7,"""More I See""",
-2018,FEBRUARY,SOB X RBE,Gangin,Rap,6,"""Anti Social""",
-2018,FEBRUARY,Son Lux,Brighter Wounds,Indie Rock,8,"""Labor""",
-2018,FEBRUARY,U.S. Girls,In A Poem Unlimited,Indie Pop,6,,
-,,,,,,,
-2018,MARCH,Amen Dunes,Freedom,Indie Rock,7,"""Blue Rose""",
-2018,MARCH,David Byrne,American Utopia,Art Pop,,,
-2018,MARCH,Frankie Cosmos,Vessel,Indie Pop,,,
-2018,MARCH,Jack White,Boarding House Reach,Rock,,,
-2018,MARCH,Kacey Musgraves,Golden Hour,Country,9,"""Lonely Weekend""",
-2018,MARCH,Lucy Dacus,Historian,Indie Rock,,,
-2018,MARCH,The Men,Drift,Rock,6,"""So High""",
-2018,MARCH,Mount Eerie,Now Only,Lo-Fi,,,
-2018,MARCH,Of Montreal,White Is Relic/Irrealis Mood,Indie Rock,,,
-2018,MARCH,Preoccupations,New Material,Indie Rock,,,
-2018,MARCH,Soccer Mommy,Clean,Indie Pop,7,"""Still Clean""",
-2018,MARCH,Titus Andronicus,A Productive Cough,Indie Rock,6,"""(I'm) Like a Rolling Stone""",
-2018,MARCH,The Weeknd,My Dear Melancholy EP,R&B,6,"""Wasted Times""",
-2018,MARCH,Yo La Tengo,There's a Riot Going On,Indie Rock,7,"""For You Too""",
-,,,,,,,
-2018,APRIL,The Amazing,In Transit,Indie Rock,,,
-2018,APRIL,Cardi B,Invasion of Privacy,Rap,6,"""Thru Your Phone""",
-2018,APRIL,Grouper,Grid of Points,Ambient,,,
-2018,APRIL,Hop Along,"Bark Your Head Off, Dog",Indie Folk,,,
-2018,APRIL,Jean Grae / Quelle Chris,Everything's Fine,Rap,,,
-2018,APRIL,Janelle Monáe,Dirty Computer,R&B,9,"""Pynk (feat. Grimes)""",
-2018,APRIL,John Maus,Addendum,Ambient,,,
-2018,APRIL,Kali Uchis,Isolation,R&B,6,"""In My Dreams""",
-2018,APRIL,Mouse on Mars,Dimensional People,Electronic,5,"""Dimensional People Part III""",
-2018,APRIL,Paul White,Rejuvenate,Electronic,,,
-2018,APRIL,Ricky Eat Acid,"am i happy, singing_",Electronic,,,
-2018,APRIL,Saba,CARE FOR ME,Rap,,,
-2018,APRIL,Sleep,The Sciences,Metal,,,
-2018,APRIL,Speedy Ortiz,Twerp Verse,Indie Rock,,,
-2018,APRIL,Tinashe,Joyride,R&B,,,
-2018,APRIL,Twin Shadow,Caer,Indie Rock,,,
-2018,APRIL,Unknown Mortal Orchestra,Sex & Food,Indie Rock,,,
-,,,,,,,
-2018,MAY,A$AP Rocky,Testing,Rap,7,"""A$AP Forever (feat. Moby, T.I. & Kid Cudi)""",
-2018,MAY,Arctic Monkeys,Tranquility Base Hotel & Casino,Indie Rock,7,"""Four Out Of Five""",
-2018,MAY,Beach House,7,Dream Pop,,,
-2018,MAY,CHVRCHES,Love Is Dead,Electro Pop,7,"""Really Gone""",
-2018,MAY,Courtney Barnett,Tell Me How You Really Feel,Indie Rock,5,"""Need a Little Time""",
-2018,MAY,DJ Koze,Knock Knock,Electronic,9,"""Bonfire""",
-2018,MAY,Eleanor Friedberger,Rebound,Indie Pop,,,
-2018,MAY,GAS,Rausch,Electronic,,,
-2018,MAY,Iceage,Beyondless,Garage Rock,,,
-2018,MAY,Jenny Hval,The Long Sleep EP,Art Pop,,,
-2018,MAY,Johnny Jewel,Themes For Television,Synthpop,7,"""Shadow (Opening Titles)""",
-2018,MAY,Jon Hopkins,Singularity,Electronic,9,"""C O S M""",
-2018,MAY,Parquet Courts,Wide Awake!,Indie Rock,,,
-2018,MAY,Playboi Carti,Die Lit,Rap,,,
-2018,MAY,Pusha T,DAYTONA,Rap,8,"""Come Back Baby""",
-2018,MAY,Skee Mask,Compro,Electronic,7,"""50 Euro to Break Boost""",
-,,,,,,,
-2018,JUNE,Beyoncé & JAY-Z,EVERYTHING IS LOVE,Rap,6,"""SUMMER""",
-2018,JUNE,Chromeo,Head Over Heels,Electro Pop,,,
-2018,JUNE,Death Grips,Year of the Snitch,Rap,,,
-2018,JUNE,Drake,Scorpion,Rap,6,"""Nice For What""",
-2018,JUNE,Father John Misty,God's Favorite Customer,Indie Rock,7,"""The Songwriter""",
-2018,JUNE,Florence + The Machine,High as Hope,Pop,,,
-2018,JUNE,Gang Gang Dance,Kazuashita,Electronic,8,"""J-TREE""",
-2018,JUNE,Gorillaz,The Now Now,Indie Rock,,,
-2018,JUNE,Jay Rock,Redemption,Rap,,,
-2018,JUNE,Jim James,Uniform Distortion,Indie Folk,,,
-2018,JUNE,Kamasi Washington,Heaven and Earth,Jazz,,,
-2018,JUNE,Kanye West,ye,Rap,9,"""No Mistakes""",
-2018,JUNE,Kids See Ghosts,Kids See Ghosts,Rap,,,
-2018,JUNE,Let's Eat Grandma,I'm All Ears,Art Pop,8,"""Donnie Darko""",
-2018,JUNE,Lykke Li,so sad so sexy,Indie Pop,8,"""jaguars in the air""",
-2018,JUNE,Mazzy Star,Still EP,Indie Folk,,,
-2018,JUNE,Melody's Echo Chamber,Bon Voyage,Indie Pop,6,,
-2018,JUNE,Nas,Nasir,Rap,4,,
-2018,JUNE,Natalie Prass,The Future and the Past,Indie Folk,7,"""The Fire""",
-2018,JUNE,Neko Case,Hell-On,Indie Rock,,,
-2018,JUNE,Oneohtrix Point Never,Age Of,Electronic,7,"""Still Stuff That Doesn't Happen""",
-2018,JUNE,serpentwithfeet,soil,R&B,,,
-2018,JUNE,Snail Mail,Lush,Indie Rock,8,"""Pristine""",
-2018,JUNE,SOPHIE,Oil of Every Pearl's Un-Insides,Electronic,6,"""It's Okay to Cry""",
-2018,JUNE,Teyana Taylor,K.T.S.E.,R&B,8,"""Never Would Have Made It""",
-2018,JUNE,Tierra Whack,Whack World,Rap,9,"""Black Nails""",
-,,,,,,,
-2018,JULY,Deafheaven,Ordinary Corrupt Human Love,Metal,9,"""You Without End""",
-2018,JULY,Dirty Projectors,Lamp Lit Prose,Indie Rock,7,"""Break-Thru""",
-2018,JULY,The Internet,Hive Mind,R&B,6,"""Stay the Night""",
-2018,JULY,Laurel Halo,Raw Silk Uncut Wood,Electronic,5,,
-,,,,,,,
-2018,AUGUST,Animal Collective,Tangerine Reef,Psychedelic Pop,,,
-2018,AUGUST,Big Red Machine,Big Red Machine,Indie Folk,9,"""OMDB""",
-2018,AUGUST,Blood Orange,Negro Swan,R&B,,,
-2018,AUGUST,Devon Welsh,Dream Songs,Chamber Pop,,,
-2018,AUGUST,Mitski,Be the Cowboy,Indie Pop,8,"""Nobody""",
-2018,AUGUST,Tirzah,Devotion,Indie Pop,,,
-2018,AUGUST,Trevor Powers,Mulberry Violence,Dream Pop,,,
-2018,AUGUST,Wild Nothing,Indigo,Dream Pop,,,
-,,,,,,,
-2018,SEPTEMBER,Aphex Twin,Collapse EP,Electronic,6,,
-2018,SEPTEMBER,BROCKHAMPTON,Iridiscence,Rap,,,
-2018,SEPTEMBER,Christine and the Queens,Chris,Pop,8,"""The Walker""",
-2018,SEPTEMBER,The Field,Infinite Moment,Electronic,8,"""Made Of Steel. Made Of Stone""",
-2018,SEPTEMBER,Joey Purp,QUATERTHING,Rap,,,
-2018,SEPTEMBER,Low,Double Negative,Rock,9,"""Tempest""",
-2018,SEPTEMBER,Marissa Nadler,For My Crimes,Indie Folk,,,
-2018,SEPTEMBER,Mutual Benefit,Thunder Follows the Light,Indie Folk,,,
-2018,SEPTEMBER,Noname,Room 25,Rap,,,
-2018,SEPTEMBER,Ryan Hemsworth,Elsewhere,Electronic,,,
-2018,SEPTEMBER,Spiritualized,And Nothing Hurt,Indie Rock,7,"""A Perfect Miracle""",
-2018,SEPTEMBER,Suede,The Blue Hour,Indie Rock,,,
-2018,SEPTEMBER,Tim Hecker,Konoyo,Ambient,,,
-2018,SEPTEMBER,Yves Tumor,Safe In the Hands of Love,Experimental,8,"""Licking An Orchid""",
-,,,,,,,
-2018,OCTUBRE,Adrianne Lenker,Indie Rock,Indie Rock,6,"""abyss kiss""",
-2018,OCTUBRE,Allie X,Super Sunset,Electro Pop,,,
-2018,OCTUBRE,Cat Power,Wanderer,Indie Pop,7,"""Woman (feat. Lana Del Rey)""",
-2018,OCTUBRE,Cloud Nothings,Last Building Burning,Indie Rock,8,"""The Echo Of The World""",
-2018,OCTUBRE,Empress Of,Us,Indie Pop,,,
-2018,OCTUBRE,How To Dress Well,The Anteroom,Electro Pop,,,
-2018,OCTUBRE,Julia Holter,Aviary,Art Pop,,,
-2018,OCTUBRE,Kurt Vile,Bottle It In,Indie Rock,6,"""Loading Zones""",
-2018,OCTUBRE,Matthew Dear,Bunny,Electronic,,,
-2018,OCTUBRE,Phosphorescent,C'est La Vie,Indie Folk,7,"""Christmas Down Under""",
-2018,OCTUBRE,Robyn,Honey,Electro Pop,,,
-2018,OCTUBRE,Sheck Wes,MUDBOY,Rap,,,
-2018,OCTUBRE,St. Vincent,MassEducation,Indie Rock,7,"""New York""",
-,,,,,,,
-2018,NOVEMBER,The 1975,A Brief Inquiry Into Online Relationships,Indie Rock,9,"""Love It If We Made It""",
-2018,NOVEMBER,Anderson .Paak,Oxnard,Rap,,,
-2018,NOVEMBER,boygenius,boygenius EP,Indie Folk,9,"""Ketchum, ID""",
-2018,NOVEMBER,Earl Sweatshirt,Some Rap Songs,Rap,4,,
-2018,NOVEMBER,J Mascis,Elastic Days,Indie Rock,,,
-2018,NOVEMBER,JEFF TWEEDY,WARM,Indie Rock,,,
-2018,NOVEMBER,Oneohtrix Point Never,Love in the Time of Lexapro EP,Electronic,6,"""Babylon""",
-2018,NOVEMBER,Rosalía,El Mal Querer,Flamenco,9,"""PIENSO EN TU MIRÁ""",
-2018,NOVEMBER,Sun Kil Moon,This Is My Dinner,Indie Folk,,,
-2018,NOVEMBER,Vince Staples,FM!,Rap,,,
-,,,,,,,
-2019,JANUARY,Better Oblivion Community Center,Better Oblivion Community Center,Indie Rock,8,"""Sleepwalkin'""",
-2019,JANUARY,Dawn Richard,new breed,R&B,6,"""jealousy""",
-2019,JANUARY,Deerhunter,Why Hasn’t Everything Already Disappeared?,Indie Rock,5,,
-2019,JANUARY,James Blake,Assume Form,Post Dubstep,8,"""Barefoot In The Park""",
-2019,JANUARY,LUH,Love Hates What You Become,Indie Rock,7,"""Love Hates What You Become""",
-2019,JANUARY,Sharon Van Etten,Remind Me Tomorrow,Indie Folk,8,"""Seventeen""",
-2019,JANUARY,Toro Y Moi,Outer Peace,Electronic,7,"""Fading""",
-,,,,,,,
-2019,FEBRUARY,Beirut,Gallipoli,Indie Folk,5,,
-2019,FEBRUARY,Broken Social Scene,Let´s Try the After - Vol. 1,Indie Rock,7,"""1972""",
-2019,FEBRUARY,Cass McCombs,Tip of the Sphere,Indie Folk,6,,
-2019,FEBRUARY,Default Genders,Main Pop Girl 2019,Electronic,7,"""secret garden .NUXX""",
-2019,FEBRUARY,Desperate Journalist,In Search of the Miraculous,Indie Rock,7,"""Cedars""",
-2019,FEBRUARY,Jessica Pratt,Quiet Signs,Indie Folk,5,,
-2019,FEBRUARY,Julia Jacklin,Crushing,Indie Folk,8,"""Head Alone""",
-2019,FEBRUARY,Nivhek,fter its own death / Walking in a spiral towards the house,Ambient,6,,
-2019,FEBRUARY,Panda Bear,Buoys,Psychedelic Pop,6,,
-2019,FEBRUARY,Xiu Xiu,Girl With Basket of Fruit,Art Rock,2,,
-,,,,,,,
-2019,MARCH,American Football,American Football (LP3),Indie Rock,7,"""Every Wave to Ever Rise (feat. Elizabeth Powell)""",
-2019,MARCH,Andrew Bird,My Finest Work Yet,Indie Folk,,,
-2019,MARCH,Avey Tare,Cown on Hourglass Pond,Indie Rock,,,
-2019,MARCH,Chai,PUNK,Indie Rock,,,
-2019,MARCH,The Cinematic Orchestra,To Believe,Ambient,,,
-2019,MARCH,Fennesz,Agora,Electronic,,,
-2019,MARCH,Foals,Everything Not Saved Will Be Lost - Part 1,Indie Rock,,,
-2019,MARCH,Flume,Hi This Is Flume,Electronic,7,"""Jewel""",
-2019,MARCH,Helado Negro,This Is How You Smile,Electronic,7,"""Running""",
-2019,MARCH,The Japanese House,Good at Falling,Indie Pop,9,"""Maybe You're the Reason""",
-2019,MARCH,Jenny Lewis,On the Line,Indie Pop,8,"""Red Bull & Hennessy""",
-2019,MARCH,Lambchop,This (is what I wanted to tell you),Indie Rock,,,
-2019,MARCH,Little Simz,GREY Area,Rap,,,
-2019,MARCH,Nilüfer Yanya,Miss Universe,Indie Pop,9,"""Heavyweight Champion of the Year""",
-2019,MARCH,RAP,EXPORT,Electronic,8,"""Young Persuasion""",
-2019,MARCH,Solange,When I Get Home,R&B,6,"""Stay Flo""",
-2019,MARCH,These New Puritans,Inside the Rose,Art Rock,6,"""Six""",
-,,,,,,,
-2019,APRIL,Anderson .Paak,Ventura,Rap,,,
-2019,APRIL,Broken Social Scene,Let´s Try the After - Vol. 2,Indie Rock,,,
-2019,APRIL,Bruce Hornsby,Absolute Zero,Indie Folk,,,
-2019,APRIL,The Flaming Lips,King´s Mouth,Indie Rock,,,
-2019,APRIL,Fontaines D.C.,Dogrel,Rock,,,
-2019,APRIL,Foxygen,Seeing Other People,Indie Rock,,,
-2019,APRIL,Kevin Morby,Oh My God,Indie Rock,,,
-2019,APRIL,Local Natives,Violet Street,Indie Rock,,,
-2019,APRIL,The Mountain Goats,In League With Dragons,Indie Rock,,,
-2019,APRIL,Schoolboy Q,CrasH Talk,Rap,,,
-2019,APRIL,Sunn O))),Life Metal,Metal,3,,
-2019,APRIL,Weyes Blood,Titanic Rising,Indie Folk,9,"""Movies""",
-,,,,,,,
-2019,MAY,Big Thief,U.F.O.F.,Indie Rock,,,
-2019,MAY,Cate Le Bon,Reward,Indie Folk,,,
-2019,MAY,Flying Lotus,Flamagra,Electronic,,,
-2019,MAY,Hayden Thorpe,Diviner,Indie Rock,,,
-2019,MAY,Holly Herndon,PROTO,Electronic,,,
-2019,MAY,Jamila Woods,LEGACY! LEGACY!,R&B,,,
-2019,MAY,Mac DeMarco,Indie Rock,Indie Rock,,,
-2019,MAY,The National,I Am Easy to Find,Indie Rock,,,
-2019,MAY,Rhye,Spirit,R&B,,,
-2019,MAY,Slowthai,Nothing Great About Britain,Rap,,,
-2019,MAY,Tim Hecker,Anoyo,Electronic,,,
-2019,MAY,"Tyler, the Creator",IGOR,Rap,,,
-2019,MAY,Vampire Weekend,Father of the Bride,Indie Rock,,,
-,,,,,,,
-2019,JUNE,Baroness,Gold & Grey,Metal,,,
-2019,JUNE,Bill Callahan,Shepher In a Sheepskin Vest,Indie Folk,,,
-2019,JUNE,Black Midi,Schlagenheim,Indie Rock,,,
-2019,JUNE,Bruce Springsteen,Western Stars,Rock,,,
-2019,JUNE,Denzel Curry,ZUU,Rap,,,
-2019,JUNE,Hatchie,Keepsake,Indie Pop,,,
-2019,JUNE,Hot Chip,A Bath Full of Ecstasy,Electronic,,,
-2019,JUNE,Leif,Loom Dream,Electronic,,,
-2019,JUNE,Mannequin Pussy,Patience,Rock,,,
-2019,JUNE,Mark Ronson,Late Night Feelings,Pop,,,
-2019,JUNE,MIKE,Tears of Joy,Rap,,,
-2019,JUNE,Polo G,Die A Legend,Rap,,,
-2019,JUNE,Thom Yorke,Anima,Indie Rock,,,
-2019,JUNE,Titus Andronicus,An Obelisk,Indie Rock,,,
-,,,,,,,
-2019,JULY,Blood Orange,Angel´s Pulse,R&B,,,
-2019,JULY,Change the Rapper,The Big Day,Rap,,,
-2019,JULY,Clark,Kiri Variations,Electronic,,,
-2019,JULY,Florist,Emily Alone,Indie Folk,,,
-2019,JULY,Jefre-Cantu Ledesma,Tracing Back the Radiance,Electronic,,,
-2019,JULY,Maxo Kream,Brandon Banks,Rap,,,
-2019,JULY,Moodymann,Sinner,Electronic,,,
-2019,JULY,Purple Mountains,Purple Mountains,Indie Rock,,,
-2019,JULY,Tycho,Weather,Electronic,,,
-,,,,,,,
-2019,AUGUST,Blanck Mass,Animated Violence Mild,Electronic,,,
-2019,AUGUST,Bon Iver,"i,i",Indie Folk,,,
-2019,AUGUST,BROCKHAMPTON,GINGER,Rap,,,
-2019,AUGUST,Burna Boy,African Giant,Rap,,,
-2019,AUGUST,Clairo,IMMUNITY,Indie Pop,,,
-2019,AUGUST,Drake,Care Package,Rap,,,
-2019,AUGUST,Jay Som,Anak Ko,Indie Rock,,,
-2019,AUGUST,Lana del Rey,Norman Fucking Rockwell,Indie Pop,,,
-2019,AUGUST,Oso Oso,Basking in the Glow,Indie Rock,,,
-2019,AUGUST,Sheer Mag,A Distant Call,Rock,,,
-2019,AUGUST,Shura,forevher,Synthpop,,,
-2019,AUGUST,Sleater-Kinney,The Center Won´t Hold,Indie Rock,,,
-2019,AUGUST,Whitney,Forever Turned Around,Indie Rock,,,
-2019,AUGUST,Young Thug,So Much Fun,Rap,,,
-,,,,,,,
-2019,SEPTEMBER,Alex Cameron,Miami Memory,Indie Rock,,,
-2019,SEPTEMBER,(Sandy) Alex G,House of Sugar,Indie Rock,,,
-2019,SEPTEMBER,Bat For Lashes,Lost Girls,Indie Pop,,,
-2019,SEPTEMBER,Brittany Howard,Jaime,Indie Rock,,,
-2019,SEPTEMBER,Charli XCX,Charli,Electro Pop,,,
-2019,SEPTEMBER,Chelsea Wolfe,Birth of Violence,Neofolk,,,
-2019,SEPTEMBER,Dean Blunt,ZUSHI,Electronic,,,
-2019,SEPTEMBER,Frankie Cosmos,Close It Quietly,Indie Pop,,,
-2019,SEPTEMBER,Lower Dens,The Competition,Indie Rock,,,
-2019,SEPTEMBER,M83,DSVII,Electronic,,,
-2019,SEPTEMBER,Metronomy,Metronomy Forever,Electronic,,,
-2019,SEPTEMBER,The New Pornographers,In the Morse Code of Brake Lights,Indie Rock,,,
-2019,SEPTEMBER,Pixies,Beneath the Eyrie,Indie Rock,,,
-2019,SEPTEMBER,Tegan and Sara,"Hey, I'm Just Like You",Indie Pop,,,
-,,,,,,,
-2019,OCTOBER,Angel Olsen,All Mirrors,Indie Folk,,,
-2019,OCTOBER,Anna Meredith,FIBS,Electronic,,,
-2019,OCTOBER,Big Thief,Two Hands,Indie Rock,,,
-2019,OCTOBER,Caroline Polachek,PANG,Electro Pop,,,
-2019,OCTOBER,Chromatics,Closer To Grey,Synthpop,,,
-2019,OCTOBER,Cigarettes After Sex,Cry,Dream Pop,,,
-2019,OCTOBER,Danny Brown,uknowwhatimsayin¿,Rap,,,
-2019,OCTOBER,Devon Welsh,True Love,Chamber Pop,,,
-2019,OCTOBER,DIIV,Deceiver,Indie Rock,,,
-2019,OCTOBER,FKA Twigs,MAGDALENE,R&B,,,
-2019,OCTOBER,Foals,Everything Not Saved Will Be Lost - Part 2,Indie Rock,,,
-2019,OCTOBER,Floating Points,Crush,Electronic,,,
-2019,OCTOBER,Kanye West,Jesus Is King,Rap,,,
-2019,OCTOBER,Matt Berninger,Serpentine Prison,Indie Rock,,,
-2019,OCTOBER,Michael Kiwanuka,KIWANUKA,R&B,,,
-2019,OCTOBER,Mikal Cronin,Seeker,Indie Rock,,,
-2019,OCTOBER,Nick Cave and The Bad Seeds,Ghostseen,Indie Rock,10,"""Sun Forest""",
-2019,OCTOBER,Vagabon,Vagabon,R&B,,,
-2019,OCTOBER,Wilco,Ode to Joy,Indie Rock,,,
-,,,,,,,
-2019,NOVEMBER,Blood Incantation,Hidden History of the Human Race,Metal,,,
-2019,NOVEMBER,Davido,A Good Time,R&B,,,
-2019,NOVEMBER,Earl Sheatshirt,Feet of Clay,Rap,,,
-,,,,,,,
-2019,DECEMBER,Burial,Tunes 2011-2011,Electronic,,,
-,,,,,,,
-2020,JANUARY,Dan Deacon,Mystic Familiar,Electronic,,,
-2020,JANUARY,Destroyer,Have We Met,Indie Rock,,,
-2020,JANUARY,Jeff Parker,Suite For Max Brown,Jazz,,,
-2020,JANUARY,Torres,Silver Tongue,Indie Rock,,,
-,,,,,,,
-2020,FEBRUARY,Allie X,Cape God,Electro Pop,,,
-2020,FEBRUARY,Against All Logic,2017-2019,Electronic,,,
-2020,FEBRUARY,Arca,@@@@@,Electronic,,,
-2020,FEBRUARY,Beatrice Dillon,Workaround,Electronic,,,
-2020,FEBRUARY,Caribou,Suddenly,Electronic,,,
-2020,FEBRUARY,Gil Scott-Heron - Makaya McCraven,We’re New Again: A Reimagining by Makaya McCraven,Jazz,,,
-2020,FEBRUARY,Grimes,Miss Anthropocene,Electro Pop,,,
-2020,FEBRUARY,King Krule,Man Alive!,Indie Rock,,,
-2020,FEBRUARY,The Men,Mercy,Indie Rock,,,
-2020,FEBRUARY,Moses Sumney,grae Part One,R&B,,,
-2020,FEBRUARY,Real Estate,The Main Thing,Indie Rock,,,
-2020,FEBRUARY,Soccer Mommy,color theory,Indie Pop,7,"""circle the drain""",
-2020,FEBRUARY,Tame Impala,The Slow Rush,Indie Rock,,,
-2020,FEBRUARY,Tennis,Swimmer,Indie Pop,,,
-2020,FEBRUARY,Tycho,Simulcast,Electronic,,,
-,,,,,,,
-2020,MARCH,Bad Bunny,YHLQMDLG,Rap,,,
-2020,MARCH,Dogleg,Melee,Indie Rock,,,
-2020,MARCH,Dua Lipa,Future Nostalgia,Pop,9,"""Don't Start Now""",
-2020,MARCH,Four Tet,Sixteen Oceans,Electronic,,,
-2020,MARCH,Jay Electronica,A Written Testimony,Rap,,,
-2020,MARCH,Lil Uzi Vert,Eternal Awake,Rap,,,
-2020,MARCH,Lyra Pramuk,Fountain,Electronic,,,
-2020,MARCH,Nicolas Jaar,Cenizas,Electronic,7,"""Sunder""",
-2020,MARCH,Porches,Ricky Music,Electro Pop,,,
-2020,MARCH,Porridge Radio,Every Bad,Indie Rock,,,
-2020,MARCH,Sufjan Stevens,Aporia,Ambient,,,
-2020,MARCH,U.S. Girls,Heavy Light,Indie Pop,,,
-2020,MARCH,Waxahatchee,Saint Cloud,Indie Rock,,,
-2020,MARCH,The Weeknd,After Hours,R&B,,,
-,,,,,,,
-2020,APRIL,Thundercat,It Is What It Is,R&B,,,
-2020,APRIL,Yves Tumor,Heaven to a Tortured Mind,Experimental,,,
-,,,,,,,
-2020,MAY,Moses Sumney,grae Part Two,R&B,,,
+YEAR,MONTH,BAND,ALBUM,GENRE,RATING,BEST SONG
+2010,JANUARY,Beach House,Teen Dream,Dream Pop,,
+2010,JANUARY,Charlotte Gainsbourg,IRM,Indie Rock,,
+2010,JANUARY,First Aid Kit,The Big Black and The Blue,Indie Folk,,
+2010,JANUARY,Four Tet,There Is Love In You,Electronic,,
+2010,JANUARY,Grimes,Geidi Primes,Electro Pop,,
+2010,JANUARY,The Irrepressibles,Mirror Mirror,Indie Pop,,
+2010,JANUARY,The Men,Immaculada,Indie Rock,,
+2010,JANUARY,Owen Pallet,Heartland,Indie Rock,,
+2010,JANUARY,Spoon,Transference,Indie Rock,,
+2010,JANUARY,Surfer Blood,Astro Coast,Indie Rock,,
+2010,JANUARY,These New Puritans,Hidden,Art Rock,,
+2010,JANUARY,Toro Y Moi,Causers of This,Electronic,,
+2010,JANUARY,Vampire Weekend,Contra,Indie Rock,,
+2010,FEBRUARY,Angels & Airwaves,Love,Indie Rock,,
+2010,FEBRUARY,Gil Scott-Heron,I'm New Here,Jazz,,
+2010,FEBRUARY,Hot Chip,One Life Stand,Electronic,,
+2010,FEBRUARY,Joanna Newsom,Have One In Me,Indie Folk,,
+2010,FEBRUARY,Local Natives,Gorilla Manor,Indie Rock,,
+2010,FEBRUARY,Pantha Du Prince,Black Noise,Electronic,,
+2010,FEBRUARY,Sade,Soldier of Love,Soul,,
+2010,FEBRUARY,Shearwater,The Golden Archipelago,Indie Rock,,
+2010,FEBRUARY,Son Lux,Weapons EP,Indie Rock,,
+2010,FEBRUARY,Two Door Cinema Club,Tourist History,Electro Pop,,
+2010,MARCH,Alcest,Ecailles De Lune,Post Metal,,
+2010,MARCH,Anais Mitchell,Hadestown,Folk,,
+2010,MARCH,Artist Vs. Poet,Favorite Fix,Pop Rock,,
+2010,MARCH,Broken Bells,Broken Bells,Indie Rock,,
+2010,MARCH,Danny Brown,The Hybrid,Rap,,
+2010,MARCH,Dum Dum Girls,I Will Be,Indie Rock,,
+2010,MARCH,Fang Island,Fang Island,Indie Rock,,
+2010,MARCH,Frightened Rabbit,The Winter of Mixed Drinks,Indie Rock,,
+2010,MARCH,Gonjasufi,A Sufi and A Killer,Rap,,
+2010,MARCH,Gorillaz,Plastic Beach,Indie Rock,,
+2010,MARCH,James Blake,The Bells Sketch EP,Electronic,,
+2010,MARCH,Liars,Sisterworld,Indie Rock,,
+2010,MARCH,MGMT,Congratulations,Indie Rock,,
+2010,MARCH,The Morning Benders,Big Echo,Indie Pop,,
+2010,MARCH,Neon Trees,Habits,Pop Rock,,
+2010,MARCH,She & Him,Volume 2,Indie Pop,,
+2010,MARCH,Titus Andronicus,The Monitor,Indie Rock,,
+2010,MARCH,Zola Jesus,Stridulum EP,Electronic,,
+2010,APRIL,Caribou,Swim,Electronic,,
+2010,APRIL,Crystal Castles,II,Electronic,,
+2010,APRIL,Delorean,Subiza,Electro Pop,,
+2010,APRIL,John Grant,Queen of Denmark,Indie Folk,,
+2010,APRIL,Kavinsky,Nightcall EP,Electronic,,
+2010,APRIL,The Radio Dept.,Clinging to A Scheme,Dream Pop,,
+2010,APRIL,The Tallest Man On Earth,The Wild Hunt,Indie Folk,,
+2010,MAY,Band of Horses,Infinite Arms,Indie Rock,,
+2010,MAY,Beach Fossils,Beach Fossils,Indie Rock,,
+2010,MAY,Broken Social Scene,Forgiveness Rock Record,Indie Rock,,
+2010,MAY,Flying Lotus,Cosmogramma,Electronic,,
+2010,MAY,Foals,Total Life Forever,Indie Rock,,
+2010,MAY,Future Islands,In Evening Air,Indie Rock,,
+2010,MAY,Gayngs,Relayted,Indie Rock,,
+2010,MAY,Janelle Monae,The ArchAndroid,R&B,,
+2010,MAY,James Blake,CMYK EP,Electronic,,
+2010,MAY,Junip,Rope and Summit EP,Indie Rock,,
+2010,MAY,LCD Soundsystem,This Is Happening,Indie Rock,,
+2010,MAY,Male Bonding,Nothing Hurts,Indie Rock,,
+2010,MAY,The National,High Violet,Indie Rock,,
+2010,MAY,Phosphorescent,Here's To Taking It Easy,Indie Folk,,
+2010,MAY,Sleigh Bells,Treats,Noise Pop,,
+2010,MAY,Tame Impala,Innerspeaker,Indie Rock,,
+2010,JUNE,Actress,Splazsh,Electronic,,
+2010,JUNE,Allo Darlin',Allo Darlin',Indie Pop,,
+2010,JUNE,Ariel Pink's Haunted Graffiti,Before Today,Psychedelic Pop,,
+2010,JUNE,ceo,White Magic,Electro Pop,,
+2010,JUNE,The Chemical Brothers,Further,Electronic,,
+2010,JUNE,Drake,Thank Me Later,Rap,,
+2010,JUNE,The Drums,The Drums,Indie Rock,,
+2010,JUNE,Emeralds,Does It Look Like I'm Here?,Electronic,,
+2010,JUNE,Eminem,Recovery,Rap,,
+2010,JUNE,Julian Lynch,Mare,Indie Rock,,
+2010,JUNE,Kwes,No Need To Run EP,Electronic,,
+2010,JUNE,Laurie Anderson,Homeland,Art Rock,,
+2010,JUNE,Oneohtrix Point Never,Returnal,Electronic,,
+2010,JUNE,Perfume Genius,Learning,Indie Pop,,
+2010,JUNE,Ratatat,LP4,Electronic,,
+2010,JUNE,Robyn,Body Talk Pt. 1,Electro Pop,,
+2010,JUNE,Scissor Sisters,Night Work,Pop,,
+2010,JUNE,Wild Nothing,Gemini,Dream Pop,,
+2010,JULY,Best Coast,Crazy For You,Indie Rock,,
+2010,JULY,Big Boi,Sir Lucious Left Foot: The Son of Chico Dusty,Rap,,
+2010,JULY,The Books,The Way Out,Electronic,,
+2010,JULY,The Coral,Butterfly House,Indie Rock,,
+2010,JULY,Curren$y,Pilot Talk,Rap,,
+2010,JULY,The-Dream,Love King,R&B,,
+2010,JULY,M.I.A.,Maya,Rap,,
+2010,JULY,The Maine,Black & White,Pop Rock,,
+2010,JULY,Max Richter,Infra,Ambient,,
+2010,JULY,Mount Kimbie,Crooks & Lovers,Electronic,70,Before I Move Off
+2010,JULY,School of Seven Bells,Disconnect From Desire,Dream Pop,,
+2010,JULY,Sky Sailing,An Airplane Carried Me To Bed,Indie Pop,,
+2010,JULY,Sun Kil Moon,Admiral Fell Promises,Indie Folk,,
+2010,JULY,Wavves,King of the Beach,Indie Rock,,
+2010,AUGUST,Arcade Fire,The Suburbs,Indie Rock,,
+2010,AUGUST,Autre Ne Veut,Autre Ne Veut,Electro Pop,,
+2010,AUGUST,Everything Everything,Man Alive,Indie Rock,,
+2010,AUGUST,Hurts,Happiness,Pop,,
+2010,AUGUST,Katy Perry,Teenage Dream,Pop,,
+2010,AUGUST,Matthew Dear,Black City,Electronic,,
+2010,AUGUST,Puggy,Something You Must Like,Pop,,
+2010,AUGUST,Ra Ra Riot,The Orchard,Indie Pop,,
+2010,AUGUST,S. Carey,All We Grow,Indie Folk,,
+2010,AUGUST,Sufjan Stevens,All Delighted People EP,Indie Folk,,
+2010,AUGUST,Zola Jesus,Stridulum II,Electronic,,
+2010,SEPTEMBER,Brandon Flowers,Flamingo,Indie Pop,,
+2010,SEPTEMBER,Crippled Black Phoenix,"I, Vigilante",Post Rock,,
+2010,SEPTEMBER,Das Racist,"Sit Down, Man",Rap,,
+2010,SEPTEMBER,Deerhunter,Halcyon Digest,Indie Rock,,
+2010,SEPTEMBER,Frankie Rose,Frankie Rose and The Outs,Indie Rock,,
+2010,SEPTEMBER,Fredrik,Trilogi,Indie Folk,,
+2010,SEPTEMBER,Glasser,Ring,Electro Pop,,
+2010,SEPTEMBER,Grimes,Halfaxa,Electro Pop,,
+2010,SEPTEMBER,How to Dress Well,Love Remains,Electro Pop,,
+2010,SEPTEMBER,James Blake,Klavierwerke EP,Electronic,,
+2010,SEPTEMBER,Junip,Fields,Indie Rock,,
+2010,SEPTEMBER,Kenny Chesney,Hemingway's Whiskey,Country,,
+2010,SEPTEMBER,The Naked and Famous,"Passive Me, Aggressive You",Electro Pop,,
+2010,SEPTEMBER,No Age,Everything In Between,Noise Rock,,
+2010,SEPTEMBER,Salem,King Night,Electronic,,
+2010,SEPTEMBER,The Script,Science & Faith,Pop,,
+2010,SEPTEMBER,Sharon Van Etten,Epic,Indie Folk,,
+2010,SEPTEMBER,Swans,My Father Will Guide Me up a Rope to the Sky,Indie Rock,,
+2010,SEPTEMBER,The Walkmen,Lisbon,Indie Rock,,
+2010,SEPTEMBER,Washed Out,Life of Leisure EP,Synthpop,,
+2010,SEPTEMBER,Weezer,Hurley,Indie Rock,,
+2010,OCTOBER,Antony and the Johnsons,Swanlights,Chamber Pop,,
+2010,OCTOBER,Broken Records,Let Me Come Home,Indie Pop,,
+2010,OCTOBER,Cloud Nothings,Turning On,Indie Rock,,
+2010,OCTOBER,Crystal Fighters,Star of Love,Electronic,,
+2010,OCTOBER,Kings of Leon,Come Around Sundown,Rock,,
+2010,OCTOBER,Skrillex,Scary Monsters and Nice Sprites EP,Dubstep,,
+2010,OCTOBER,Sufjan Stevens,The Age of Adz,Indie Folk,,
+2010,OCTOBER,Twin Shadow,Forget,Indie Rock,,
+2010,OCTOBER,Warpaint,The Fool,Indie Rock,,
+2010,OCTOBER,Zola Jesus,Valusia EP,Electronic,,
+2010,NOVEMBER,Girls,Broken Dreams Club EP,Indie Rock,,
+2010,NOVEMBER,Kanye West,My Beautiful Dark Twisted Fantasy,Rap,,
+2010,NOVEMBER,My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,Punk,,
+2010,NOVEMBER,No Joy,Ghost Blonde,Electronic,,
+2010,NOVEMBER,Shearwater,Shearwater Is Enron,Indie Rock,,
+2010,NOVEMBER,El Ten Eleven,It's Still Like a Secret,Post Rock,,
+2010,DECEMBER,Off!,First Four Eps,Punk,,
+2010,DECEMBER,Robyn,Body Talk,Electro Pop,,
+2011,JANUARY,Destroyer,Kaputt,Indie Rock,100,Chinatown
+2011,JANUARY,Smith Westerns,Dye It Blonde,Indie Rock,,
+2011,FEBRUARY,Cut Copy,Zonoscope,Electronic,,
+2011,FEBRUARY,James Blake,James Blake,Electronic,,
+2011,FEBRUARY,Julianna Barwick,The Magic Place,Ambient,,
+2011,FEBRUARY,Nicolas Jaar,Space Is Only Noise,Electronic,,
+2011,FEBRUARY,PJ Harvey,Let England Shake,Indie Rock,,
+2011,FEBRUARY,Tim Hecker,"Ravedeath, 1972",Ambient,,
+2011,FEBRUARY,Toro Y Moi,Underneath the Pine,Electronic,,
+2011,MARCH,Kurt Vile,Smoke Ring For My Halo,Indie Rock,,
+2011,MARCH,Lykke Li,Wounded Rhymes,Indie Pop,,
+2011,MARCH,The Weeknd,House of Ballons,R&B,,
+2011,APRIL,Big K.R.I.T.,Return of 4Eva,Rap,,
+2011,APRIL,Cass McCombs,Wit's End,Indie Folk,,County Line
+2011,APRIL,DJ Quik,The Book of David,Rap,,
+2011,APRIL,The Pains of Being Pure at Heart,Belong,Indie Rock,,
+2011,APRIL,Panda Bear,Tombow,Psychedelic Pop,,
+2011,APRIL,tUnE-yArDs,W H O K I L L,Indie Rock,,
+2011,MAY,The Antlers,Burst Apart,Indie Rock,,
+2011,MAY,EVA,Past Life Martyred Saints,Indie Rock,,
+2011,MAY,Fleet Foxes,Helplessness Blues,Indie Folk,,
+2011,MAY,Gang Gang Dance,Eye Contact,Electronic,,
+2011,JUNE,Bon Iver,"Bon Iver, Bon Iver",Indie Folk,100,Beth/Rest
+2011,JUNE,Cults,Cults,Indie Pop,,
+2011,JUNE,Fucked Up,David Comes to Life,Punk Rock,,
+2011,JUNE,Iceage,New Brigade,Garage Rock,,
+2011,JUNE,Shabazz Palaces,Black Up,Rap,,
+2011,JUNE,Wu Lyf,Go Tell Fire to the Mountain,Indie Rock,,
+2011,JULY,AraabMuzik,Electronic Dream,Electronic,,
+2011,JULY,John Maus,We Must Become The Pitiless Censors Of Ourselves,Ambient,,Hey Moon
+2011,JULY,Washed Out,Within and Without,Synthpop,,
+2011,AUGUST,Jay Z & Kanye West,Watch the Throne,Rap,,
+2011,AUGUST,The War on Drugs,Slave Ambient,Indie Rock,,
+2011,SEPTEMBER,The Field,Looping State of Mind,Electronic,,
+2011,SEPTEMBER,Girls,"Father, Son, Holy Ghost",Indie Rock,100,Vomit
+2011,SEPTEMBER,St. Vincent,Strange Mercy,Indie Rock,,
+2011,SEPTEMBER,Wolves In the Throne Room,Celestial Lineage,Metal,,
+2011,SEPTEMBER,Youth Lagoon,The Year of Hibernation,Dream Pop,,
+2011,OCTOBER,M83,"Hurry Up, We're Dreaming",Synthpop,90,Midnight City
+2011,OCTOBER,Real Estate,Days,Indie Rock,,
+2011,OCTOBER,Trash Talk,Awake EP,Punk Rock,,
+2011,NOVEMBER,A$AP Rocky,LIVELOVEA$AP,Rap,,
+2011,NOVEMBER,Atlas Sound,Parallax,Indie Rock,,
+2011,NOVEMBER,Drake,Take Care,Rap,,
+2011,NOVEMBER,Kate Bush,50 Words For Snow,Baroque Pop,,
+2011,NOVEMBER,Oneohtrix Point Never,Replica,Electronic,,
+2011,NOVEMBER,Sepalcure,Sepalcure,Electronic,,
+2011,DECEMBER,Vulfpeck,Mit Peck EP,Funk,,
+2012,JANUARY,Anthony Green,Beautiful Things,Indie Rock,85,Do It Right
+2012,JANUARY,Chairlift,Something,Electro Pop,80,I Belong In Your Arms
+2012,JANUARY,Cloud Nothings,Attack on Memory,Indie Rock,85,No Future/No Past
+2012,JANUARY,Crippled Black Phoenix,(Mankind) The Crafty Ape,Post Rock,80,The Heart of Every Country
+2012,JANUARY,Django Django,Django Django,Indie Rock,40,
+2012,JANUARY,Hospitality,Hospitality,Indie Pop,65,
+2012,JANUARY,First Aid Kit,The Lion's Roar,Indie Folk,70,
+2012,JANUARY,Grupo de Experos Solynieve,El Eje de la Tierra,Spanish Indie Rock,80,Por que no te largas de aqui?
+2012,JANUARY,Lana del Rey,Born to Die,Indie Pop,90,Born to Die
+2012,JANUARY,Leonard Cohen,Old Ideas,Folk,85,Going Home
+2012,JANUARY,Marta Mist,Crack The Sun To Bleed A Blood Red Sky / A Soldier's Trench,Ambient,40,
+2012,JANUARY,Mi & L'au,If Beauty is a Crime,Indie Folk,80,Magic
+2012,JANUARY,Nada Surf,The Stars are Indifferent to Astronomy,Indie,75,
+2012,JANUARY,Pacific UV,Weekends,Ambient,70,
+2012,JANUARY,Schoolboy Q,Habits & Contradictions,Rap,70,
+2012,JANUARY,The Caretaker,Patience (After Sebald),Ambient,40,
+2012,JANUARY,The Maccabees,Given to the Wild,Indie Rock,85,Ayla
+2012,JANUARY,Tribes,Baby,Indie Rock,85,We Were Children
+2012,JANUARY,Waxahatchee,American Weekend,Indie Rock,50,
+2012,FEBRUARY,Anais Mitchell,Young Man in America,Folk,80,Young Man in America
+2012,FEBRUARY,Archers of Loaf,Vee Vee,Indie Rock,55,
+2012,FEBRUARY,Bears,Greater Lakes,Indie Rock,80,Eleven A.M.
+2012,FEBRUARY,Burial,Street Halo / Kindred,Electronic,65,
+2012,FEBRUARY,Earth,"Angels of Darkness, Demons of Light II",Ambient,65,
+2012,FEBRUARY,Frankie Rose,Interstellar,Indie Rock,85,Interstellar
+2012,FEBRUARY,fun.,Some Nights,Pop,85,We Are Young
+2012,FEBRUARY,Field Music,Plumb,Indie Rock,50,
+2012,FEBRUARY,Grimes,Visions,Electronic,90,Genesis
+2012,FEBRUARY,Islands,A Sleep & a Forgetting,Indie Pop,70,
+2012,FEBRUARY,John Talabot,Fin,Electronic,85,Depak Ine
+2012,FEBRUARY,La Habitacion Roja,Fue Electrico,Spanish Indie Rock,80,Indestructibles
+2012,FEBRUARY,Lambchop,Mr. M,Indie Rock,80,Kind Of
+2012,FEBRUARY,Mark Lanegan,Blues Funeral,Indie Rock,55,
+2012,FEBRUARY,Memoryhouse,The Slideshow Effect,Indie Pop,70,
+2012,FEBRUARY,of Montreal,Paralytic Stalks,Indie Rock,50,
+2012,FEBRUARY,Pallbearer,Sorrow and Extinction,Metal,85,Foreigner
+2012,FEBRUARY,Palms On Fire,Call Me,Indie,60,
+2012,FEBRUARY,Perfume Genius,Put Your Back N 2 It,Indie Pop,90,Hood
+2012,FEBRUARY,Polica,Give You the Ghost,Indie Rock,80,I See My Mother
+2012,FEBRUARY,Pontiak,Echo Ono,Rock,60,
+2012,FEBRUARY,Recloose,Magic EP,House,85,Feels Like Magic
+2012,FEBRUARY,School of Seven Bells,Ghostory,Dream Pop,75,
+2012,FEBRUARY,Sharon Van Etten,Tramp,Indie Folk,80,Give Out
+2012,FEBRUARY,Shearwater,Animal Joy,Indie Rock,80,You As You Were
+2012,FEBRUARY,Sleigh Bells,Reign of Terror,Noise Pop,60,
+2012,FEBRUARY,Tennis,Young and Old,Indie Pop,80,Origins
+2012,FEBRUARY,The Fray,Scars & Stories,Pop Rock,80,Heartbeat
+2012,FEBRUARY,The Ting Tings,Sounds From Nowheresville,Indie Pop,85,Help
+2012,FEBRUARY,Tindersticks,The Something Rain,Indie Folk,75,
+2012,FEBRUARY,Trust,TRST,Synthpop,85,Candy Walls
+2012,FEBRUARY,Varry Brava,Demasie,Spanish Indie Pop,70,
+2012,FEBRUARY,Windy & Carl,We Will Always Be,Ambient,65,
+2012,MARCH,Andrew Bird,Break It Yourself,Indie,85,Desperation Breeds...
+2012,MARCH,Chromatics,Kill For Love,Synthpop,95,Running From the Sun
+2012,MARCH,Djorvin Clain,Pattern of Thought,Ambient,40,
+2012,MARCH,Hundred Waters,Hundred Waters,Synthpop,80,Caverns
+2012,MARCH,If This Trees Could Talk,Red Forest,Post Rock,80,The First Fire
+2012,MARCH,Julia Holter,Ekstasis,Art Pop,75,
+2012,MARCH,Kaiser Chiefs,Start the Revolution Without Me,Indie Rock,60,
+2012,MARCH,Lee Renaldo,Between The Times & The Tides,Indie,70,
+2012,MARCH,Mac DeMarco,Rock and Roll Night Club EP,Indie Rock,65,
+2012,MARCH,Sharks,No Gods,Indie Rock,85,Turn to You
+2012,MARCH,Susanne Sundfor,The Silicone Veil,Synthpop,80,White Foxes
+2012,MARCH,The Mars Volta,Noctourniquet,Rock,70,
+2012,MARCH,The All-American Rejects,Kids in the Street,Indie Rock,70,
+2012,MARCH,The Men,Open Your Heart,Garage Rock,55,
+2012,MARCH,The Magnetic Fields, Love At The Bottom Of The Sea,Indie Pop,55,
+2012,MARCH,The Shins,Port of Morrow,Indie,90,Simple Song
+2012,MARCH,Xiu Xiu,Always,Art Rock,75,
+2012,APRIL,Actress,R.I.P.,Electronic,85,N.E.W.
+2012,APRIL,Alabama Shakes,Boys and Girls,Indie Rock,85,Hold On
+2012,APRIL,Allo Darlin',Europe,Indie Pop,80,Europe
+2012,APRIL,Daughn Gibson,All Hell,Indie Rock,80,In the Beginning
+2012,APRIL,Death Grips,The Money Store,Rap,50,
+2012,APRIL,Father John Misty,Fear Fun,Indie Rock,75,Nancy From Now On
+2012,APRIL,Future,Pluto,Rap,70,
+2012,APRIL,Grouper,Violet Replacement,Ambient,30,
+2012,APRIL,Jack White,Blunderbuss,Indie Rock,70,
+2012,APRIL,Jason Mraz,Love Is a Four Letter Word,Pop,70,
+2012,APRIL,Kwes,Meantime EP,Electronic,85,Bashful
+2012,APRIL,La Sera,Sees the Light,Indie Pop,65,
+2012,APRIL,Lotus Plaza,Spooky Action at a Distance,Indie,70,
+2012,APRIL,Lower Dens,Nootropics,Indie Rock,75,
+2012,APRIL,M. Ward,A Wasteland Companion,Indie Folk,70,
+2012,APRIL,Mediafired,The Pathway Through Whatever,Electronic,85,Pixies
+2012,APRIL,Neon Trees,Picture Show,Indie Pop,80,Mad Love
+2012,APRIL,Orbital,Wonky,Electronic,80,New France
+2012,APRIL,Spiritualized,Sweet Heart Sweet Light,Indie Rock,85,Little Girl
+2012,APRIL,The Flaming Lips,The Flaming Lips and Heady Fwends,Psychedelic Rock,40,
+2012,APRIL,Zammuto,Zammuto,Electronic,80,"Groan Man, Don't Cry"
+2012,MAY,Ab-Soul,Control System,Rap,60,
+2012,MAY,Alt-J,An Awesome Wave,Indie Rock,90,Matilda
+2012,MAY,Altmodisch,Watches Fall Asleep,Electronic,75,
+2012,MAY,Beach House,Bloom,Dream Pop,95,The Hours
+2012,MAY,Best Coast,The Only Place,Indie Rock,70,
+2012,MAY,Choir Of Young Believers,Rhine Gold,Indie Pop,60,
+2012,MAY,Citizens!,Here We Are,Electro Pop,70,
+2012,MAY,Conor Oberst and the Mystic Valley Band,One of my Kind,Indie,75,
+2012,MAY,El-P,Cancer For Cure,Rap,30,
+2012,MAY,Evans the Death,Evans the Death,Indie Pop,75,
+2012,MAY,Fight Bite,Fight Bite,Synthpop,75,
+2012,MAY,Keane,Strangeland,Pop,75,
+2012,MAY,Keep Shelly in Athens, In Love With Dusk Our Own Dream,Indie Pop,85,Running Out of You
+2012,MAY,Killer Mike,R.A.P. Music,Rap,60,
+2012,MAY,Knife Party,Rage Valley,Dubstep,65,
+2012,MAY,Ladyhawke,Anxiety,Indie Rock,65,
+2012,MAY,Lone,Galaxy Garden,Electronic,80,New Colour
+2012,MAY,Love of Lesbian,La Noche Eterna Los Dias No Vividos,Spanish Indie Rock,90,Wio Antenas y Pijamas
+2012,MAY,Marissa Nadler,The Sister,Indie Folk,70,
+2012,MAY,Mount Eerie,Clear Moon,Indie,70,
+2012,MAY,Nick Waterhouse,Time's All Gone,Soul,65,
+2012,MAY,Niki and the Dove,Instinct,Electro Pop,85,Somebody
+2012,MAY,Owl City,Shooting Star Ep,Pop,70,
+2012,MAY,PS I Love You,Death Dreams,Indie Rock,80,How Do You
+2012,MAY,S. Carey,Hoyas EP,Indie Folk,85,Avalanche
+2012,MAY,Saint Etienne,Words And Music By Saint Etienne,Indie Pop,90,Tonight
+2012,MAY,Scissor Sisters,Magic Hour,Pop,70,
+2012,MAY,Sigur Ros,Valtari,Post Rock,75,
+2012,MAY,Silversun Pickups,Neck of the Woods,Indie Rock,80,Bloody Mary (Never Endings)
+2012,MAY,Squarepusher,Ufabulum,Electronic,50,
+2012,MAY,Sun Kil Moon,Among the Leaves,Indie Folk,70,Song For Richard Collopy
+2012,MAY,Supersubmarina,Santacruz,Spanish Indie Pop,80,El Baile de los Muertos
+2012,MAY,The KDMS,Kinky Dramas and Magic Stories,Electro Pop,75,
+2012,MAY,The Walkmen,Heaven,Indie Rock,85,Heaven
+2012,MAY,We Are Ghosts,Old Town Hall,Post Rock,50,
+2012,MAY,White Lung,Sorry,Punk Rock,55,
+2012,JUNE,Bobby Womack,The Bravest Man In the Universe,R&B,70,
+2012,JUNE,Bon Iver,iTunes Session,Indie,100,
+2012,JUNE,Bryan EL,Boundaries of Imagination,Ambient,85,The Awakening
+2012,JUNE,Clams Casino,Instrumental 2,Electronic,55,
+2012,JUNE,DIIV,Oshin,Indie Rock,85,Haw Long Have You Known?
+2012,JUNE,Echo Lake,Wild Place,Indie Rock,75,
+2012,JUNE,Elite Gymnastics,RUIN 4,Electro Pop,75,
+2012,JUNE,Exlovers,Moth,Indie Rock,85,Emily
+2012,JUNE,Fiona Apple,The Idler Wheel...,Baroque Pop,75,
+2012,JUNE,Hot Chip,In Our Heads,Electronic,75,
+2012,JUNE,iamamiwhoami,kin,Electronic,75,
+2012,JUNE,Japandroids,Celebration Rock,Indie Rock,80,Fire's Highway
+2012,JUNE,Laurel Halo,Quarantine,Electronic,80,Thaw
+2012,JUNE,Liars,WIXIW,Indie Rock,45,
+2012,JUNE,Maximo Park,The National Health,Indie Rock,85,The Undercurrents
+2012,JUNE,Metric,Synthetica,Indie Rock,85,Lost Kitten
+2012,JUNE,Nico Muhly,Drones & Piano,Ambient,40,
+2012,JUNE,No Joy,Negaverse EP,Electronic,30,
+2012,JUNE,Peaking Lights,Lucifer,Indie Pop,50,
+2012,JUNE,R.Kelly,Write Me Back,R&B,80,Share My Love
+2012,JUNE,The Cinematic Orchestra,In Motion #1,Ambient,80,Manhattan
+2012,JUNE,The Henry Clay People,Twenty-Five for the Rest of Our Lives,Indie Rock,70,
+2012,JUNE,Ty Segall Band,Slaughterhouse,Garage Rock,40,
+2012,JULY,Baroness,Yellow and Green,Metal,85,March to the Sea
+2012,JULY,Colossal Gospel,Circles,Indie Folk,50,
+2012,JULY,Dirty Projectors,Swing Lo Magellan,Indie Rock,85,About to Die
+2012,JULY,Eaves,Hiking Trails EP,Electronic,85,Luv Songs 4 Kids
+2012,JULY,Foxygen,Take the Kids Off Broadway,Indie Rock,80,Make It Known
+2012,JULY,Frank Ocean,Channel Orange,R&B,90,Pyramids
+2012,JULY,Internet Club,Vanishing Vision,Electronic,85,Ever Be Real
+2012,JULY,JEFF the Brotherhood,Hypnotic Knights,Indie Rock,65,
+2012,JULY,John Frusciante,Letur-Lefr EP,Rock,85,In Your Eyes
+2012,JULY,John Maus,A Collection of Rarities and Previously Unreleased Material,Ambient,70,
+2012,JULY,Merchandise,Children of Desire,Indie Rock,85,Time
+2012,JULY,NAS,Life is Good,Rap,80,Accident Murderers
+2012,JULY,Passion Pit,Gossamer,Electro Pop,90,Constant Conversations
+2012,JULY,Poolside,Pacific Standard Time,Electronic,85,Slow Down
+2012,JULY,Purity Ring,Shrines,Synthpop,80,Fineshrine
+2012,JULY,The Antlers,Undersea EP,Indie,80,Drift Dive
+2012,JULY,TNGHT,TNGHT EP,Electronic,45,
+2012,JULY,Twin Shadow,Confess,Indie,95,You Can Call Me On
+2012,JULY,Van She,Idea of Happiness,Synthpop,85,Sarah
+2012,AUGUST,Antony and the Johnsons,Cut the World,Indie,85,Cut the World
+2012,AUGUST,Ariel Pink's Haunted Graffiti,Mature Themes,Psychedelic Pop,85,Only In My Dreams
+2012,AUGUST,Bill Fay,Life is People,Folk,85,There Is a Valley
+2012,AUGUST,Bloc Party,Four,Indie Rock,80,Real Talk
+2012,AUGUST,Dan Deacon,America,Electronic,85,True Thrush
+2012,AUGUST,Dead Can Dance,Anastasis,Indie,75,
+2012,AUGUST,Divine Fits,A Thing Called Divine Fits,Indie,80,My Love Is Real
+2012,AUGUST,Four Tet,Pink,Electronic,55,
+2012,AUGUST,Jessie Ware,Devotion,Indie Pop,90,Wildest Moments
+2012,AUGUST,Matthew Dear,Beams,Electronic,70,
+2012,AUGUST,Matthew E. White,Big Inner,Indie Rock,85,One of These Days
+2012,AUGUST,Owl City,The Midsummer Station,Pop,70,
+2012,AUGUST,Ryan Hemsworth,Last Words,Electronic,75,
+2012,AUGUST,Stagnant Pools,Temporary Room,Indie Rock,85,Illusions
+2012,AUGUST,Superbus,Sunset,Pop,70,
+2012,AUGUST,Swans,The Seer,Indie Rock,50,
+2012,AUGUST,Wild Nothing,Nocturne,Dream Pop,85,Paradise
+2012,SEPTEMBER,Angel Olsen,Half Way Home,Indie Folk,50,
+2012,SEPTEMBER,Animal Collective,Centipede Hz,Psychedelic Pop,70,
+2012,SEPTEMBER,Band of Horses,Mirage Rock,Indie Rock,45,
+2012,SEPTEMBER,Billy Talent,Dead Silence,Rock,75,
+2012,SEPTEMBER,Carice Van Houten,See You On The Ice,Indie Pop,75,
+2012,SEPTEMBER,Cat Power,Sun,Indie,85,Manhattan
+2012,SEPTEMBER,Dinosaur Jr.,I Bet on Sky,Indie Rock,75,
+2012,SEPTEMBER,Dum Dum Girls,End of Haze EP,Indie Rock,80,Trees and Flowers
+2012,SEPTEMBER,GOOD Music,Cruel Summer,Rap,85,The One
+2012,SEPTEMBER,Green Day,Uno!,Rock,75,
+2012,SEPTEMBER,Grizzly Bear,Shields,Indie Rock,85,Yet Again
+2012,SEPTEMBER,Holy Other,Held,Electronic,85,Tense Past
+2012,SEPTEMBER,How to Dress Well,Total Loss,Electro Pop,90,When I Was In Trouble
+2012,SEPTEMBER,Imagine Dragons,Night Vision,Indie Rock,90,Amsterdam
+2012,SEPTEMBER,Jens Lekman,I Know What Love Isn't,Indie Pop,85,I Know What Love Isn't
+2012,SEPTEMBER,John Frusciante,PBX Funicular Intaglio Zone,Rock,60,
+2012,SEPTEMBER,Melody's Echo Chamber,Melody's Echo Chamber,Indie Pop,80,I Follow You
+2012,SEPTEMBER,Menomena,Moms,Indie,75,
+2012,SEPTEMBER,Mono,For My Parents,Post Rock,85,Legend
+2012,SEPTEMBER,Mount Eerie,Ocean Roar,Indie,80,I Walked Home Beholding
+2012,SEPTEMBER,Mumford & Sons,Babel,Indie Folk,80,I Will Wait
+2012,SEPTEMBER,Pet Shop Boys,Elysium,Synthpop,70,
+2012,SEPTEMBER,Sea Wolf,Old World Romance,Indie,80,Old Friend
+2012,SEPTEMBER,Stars,The North,Indie Pop,85,Through the Mines
+2012,SEPTEMBER,The Killers,Battle Born,Indie Rock,85,The Way It Was
+2012,SEPTEMBER,The Script,#3,Pop,85,If You Could See Me Now
+2012,SEPTEMBER,The Sea and Cake,Runner,Indie Pop,80,The Invitations
+2012,SEPTEMBER,The xx,Coexist,Indie Pop,90,Angels
+2012,SEPTEMBER,Two Door Cinema Club,Beacon,Electro Pop,75,
+2012,SEPTEMBER,Woods,Bend Beyond,Indie,75,
+2012,OCTOBER,AC Newman,Shut Down the Streets,Indie,80,I'm Not Talking
+2012,OCTOBER,Andrew Bird,Hands of Glory,Indie,80,Spirograph
+2012,OCTOBER,Andy Stott,Luxury Problems,Electronic,50,
+2012,OCTOBER,Bat For Lashes,The Haunted Man,Indie Pop,90,Laura
+2012,OCTOBER,Chad Valley,Young Hunger,Synthpop,85,I Owe You This
+2012,OCTOBER,Chrome Canyon,Elemental Themes,Electronic,80,Legends
+2012,OCTOBER,Converge,All We Love We Leave Behind,Metal,55,
+2012,OCTOBER,Crippled Black Phoenix,No Sadness Or Farewell,Post Rock,85,What Have We Got To Lose
+2012,OCTOBER,Daphni,Jiaolong,Electronic,60,
+2012,OCTOBER,Death Grips,No Love Deep Web,Rap,10,
+2012,OCTOBER,Flying Lotus,Until the Quiet Comes,Electronic,65,
+2012,OCTOBER,Godspeed You! Black Emperor,Allelujah! Don't Bend! Ascend!,Post Rock,85,We Drift Like Worried Fire
+2012,OCTOBER,Jake Bugg,Jake Bugg,Indie Folk,80,Broken
+2012,OCTOBER,Kendrick Lamar,"good kid, m.A.A.d city",Rap,90,Bitch Don't Kill My Vibe
+2012,OCTOBER,Letting Up Despite Great Faults,Untogether,Electro Pop,80,Bulletproof Girl
+2012,OCTOBER,Little Comets,Life Is Elsewhere,Indie Rock,85,Jennifer
+2012,OCTOBER,Mac Demarco,2,Indie Rock,75,
+2012,OCTOBER,Metz,Metz,Garage Rock,30,
+2012,OCTOBER,Miguel,Kaleidoscope Dream,R&B,80,Kaleidoscope Dream
+2012,OCTOBER,MS MR,Candy Bar Creep Show EP,Indie,80,Hurricane
+2012,OCTOBER,Muse,The 2nd Law,Rock,75,
+2012,OCTOBER,Neil Young and Crazy Horse,Psychedelic Pill,Rock,80,Ramada Inn
+2012,OCTOBER,Pinback,Information Retrieved,Indie Rock,80,Sediment
+2012,OCTOBER,RZA,The Man With The Iron Fists,Rap,85,White Dress
+2012,OCTOBER,S-Type,Billboard EP,Electronic,85,Billboard
+2012,OCTOBER,Sky Ferreira,Ghost EP,Pop,80,Everything Is Embarrassing
+2012,OCTOBER,Tame Impala,Lonerism,Indie,80,Feels Like We Only Go Backwards
+2012,OCTOBER,The Mountain Goats,Trascendental Youth,Indie Rock,85,Lakeside View Apartments Suite
+2012,OCTOBER,The Preatures,Shaking Hands EP,Indie Rock,85,Threat
+2012,OCTOBER,Titus Andronicus,Local Business,Indie Rock,85,My Eating Disorder
+2012,NOVEMBER,Crystal Castles,III,Electronic,80,Wrath of God
+2012,NOVEMBER,Dean Blunt,The Narcissist II,Electronic,65,
+2012,NOVEMBER,Dirty Projectors,About to Die EP,Indie Rock,75,
+2012,NOVEMBER,Emeralds,Just to Feel Anything,Electronic,80,Just to Feel Anything
+2012,NOVEMBER,Flume,Flume,Electronic,90,Sleepless
+2012,NOVEMBER,Halls,Ark,Indie,85,White Chalk
+2012,NOVEMBER,How to Destroy Angels,An Omen EP,Electronic,70,
+2012,NOVEMBER,Holly Herndon,Movement,Electronic,40,
+2012,NOVEMBER,Icona Pop,Icona Pop,Electro Pop,75,
+2012,NOVEMBER,The Irrepressibles,Nude,Indie Pop,80,Arrow
+2012,NOVEMBER,Lana del Rey,Paradise,Indie Pop,70,
+2012,NOVEMBER,Lindstrom,Smalhans,Electronic,80,Vossakorv
+2012,NOVEMBER,Lust For Youth,Growing Seeds,Synthpop,45,
+2012,NOVEMBER,Raime,Quarter Turns Over a Living Line,Electronic,55,
+2012,NOVEMBER,Solange,True EP,R&B,80,Losing You
+2012,NOVEMBER,Steve Hauschildt,Sequitur,Electronic,80,Interconnected
+2012,DECEMBER,Big Boi,Vicious Lies and Dangerous Rumours,Rap,75,
+2012,DECEMBER,Burial,Truant / Rough Sleeper EP,Electronic,75,
+2012,DECEMBER,FKA Twigs,EP1,R&B,80,Breathe
+2012,DECEMBER,Katy B,Danger EP,Electro Pop,70,
+2012,DECEMBER,Scott Walker,Bish Bosch,Baroque Pop,20,
+2012,DECEMBER,Vulfpeck,Vollmilch EP,Funk,,
+2013,JANUARY,Adam Green and Binki Shapiro,Adam Green and Binki Shapiro,Indie Folk,80,Just To Make Me Feel Good
+2013,JANUARY,California X,California X,Indie Rock,75,
+2013,JANUARY,Christopher Owens,Lysandre,Indie Folk,85,Riviera Rock
+2013,JANUARY,Dawn Richard,Goldenheart,R&B,70,Warfaire (Interlude)
+2013,JANUARY,Drexciya,Journey Of The Deep Sea Dweller III,Electronic,35,
+2013,JANUARY,Ducktails,The Flower Lane,Indie Rock,75,Sedan Magic
+2013,JANUARY,Dutch Uncles,Out of Touch in the Wild,Indie Pop,85,Flexxin
+2013,JANUARY,Elliphant,Elliphant EP,Electro Pop,35,Down On Life
+2013,JANUARY,Everything Everything,Arc,Indie Pop,80,Kemosabe
+2013,JANUARY,Ex Cops,True Hallucinations,Indie Rock,75,
+2013,JANUARY,Foxygen,We Are The 21st Century Ambassadors of Peace and Magic,Indie Rock,85,Oh Yeah
+2013,JANUARY,Indians,Somewhere Else,Indie,85,New
+2013,JANUARY,Jessie Ware,If You're Never Gonna Move,Indie Pop,75,
+2013,JANUARY,Kate Boy,Northern Lights EP,Electro Pop,80,Northern Lights
+2013,JANUARY,Lights & Motion,Reanimation,Post Rock,85,The Match
+2013,JANUARY,Local Natives,Hummingbird,Indie Rock,85,You & I
+2013,JANUARY,Mountains,Centralia,Electronic,75,
+2013,JANUARY,Nightlands,Oak Island,Indie,75,
+2013,JANUARY,Nosaj Thing,Home,Electronic,75,
+2013,JANUARY,Pantha Du Prince and The Bell Laboratory,Elements of Light,Electronic,75,
+2013,JANUARY,Parquet Courts,Light Up Gold,Indie Rock,60,
+2013,JANUARY,Ra Ra Riot,Beta Love,Indie Pop,80,Beta Love
+2013,JANUARY,Tegan and Sara,Heartthrob,Indie Pop,85,Closer
+2013,JANUARY,The Joy Formidable,Wolf's Law,Indie Rock,80,Maw Maw Song
+2013,JANUARY,The Ruby Suns,Christopher,Indie Pop,75,
+2013,JANUARY,Torres,Torres,Indie Rock,80,When Winter's Over
+2013,JANUARY,Toro Y Moi,Anything in Return,Electronic,75,
+2013,JANUARY,Yo La Tengo,Fade,Indie Rock,80,Cornelia and Jane
+2013,FEBRUARY,Amateur Best,No Thrills,Indie,70,
+2013,FEBRUARY,Atoms For Peace,Amok,Electronic,75,
+2013,FEBRUARY,Autre Ne Veut,Anxiety,Electro Pop,90,Play By Play
+2013,FEBRUARY,Beach Fossils,Clash the Truth,Indie Rock,75,
+2013,FEBRUARY,Doldrums,Lesser Evil,Electronic,85,Anomaly
+2013,FEBRUARY,Eels,"Wonderful, Glorious",Indie Rock,65,
+2013,FEBRUARY,Fear of Men,Early Fragments,Indie Pop,70,
+2013,FEBRUARY,Foals,Holy Fire,Indie Rock,80,My Number
+2013,FEBRUARY,Frightened Rabbit,Pedestrian Verse,Indie Rock,85,The Woodpile
+2013,FEBRUARY,Grouper,The Man Who Died In His Boat,Ambient,80,Cover the Long Way
+2013,FEBRUARY,Iceage,You're Nothing,Garage Rock,65,
+2013,FEBRUARY,Jamie Lidell,Jamie Lidell,Electro Pop,85,Why_Ya_Why
+2013,FEBRUARY,Jim James,Regions of Light and Sound of God,Indie Folk,80,A New Life
+2013,FEBRUARY,K-X-P,II,Electronic,70,
+2013,FEBRUARY,Kavinsky,Outrun,Electronic,80,Nigthcall
+2013,FEBRUARY,Lady Lamb the Beekeper,Ripely Pine,Indie Rock,80,Bird Balloons
+2013,FEBRUARY,Matmos,The Marriage of True Minds,Electronic,65,
+2013,FEBRUARY,Mount Moriah,Miracle Temple,Country,85,Younger Days
+2013,FEBRUARY,My Bloody Valentine,mbv,Shoegaze,85,New You
+2013,FEBRUARY,Naked Lunch,All Is Fever,Indie Rock,85,41
+2013,FEBRUARY,Nick Cave and the Bad Seeds,Push the Sky Away,Indie Rock,80,We No Who U R
+2013,FEBRUARY,Night Beds,Country Sleep,Indie Folk,80,Even If We Try
+2013,FEBRUARY,Olafur Arnalds,For Now I am Winter,Instrumental,80,Old Skin
+2013,FEBRUARY,Pissed Jeans,Honeys,Rock,25,
+2013,FEBRUARY,Prurient,Through the Window,Noise,35,
+2013,FEBRUARY,Sally Shapiro,Somewhere Else,Electro Pop,85,All My Life
+2013,FEBRUARY,Unknown Mortal Orchestra,II,Indie Rock,80,So Good At Being In Trouble
+2013,FEBRUARY,Veronica Falls,Waiting For Something to Happen,Indie Pop,70,Teenage
+2013,MARCH,Bastille,Bad Blood,Pop,85,Pompeii
+2013,MARCH,Birds of Tokyo,March Fires,Indie Rock,75,
+2013,MARCH,Blue Hawaii,Untogether,Electronic,75,
+2013,MARCH,CHVRCHES,Recover EP,Electro Pop,85,Recover
+2013,MARCH,Daughter,If You Leave,Indie Folk,75,
+2013,MARCH,David Bowie,The Next Day,Rock,90,Valentine's Day
+2013,MARCH,Depeche Mode,Delta Machine,Synthpop,75,Soothe My Soul
+2013,MARCH,Dido,Girl Who Got Away,Pop,75,No Freedom
+2013,MARCH,DJ Koze,Amygdala,Electronic,85,Track ID Anyone? (ft. Caribou)
+2013,MARCH,How to Destroy Angels,Welcome Oblivion,Electronic,65,How Long?
+2013,MARCH,Hurts,Exile,Pop,80,Miracle
+2013,MARCH,John Grant,Pale Green Ghosts,Indie,60,
+2013,MARCH,Josh Ritter,The Beast In Its Tracks,Indie Folk,75,
+2013,MARCH,Julian Lynch,Lines,Indie Rock,70,
+2013,MARCH,Justin Timberlake,The 20/20 Experience,Pop,90,Mirrors
+2013,MARCH,Kacey Musgraves,Same Trailer Different Park,Country,80,Silver Lining
+2013,MARCH,Marnie Stern,The Chronicles of Marnia,Indie Rock,70,
+2013,MARCH,One Republic,Native,Pop,85,Counting Stars
+2013,MARCH,Phosphorescent,Muchacho,Indie Folk,85,Song For Zula
+2013,MARCH,Rhye,Woman,R&B,90,The Fall
+2013,MARCH,Suede,Bloodsports,Indie Rock,80,It Starts and Ends With You
+2013,MARCH,The Men,New Moon,Garage Rock,85,Half Angel Half Light
+2013,MARCH,The Strokes,Comedown Machine,Indie Rock,85,Tap Out
+2013,MARCH,Wavves,Afraid of Heights,Indie Rock,75,
+2013,MARCH,Waxahatchee,Celurean Salt,Indie Rock,85,Coast to Coast
+2013,MARCH,Wild Belle,Isles,Indie,75,
+2013,MARCH,Wire,Change Becomes Us,Rock,50,
+2013,MARCH,Youth Lagoon,Wondrous Bughouse,Dream Pop,85,Dropla
+2013,APRIL,!!!,THR!!!ER,Indie Rock,65,One Girl / One Boy
+2013,APRIL,Allure,Reunion,Electronic,85,Pretty Bad Day (feat Jordan Lee)
+2013,APRIL,Bill Ryder Jones,A Bad Wind Blows In My Heart,Indie Rock,70,
+2013,APRIL,Big Black Delta,Big Black Delta,Electronic,65,
+2013,APRIL,Cassie,RockaByeBaby,Pop,75,
+2013,APRIL,Charli XCX,True Romance,Electro Pop,90,Nuclear Seasons
+2013,APRIL,Cold War Kids,Dear Miss Lonelyhearts,Indie Rock,80,Bitter Poem
+2013,APRIL,Fleetwood Mac,Extended Play,Rock,60,
+2013,APRIL,French Films,White Orchid,Indie,65,
+2013,APRIL,Gun Outfit,Hard Coming Down,Indie Rock,60,
+2013,APRIL,Iron & Wine,Ghost On Ghost,Indie Folk,80,Singers and the Endless Song
+2013,APRIL,Jai Paul,Jai Paul,Electro Pop,90,Track 2
+2013,APRIL,James Blake,Overgrown,Electronic,85,Our Love Comes Back
+2013,APRIL,Junip,Junip,Indie Rock,55,Line of Fire
+2013,APRIL,Kurt Vile,Wakin on a Pretty Daze,Indie Rock,90,Wakin on a Pretty Day
+2013,APRIL,Major Lazer,Free the Universe,Electronic,55,
+2013,APRIL,Merchandise,Totale Nite EP,Indie Rock,75,I'll Be Gone
+2013,APRIL,No Joy,Wait to Pleasure,Electronic,60,
+2013,APRIL,Paramore,Paramore,Pop Rock,80,Still Into You
+2013,APRIL,Phoenix,Bankrupt!,Indie Rock,75,Entertainment
+2013,APRIL,Rudimental,Home,Electronic,85,Not Giving In
+2013,APRIL,Team Ghost,Rituals,Indie Rock,75,
+2013,APRIL,The Belle Game,Ritual Tradition Habit,Indie,80,Keeps Me Up At Night
+2013,APRIL,The Knife,Shaking the Habitual,Electronic,45,
+2013,APRIL,The Flaming Lips,The Terror,Indie Rock,75,
+2013,APRIL,The Haxan Cloak,Excavation,Electronic,25,
+2013,APRIL,The Shouting Matches,Grownass Man,Indie Rock,80,"Gallup, NM"
+2013,APRIL,"Tyler, the Creator",Wolf,Rap,65,
+2013,APRIL,Yeah Yeah Yeahs,Mosquito,Indie Rock,65,Sacrilege
+2013,MAY,30 Seconds to Mars,"Love, Lust, Faith and Dreams",Rock,80,Up In the Air
+2013,MAY,Anamanaguchi,Endless Fantasy,Electronic,80,Prom Night
+2013,MAY,Baths,Obsidian,Electronic,90,Inter
+2013,MAY,Chance the Rapper,Acid Rap,Rap,80,Chain Smoker
+2013,MAY,Classixx,Hanging Gardens,Electronic,85,I'll Get You
+2013,MAY,Co La,Moody Coup,Electronic,45,
+2013,MAY,Colin Stetson,New History Warfare Vol 3: To See More Light,Jazz,85,What Are They Doing In Heaven
+2013,MAY,Courtney Barnett,The Double EP: A Sea Of Split Peas,Indie Rock,60,
+2013,MAY,Crystal Fighters,Cave Rave,Electronic,85,You & I
+2013,MAY,Daft Punk,Random Access Memories,Electronic,95,Get Lucky
+2013,MAY,David Lang,Death Speaks,Instrumental,80,You Will Return
+2013,MAY,Dean Blunt,The Redeemer,Electronic,80,Brutal
+2013,MAY,Deerhunter,Monomania,Indie Rock,65,
+2013,MAY,Dirty Beaches,Drifters / Love Is The Devil,Indie Rock,55,
+2013,MAY,Is Tropical,I'm Leaving,Indie Rock,70,
+2013,MAY,Italians Do It Better,After Dark 2,Synthpop,80,Camera
+2013,MAY,Jenny Hval,Innocence Is Kinky,Art Pop,65,
+2013,MAY,Knife Party,Haunted House,Dubstep,65,
+2013,MAY,Laura Marling,Once I Was an Eagle,Indie Folk,70,
+2013,MAY,Laurel Halo,Behind the Green Door EP,Electronic,25,
+2013,MAY,Little Boots,Nocturnes,Synthpop,55,
+2013,MAY,Majical Cloudz,Impersonator,Chamber Pop,90,Bugs Don't Buzz
+2013,MAY,Mikal Cronin,MCII,Indie Rock,80,Weight
+2013,MAY,Mount Kimbie,Cold Spring Fault Less Youth,Electronic,60,
+2013,MAY,MS MR,Secondhand Rapture,Indie,80,Hurricane
+2013,MAY,Pacific UV,After the Dream You Are Awake,Ambient,70,
+2013,MAY,Pharmakon,Abandon,Industrial,10,
+2013,MAY,Primal Scream,More Light,Indie Rock,55,
+2013,MAY,Savages,Silence Yourself,Indie Rock,55,
+2013,MAY,Scout Niblett,It's Up to Emma,Indie Folk,50,
+2013,MAY,Sean Nicholas Savage,Other Life,Indie Pop,80,Other Life
+2013,MAY,Sharks,Selfhood,Indie Rock,70,
+2013,MAY,She & Him,Volume 3,Indie Pop,75,Baby
+2013,MAY,The-Dream,IV Play,R&B,75,Michael
+2013,MAY,The National,Trouble Will Find Me,Indie Rock,90,Sea of Love
+2013,MAY,Tribes,Wish to Scream,Indie Rock,85,Never Heard of Graceland
+2013,MAY,Vampire Weekend,Modern Vampires of the City,Indie Rock,95,Ya Hey
+2013,MAY,Wild Nothing,Empty Estate EP,Dream Pop,75,
+2013,JUNE,Airhead,For Years,Electronic,50,
+2013,JUNE,Beady Eye,BE,Indie Rock,45,
+2013,JUNE,Boards of Canada,Tomorrow's Harvest,Ambient,60,
+2013,JUNE,Camera Obscura,Desire Lines,Indie Pop,80,This Is Love (Feels Alright)
+2013,JUNE,Coma Cinema,Posthumous Release,Indie Rock,70,
+2013,JUNE,CSS,Planta,Indie Rock,60,
+2013,JUNE,Deafheaven,Sunbather,Metal,90,Dream House
+2013,JUNE,Disclosure,Settle,Electronic,80,White Noise (feat. AlunaGeorge)
+2013,JUNE,Editors,The Weight of Your Love,Indie Rock,70,
+2013,JUNE,Eleanor Friedberger,Personal Record,Indie Pop,70,
+2013,JUNE,Empire of the Sun,Ice on the Dune,Synthpop,80,Alive
+2013,JUNE,iamamiwhoami,Bounty,Electronic,75,
+2013,JUNE,Jimi Tenor,Exocosmos,Jazz,25,
+2013,JUNE,Jon Hopkins,Immunity,Electronic,90,Immunity
+2013,JUNE,Kanye West,Yeezus,Rap,90,Hold My Liquor
+2013,JUNE,Koreless,Yugen EP,Electronic,80,Ivana
+2013,JUNE,Lust For Youth,Perfect View,Synthpop,70,
+2013,JUNE,Miles Kane,Don't Forget Who You Are,Indie Rock,50,
+2013,JUNE,Natasha Kmeto,Crisis,Electronic,60,
+2013,JUNE,Peals,Walking Field,Ambient,80,Blue Elvis
+2013,JUNE,Portugal. The Man,Evil Friends,Indie Rock,60,
+2013,JUNE,Quadron,Avalanche,Electro Pop,75,
+2013,JUNE,Queens of the Stone Age,...Like Clockwork,Indie Rock,60,
+2013,JUNE,Run the Jewels,Run the Jewels,Rap,45,
+2013,JUNE,Ryan Hemsworth,Still Alive EP,Electronic,75,
+2013,JUNE,Sigur Ros,Kveikur,Post Rock,85,Isjaki
+2013,JUNE,Smith Westerns,Soft Will,Indie Rock,85,Idol
+2013,JUNE,Sturgill Simpson,High Top Mountain,Country,60,
+2013,JUNE,The Lonely Island,The Wack Album,Pop,30,
+2013,JUNE,These New Puritans,Field of Reeds,Art Rock,85,Fragment Two
+2013,JUNE,Thundercat,Apocalypse,R&B,65,
+2013,JUNE,Wampire,Curiosity,Synthpop,80,Orchards
+2013,JULY,AlunaGeorge,Body Music,Electro Pop,85,Attracting Flies
+2013,JULY,Daughn Gibson,Me Moan,Indie Rock,85,Won't You Climb
+2013,JULY,David Lynch,The Big Dream,Electronic,45,I'm Waiting Here
+2013,JULY,Fuck Buttons,Slow Focus,Electronic,80,Hidden XS
+2013,JULY,Jay Z,Magna Carta... Holy Grail,Rap,65,Holy Grail
+2013,JULY,Speedy Ortiz,Major Arcana,Indie Rock,70,
+2013,JULY,Pet Shop Boys,Electric,Synthpop,75,
+2013,JULY,Relient K,Collapsible Lung,Rock,75,
+2013,JULY,Sean McCann,Music for Private Ensemble,Instrumental,70,
+2013,JULY,Sick Puppies,Connect,Indie Rock,70,
+2013,JULY,Sweet Valley,SV,Electronic,65,
+2013,AUGUST,A$AP Ferg,Trap Lord,Rap,65,Hood Pope
+2013,AUGUST,Annie,The A&R EP,Pop,80,Back Together
+2013,AUGUST,Braids,Flourish // Perish,Art Rock,80,In Kind
+2013,AUGUST,Dawn of Midi,Dysnomia,Jazz,45,
+2013,AUGUST,Dean Blunt,Stone Island,Electronic,80,Three
+2013,AUGUST,DIANA,Perpetual Surrender,Synthpop,70,
+2013,AUGUST,Earl Sweatshirt,Doris,Rap,75,Sunday (ft. Frank Ocean)
+2013,AUGUST,Forest Swords,Engravings,Electronic,85,The Weight of Gold
+2013,AUGUST,Franz Ferdinand,"Right Thoughts, Right Words, Right Action",Indie Rock,55,
+2013,AUGUST,Illangelo,History of Man,Electronic,30,
+2013,AUGUST,John Frusciante,Outsides EP,Rock,65,
+2013,AUGUST,John Legend,Love In the Future,R&B,80,In the Beginning
+2013,AUGUST,John Mayer,Paradise Valley,Indie Rock,80,Who You Love
+2013,AUGUST,Julia Holter,Loud City Song,Art Pop,55,
+2013,AUGUST,Julianna Barwick,Nepenthe,Ambient,80,Crystal Lake
+2013,AUGUST,King Krule,6 Feet Beneath the Moon,Indie Rock,80,Neptune Estate
+2013,AUGUST,Lycia,Quiet Moments,Electronic,55,
+2013,AUGUST,Porcelain Raft,Permanent Signal,Synthpop,65,
+2013,AUGUST,Sampha,Dual EP,R&B,70,
+2013,AUGUST,The Preatures,Is This How You Feel? EP,Indie Rock,85,Is This How You Feel?
+2013,AUGUST,The World Is A Beautiful Place And I Am No Longer Afraid To Die,"Whenever, If Ever",Indie Rock,85,Fightboat
+2013,AUGUST,Travis,Where You Stand,Indie Rock,75,
+2013,AUGUST,Ty Segall,Sleeper,Indie Rock,50,
+2013,AUGUST,Washed Out,Paracosm,Synthpop,80,Don't Give Up
+2013,AUGUST,Zola Jesus,Versions,Indie,85,Avalanche (Slow)
+2013,SEPTEMBER,Arctic Monkeys,AM,Indie Rock,85,One For the Road
+2013,SEPTEMBER,Bill Callahan,Dream River,Indie Folk,75,Javelin Unlanding
+2013,SEPTEMBER,Chelsea Wolfe,Pain Is Beauty,Neofolk,75,The Waves Have Come
+2013,SEPTEMBER,CHVRCHES,The Bones Of What You Believe,Electro Pop,85,Gun
+2013,SEPTEMBER,Claire,The Great Escape,Synthpop,55,
+2013,SEPTEMBER,Delorean,Apar,Electro Pop,70,Unhold
+2013,SEPTEMBER,Drake,Nothing Was the Same,Rap,90,"Hold On, We're Going Home"
+2013,SEPTEMBER,Dustin Wong,Mediation Of Ecstatic Energy,Electronic,75,
+2013,SEPTEMBER,Factory Floor,Factory Floor,Electronic,35,
+2013,SEPTEMBER,FKA Twigs,EP2,R&B,60,
+2013,SEPTEMBER,Frankie Rose,Herein Wild,Indie Rock,75,Question Reason
+2013,SEPTEMBER,HAIM,Days Are Gone,Indie Pop,90,The Wire
+2013,SEPTEMBER,Icona Pop,This Is... Icona Pop,Electro Pop,80,I Love It
+2013,SEPTEMBER,Islands,Ski Mask,Indie Pop,65,
+2013,SEPTEMBER,Janelle Monae,The Electric Lady,R&B,70,Dance Apocalyptic
+2013,SEPTEMBER,Jesu,Every Day I Get Closer to the Light from Which I Came,Indie Rock,75,
+2013,SEPTEMBER,John Wizards,John Wizards,Electronic,85,Lusaka By Night
+2013,SEPTEMBER,Justin Timberlake,The 20/20 Experience 2,Pop,40,
+2013,SEPTEMBER,Kings of Leon,Mechanical Bull,Rock,80,Supersoaker
+2013,SEPTEMBER,Keep Shelly in Athens,At Home,Indie Pop,65,Sails
+2013,SEPTEMBER,Lorde,Pure Heroine,Indie Pop,70,Royals
+2013,SEPTEMBER,Mark Lanegan,Imitations,Indie Rock,60,
+2013,SEPTEMBER,Mazzy Star,Seasons of Your Day,Indie Folk,75,
+2013,SEPTEMBER,MGMT,MGMT,Indie Rock,40,
+2013,SEPTEMBER,Neko Case,"The Worse Things Get, the Harder I Fight, the Harder I Fight, the More I Love You",Indie Rock,80,I'm From Nowhere
+2013,SEPTEMBER,Nine Inch Nails,Hesitation Marks,Rock,25,
+2013,SEPTEMBER,Oh Land,Wish Bone,Pop,65,Cherry On Top
+2013,SEPTEMBER,Okkervil River,The Silver Gymnasium,Indie Rock,85,It Was My Season
+2013,SEPTEMBER,Pixies,EP1,Rock,80,Another Toe
+2013,SEPTEMBER,The Naked and the Famous,In Rolling Waves,Electro Pop,65,
+2013,SEPTEMBER,The Field,Cupid's Head,Electronic,75,
+2013,SEPTEMBER,The Weeknd,Kiss Land,R&B,65,
+2013,SEPTEMBER,Volcano Choir,Repave,Indie,90,Acetate
+2013,SEPTEMBER,Yuck,Glow and Behold,Indie Rock,85,How Does It Feel
+2013,OCTOBER,Arcade Fire,Reflektor,Indie Rock,90,Afterlife
+2013,OCTOBER,Best Coast,Fade Away,Indie Rock,70,
+2013,OCTOBER,Bill Orcutt,A History of Every One,Instrumental,35,
+2013,OCTOBER,Cass McCombs,Big Wheel and Others,Indie Folk,55,Brighter
+2013,OCTOBER,Cults,Static,Indie Pop,65,
+2013,OCTOBER,Danny Brown,Old,Rap,45,
+2013,OCTOBER,Darkside,Psychic,Electronic,85,Paper Trails
+2013,OCTOBER,DJ Rashad,Double Cup,Electronic,80,Feelin (feat. Spinn & Taso)
+2013,OCTOBER,Elliphant,A Good Idea,Electro Pop,45,Down On Life
+2013,OCTOBER,Four Tet,Beautiful Rewind,Electronic,30,
+2013,OCTOBER,Glasser,Interiors,Electro Pop,70,Shape
+2013,OCTOBER,Katy Perry,Prism,Pop,75,Roar
+2013,OCTOBER,Kelela,Cut 4 Me,R&B,80,Cut 4 Me [Prod. Kingdom]
+2013,OCTOBER,Kwes,ilp,Electronic,50,
+2013,OCTOBER,Laurel Halo,Chance of Rain,Electronic,45,
+2013,OCTOBER,Los Campesinos!,No Blues,Indie Rock,75,"Avocado, Baby"
+2013,OCTOBER,Moby,Innocents,Electronic,60,The Perfect Life (with Wayne Coyne)
+2013,OCTOBER,Moonface,Julia With Blue Jeans On,Indie,85,"Everyone Is Noah, Everyone Is The Ark"
+2013,OCTOBER,Mutual Benefit,Love's Crushing Diamond,Indie Folk,85,Advanced Falconry
+2013,OCTOBER,Of Montreal,Lousy With Sylvianbriar,Indie Rock,75,
+2013,OCTOBER,Oneohtrix Point Never,R Plus Seven,Electronic,70,Chrome Country
+2013,OCTOBER,Panic! At the Disco,Too Weird to Live! To Rare to Die!,Indie Pop,40,
+2013,OCTOBER,Phantogram,Phantogram EP,Electro Pop,65,
+2013,OCTOBER,Polica,Shulamith,Indie Rock,70,
+2013,OCTOBER,Pusha T,My Name Is My Name,Rap,70,Hold On (feat. Rick Ross)
+2013,OCTOBER,Russian Circles,Memorial,Metal,55,Ethel
+2013,OCTOBER,Ryan Hemsworth,Guilt Trips,Electronic,80,One For Me
+2013,OCTOBER,Sky Ferreira,"Night Time, My Time",Indie Pop,85,24 Hours
+2013,OCTOBER,Sleigh Bells,Better Rivals,Noise Pop,80,Young Legends
+2013,OCTOBER,Son Lux,Lanterns,Indie Rock,90,Lost It To Trying
+2013,OCTOBER,The Dismemberment Plan,Uncanney Valley,Indie Rock,70,
+2013,OCTOBER,The Feeling,Boy Cried Wolf,Indie Rock,75,Blue Murder
+2013,OCTOBER,The Flaming Lips,Peace Sword EP,Indie Rock,60,
+2013,OCTOBER,The Fratellis,We Need Medicine,Indie Rock,55,She's Not Gone Yet But She's Leaving
+2013,OCTOBER,The Range,Nonfiction,Electronic,80,Metal Swing
+2013,OCTOBER,Tim Hecker,Virgins,Ambient,55,
+2013,OCTOBER,Tindersticks,Across Six Leap Years,Indie Folk,80,Friday Night
+2013,NOVEMBER,Anthony Green,Young Legs,Indie Rock,65,
+2013,NOVEMBER,bEEdEEgEE,SUM/ONE,Electronic,70,
+2013,NOVEMBER,Blood Orange,Cupid Deluxe,R&B,90,Chamakay
+2013,NOVEMBER,Cut Copy,Free Your Mind,Electronic,70,
+2013,NOVEMBER,Death Grips,Government Plates,Rap,30,
+2013,NOVEMBER,Destroyer,Five Spanish Songs EP,Indie,80,Maria de las Nieves
+2013,NOVEMBER,Eminem,The Marshall Mathers LP2,Rap,65,The Monster (feat. Rihanna)
+2013,NOVEMBER,Grizzly Bear,Shields B-Sides,Indie Rock,75,Will Calls (Marfa Demo)
+2013,NOVEMBER,Jake Bugg,Shangri-La,Indie,50,
+2013,NOVEMBER,Kurt Vile,It's A Big World Out There (And I Am Scared) EP,Indie Rock,50,
+2013,NOVEMBER,Lights & Motion,Save Your Heart,Post Rock,80,Snow
+2013,NOVEMBER,Logos,Cold Mission,Electronic,35,
+2013,NOVEMBER,M.I.A.,Matangi,Rap,55,
+2013,NOVEMBER,Milosh,Jetlag,Indie,70,
+2013,NOVEMBER,Mount Eerie,Pre-Human Ideas,Indie,85,"No Inside, No Out"
+2013,NOVEMBER,Raum,Event of Your Leaving,Ambient,75,In Held Company
+2013,NOVEMBER,Tennis,Small Sound EP,Indie Pop,75,
+2013,NOVEMBER,Young Ejecta,Dominae,Synthpop,60,
+2013,DECEMBER,Angel Haze,Dirty Gold,Rap,85,Battle Cry
+2013,DECEMBER,Beyonce,Beyonce,R&B,80,Mine (feat. Drake)
+2013,DECEMBER,Burial,Rival Dealer EP,Electronic,90,Come Down To Us
+2013,DECEMBER,Clams Casino,Instrumental 3,Electronic,65,
+2013,DECEMBER,Vulfpeck,My First Car EP,Funk,,
+2014,JANUARY,Alcest,Shelter,Post Metal,80,Opale
+2014,JANUARY,Actress,Ghettoville,Electronic,10,
+2014,JANUARY,Dum Dum Girls,Too True,Indie Rock,70,Are You Okay?
+2014,JANUARY,East India Youth,Total Strife Forever,Electronic,50,Glitter Recession
+2014,JANUARY,Gem Club,In Roses,Chamber Pop,70,Polly
+2014,JANUARY,Hospitality,Trouble,Indie Pop,60,
+2014,JANUARY,I Break Horses,Chiaroscuro,Indie,40,
+2014,JANUARY,Infinity Frequencies,Computer Decay,Ambient,50,
+2014,JANUARY,James Vincent McMorrow,Post Tropical,Indie Folk,80,Gold
+2014,JANUARY,Mogwai,Rave Tapes,Post Rock,80,Blues Hour
+2014,JANUARY,Pixies,EP2,Rock,40,
+2014,JANUARY,Ricky Eat Acid,Three Love Songs,Electronic,70,In My Dreams We're Almost Touching
+2014,JANUARY,Rosanne Cash,The River & The Thread,Country,80,Modern Blue
+2014,JANUARY,Stephen Malkmus and the Jicks,Wig Out at Jagbags,Indie Rock,50,Houston Hades
+2014,JANUARY,Tara Jane O.Neil,Where Shine New Lights,Indie Folk,40,
+2014,JANUARY,Together Pangea,Badillac,Indie Rock,50,
+2014,JANUARY,Warpaint,Warpaint,Indie Rock,60,
+2014,JANUARY,Young the Giant,Mind Over Matter,Indie Rock,50,
+2014,FEBRUARY,Afterhours,Lowlife,Electronic,60,Night and Day
+2014,FEBRUARY,Angel Olsen,Burn Your Fire For No Witness,Indie Folk,60,Windows
+2014,FEBRUARY,Beck,Morning Phase,Indie Folk,80,Blue Moon
+2014,FEBRUARY,Broken Bells,After the Disco,Indie Rock,50,
+2014,FEBRUARY,ceo,Wonderland,Indie Pop,80,Whorehouse
+2014,FEBRUARY,Crosses,Crosses,Punk Rock,50,
+2014,FEBRUARY,The Fray,Helios,Pop Rock,50,
+2014,FEBRUARY,Halls,Love to Give,Indie,50,
+2014,FEBRUARY,The Hotelier,"Home, Like Noplace Is There",Punk Rock,80,The Scope of All of This Rebuilding
+2014,FEBRUARY,Isaiah Rashad,Cilvia Demo,Rap,60,
+2014,FEBRUARY,Katy B,Little Red,Electro Pop,60,Emotions
+2014,FEBRUARY,Lydia Loveless,Somewhere Else,Country,80,To Love Somebody
+2014,FEBRUARY,Major Lazer,Apocalypse Soon EP,Electronic,40,
+2014,FEBRUARY,Marissa Nadler,July,Indie Folk,70,Nothing In My Heart
+2014,FEBRUARY,Mark McGuire,Along the Way,Ambient,80,The Human Condition (Song For My Father)
+2014,FEBRUARY,Mas Ysa,Worth EP,Synthpop,70,Why
+2014,FEBRUARY,Maximo Park,Too Much Information,Indie Rock,60,"Lydia, The Ink Will Never Dry"
+2014,FEBRUARY,Phantogram,Voices,Electro Pop,70,The Day You Died
+2014,FEBRUARY,Schoolboy Q,Oxymoron,Rap,60,Man of the Year
+2014,FEBRUARY,Speedy Ortiz,Real Hair EP,Indie Rock,70,American Horror
+2014,FEBRUARY,St. Vincent,St. Vincent,Indie Rock,90,Prince Johnny
+2014,FEBRUARY,Sun Kil Moon,Benji,Indie Folk,90,Ben's My Friend
+2014,FEBRUARY,Wild Beasts,Present Tense,Indie Rock,80,Sweet Spot
+2014,FEBRUARY,Xiu Xiu,Angel Guts: Red Classroom,Art Rock,20,
+2014,MARCH,Crippled Black Phoenix,White Light Generator,Post Rock,60,We Remember You
+2014,MARCH,Dean Wareham,Dean Wareham,Indie Rock,60,
+2014,MARCH,Evian Christ,Waterfall EP,Electronic,30,
+2014,MARCH,Frankie Cosmos,Zentropy,Indie Pop,50,
+2014,MARCH,Future Islands,Singles,Indie Rock,90,Fall From Grace
+2014,MARCH,Glenn Kotche,Adventureland,Instrumental,40,
+2014,MARCH,Kevin Drew,Darlings,Indie Rock,70,Good Sex
+2014,MARCH,Leon Vynehall,Music for the Uninvited,Electronic,60,
+2014,MARCH,Liars,Mess,Indie Rock,40,
+2014,MARCH,MO,No Mythologies To Follow,Indie Pop,70,Pilgrim
+2014,MARCH,The Men,Tomorrow's Hits,Indie Rock,90,Another Night
+2014,MARCH,Metronomy,Love Letters,Electronic,30,
+2014,MARCH,Perfect Pussy,Say Yes to Love,Punk Rock,20,
+2014,MARCH,Pharrell Williams,G I R L,Pop,40,Gust of Wind
+2014,MARCH,Pixies,EP3,Rock,50,
+2014,MARCH,The Range,Panasonic EP,Electronic,70,Washingtons
+2014,MARCH,Real Estate,Atlas,Indie Rock,80,Talking Backwards
+2014,MARCH,Sisyphus,Sisyphus,Rap,70,Rhythm of Devotion
+2014,MARCH,Skrillex,Recess,Dubstep,60,
+2014,MARCH,Trust,Joyland,Synthpop,70,Geryon
+2014,MARCH,Tycho,Awake,Electronic,80,Awake
+2014,MARCH,The War On Drugs,Lost in the Dream,Indie Rock,100,In Reverse
+2014,APRIL,The Afghan Whigs,Do To the Beast,Indie Rock,80,Algiers
+2014,APRIL,Avey Tare's Slasher Flicks,Enter the Slasher House,Indie Rock,70,Little Fang
+2014,APRIL,Cloud Nothings,Here and Nowhere Else,Indie Rock,90,Psychic Trauma
+2014,APRIL,Damon Albarn,Everyday Robots,Indie Rock,70,Heavy Seas of Love
+2014,APRIL,EMA,The Future's Void,Indie Rock,70,Satellites
+2014,APRIL,Fear of Men,Loom,Indie Pop,70,Inside
+2014,APRIL,Fennesz,Becs,Electronic,60,Becs
+2014,APRIL,Future,Honest,Rap,70,I Won (feat. Kanye West)
+2014,APRIL,Iggy Azalea,The New Classic,Rap,50,
+2014,APRIL,Inventions,Inventions,Ambient,60,
+2014,APRIL,John Frusciante,Enclosure,Rock,50,
+2014,APRIL,Mac DeMarco,Salad Days,Indie Rock,70,Let Her Go
+2014,APRIL,Manchester Orchestra,Cope,Indie Rock,60,
+2014,APRIL,Neon Trees,Pop Psychology,Pop Rock,50,
+2014,APRIL,Oneohtrix Point Never,Commissions I EP,Electronic,60,
+2014,APRIL,Ought,More Than Any Other Day,Indie Rock,70,Habit
+2014,APRIL,Ramona Lisa,Arcadia,Indie Pop,40,
+2014,APRIL,Rodney Crowell,Tarpaper Sky,Country,70,The Long Journey Home (For Ben)
+2014,APRIL,S. Carey,Range of Light,Indie Folk,70,Crown the Pines
+2014,APRIL,SOHN,Tremors,Electronic,70,Lessons
+2014,APRIL,SZA,Z,R&B,60,Julia
+2014,APRIL,Swans,To Be Kind,Indie Rock,40,
+2014,APRIL,Tame Impala,Live Versions EP,Indie Rock,60,Feels Like We Only Go Backwards
+2014,APRIL,Timber Timbre,Hot Dreams,Indie Folk,60,Hot Dreams
+2014,APRIL,Todd Terje,It's Album Time,Electronic,80,Johnny and Mary
+2014,APRIL,Woods,With Light And With Love,Folk Rock,80,Moving To The Left
+2014,MAY,Baths,Ocean Death EP,Electronic,80,Ocean Death
+2014,MAY,Ben Frost,A U R O R A,Electronic,70,Venter
+2014,MAY,Ben Khan,1992 EP,Synthpop,70,Youth
+2014,MAY,The Black Keys,Turn Blue,Indie Rock,60,
+2014,MAY,Chromeo,White Women,Electro Pop,80,Come Alive (Feat. Toro Y Moi)
+2014,MAY,Coldplay,Ghost Stories,Pop,60,Magic
+2014,MAY,Dawn Golden,Still Life,Electronic,70,Discoloration
+2014,MAY,Hercules and Love Affair,The Feast of the Broken Heart,Electronic,60,
+2014,MAY,The Horrors,Luminous,Indie Rock,70,So Now You Know
+2014,MAY,Hundred Waters,The Moon Rang Like A Bell,Synthpop,80,Cavity
+2014,MAY,La Sera,Hour of the Dawn,Indie Pop,60,
+2014,MAY,Leyland Kirby,We Drink to Forget the Coming Storm,Instrumental,60,
+2014,MAY,Lily Allen,Sheezus,Pop,70,Hard Out Here
+2014,MAY,Lykke Li,I Never Learn,Indie Pop,90,Gunshot
+2014,MAY,Movement,Movement EP,Electronic,70,Like Lust
+2014,MAY,Owen Pallett,In Conflict,Indie Pop,80,The Secret Seven
+2014,MAY,The Pains of Being Pure at Heart,Days of Abandon,Indie Rock,80,Kelly
+2014,MAY,The Roots,...And Then You Shoot Your Cousin,Rap,60,When The People Cheer
+2014,MAY,Royksopp and Robyn,Do It Again,Electro Pop,70,Do It Again
+2014,MAY,Sam Smith,In the Lonely Hour,Pop,80,Lay Me Down
+2014,MAY,SBTRKT,Transitions EP,Electronic,50,
+2014,MAY,Sean Nicholas Savage,Bermuda Waterfall,Indie Pop,60,Empire
+2014,MAY,Sharon Van Etten,Are We There,Indie Folk,90,Our Love
+2014,MAY,Sturgill Simpson,Metamodern Sounds in Country Music,Country,70,Turtles All The Way Down
+2014,MAY,TunE-yArDs,Nikki Nack,Indie Rock,40,
+2014,MAY,Various Artists (Hyperdub Record Label),Hyperdub 10.1,Electronic,50,
+2014,MAY,White Sea,In Cold Blood,Electro Pop,80,Future Husbands Past Lives
+2014,JUNE,Ab-Soul,These Days...,Rap,60,Just Have Fun
+2014,JUNE,The Antlers,Familiars,Indie Rock,90,Parade
+2014,JUNE,Death Grips,Niggas on the Moon,Rap,20,
+2014,JUNE,First Aid Kit,Stay Gold,Indie Folk,60,My Silver Lining
+2014,JUNE,Fucked Up,Glass Boys,Punk Rock,60,
+2014,JUNE,Hamilton Leithauser,Black Hours,Indie Rock,70,Self Pity
+2014,JUNE,How To Dress Well,What Is This Heart?,Electro Pop,90,Words I Don't Remember
+2014,JUNE,I Love Makonnen,I Love Makonnen EP,Rap,70,Club Goin Up On A Tuesday
+2014,JUNE,Jack White,Lazaretto,Indie Rock,80,Temporary Ground
+2014,JUNE,Julianna Barwick,Rosabi EP,Ambient,60,
+2014,JUNE,Lana del Rey,Ultraviolence,Indie Pop,70,West Coast
+2014,JUNE,Lone,Reality Testing,Electronic,60,Begin to Begin
+2014,JUNE,Lower,Seek Warmer Climes,Indie Rock,40,
+2014,JUNE,Lust For Youth,International,Synthpop,80,New Boys
+2014,JUNE,Parquet Courts,Sunbathing Animal,Indie Rock,50,
+2014,JUNE,Stagnant Pools,Geist,Indie Rock,60,
+2014,JUNE,A Sunny Day In Glasgow,Sea When Absent,Indie Rock,80,Golden Waves
+2014,JUNE,White Lung,Deep Fantasy,Punk Rock,80,Down It Goes
+2014,JULY,Alvvays,Alvvays,Indie Pop,80,Party Police
+2014,JULY,Brian Eno & Karl Hyde,High Life,Ambient,60,
+2014,JULY,Default Genders,Magical Pessimism,Electro Pop,70,Everything Can Stop Us Now Part 2
+2014,JULY,Jenny Lewis,The Voyager,Indie Pop,70,Just One Of The Guys
+2014,JULY,La Roux,Trouble In Paradise,Synthpop,60,
+2014,JULY,Majid Jordan,A Place Like This EP,Pop,60,
+2014,JULY,Morrissey,World Peace Is None of Your Business,Indie Rock,70,The Bullfighter Dies
+2014,JULY,PS I Love You,For Those Who Stay,Indie Rock,60,
+2014,JULY,Shabazz Palaces,Lese Majesty,Rap,60,
+2014,JULY,Sia,1000 Forms of Fear,Pop,80,Chandelier
+2014,JULY,Slow Club,Complete Surrender,Indie Pop,70,Complete Surrender
+2014,JULY,The-Dream,Royalty: The Prequel EP,R&B,60,Lake Michigan
+2014,JULY,Total Control,Typical System,Punk Rock,50,
+2014,JULY,United Nations,The Next Four Years,Metal,50,
+2014,JULY,Various Artists (Hyperdub Record Label),Hyperdub 10.2,Electronic,60,
+2014,AUGUST,Basement Jaxx,Junto,Electronic,70,Never Say Never
+2014,AUGUST,Cymbals Eat Guitars,LOSE,Indie Rock,80,Jackson
+2014,AUGUST,FKA Twigs,LP1,R&B,90,Two Weeks
+2014,AUGUST,The Gaslight Anthem,Get Hurt,Indie Rock,80,Stay Vicious
+2014,AUGUST,Imogen Heap,Sparks,Electronic,60,
+2014,AUGUST,J Mascis,Tied To A Star,Indie Rock,70,Wide Awake
+2014,AUGUST,Jason Feathers,De Oro,Rap,60,
+2014,AUGUST,JJ,V,Indie Pop,60,All White Everything
+2014,AUGUST,Letting Up Despite Great Faults,Neon,Electro Pop,50,
+2014,AUGUST,Merchandise,After the End,Indie Rock,80,Enemy
+2014,AUGUST,The New Pornographers,Brill Bruisers,Indie Rock,80,Champions of Red Wine
+2014,AUGUST,Pallbearer,Foundations of Burden,Metal,70,The Ghost I Used to Be
+2014,AUGUST,The Rosebuds,Sand + Silence,Indie Rock,60,In My Teeth
+2014,AUGUST,Rustie,Green Language,Electronic,70,Lets Spiral
+2014,AUGUST,Spoon,They Want My Soul,Indie Rock,90,Do You
+2014,AUGUST,Ty Segall,Manipulator,Indie Rock,60,
+2014,SEPTEMBER,Alt-J,This Is All Yours,Indie Rock,70,Warm Foothills
+2014,SEPTEMBER,Aphex Twin,Syro,Electronic,90,Aisatsana
+2014,SEPTEMBER,Christopher Owens,A New Testament,Indie Folk,50,
+2014,SEPTEMBER,The Drums,Encyclopedia,Indie Rock,40,
+2014,SEPTEMBER,Hiss Golden Messenger,Lateness of Dancers,Indie Folk,60,
+2014,SEPTEMBER,Interpol,El Pintor,Indie Rock,70,All the Rage Back Home
+2014,SEPTEMBER,The Juan MacLean,In A Dream,Electronic,70,A Simple Design
+2014,SEPTEMBER,Julian Casablancas + The Voidz,Tyranny,Indie Rock,60,Where No Eagles Fly
+2014,SEPTEMBER,Karen O,Crush Songs,Indie Pop,30,
+2014,SEPTEMBER,The Kooks,Listen,Indie Rock,40,
+2014,SEPTEMBER,Lemonade,Minus Tide,Electro Pop,70,Come Down Softly
+2014,SEPTEMBER,Leonard Cohen,Popular Problems,Folk,80,Slow
+2014,SEPTEMBER,Lydia Ainsworth,Right From Real,Indie Pop,80,Hologram
+2014,SEPTEMBER,Mr. Twin Sister,Mr. Twin Sister,Indie Pop,80,Blush
+2014,SEPTEMBER,NehruvianDOOM,NehruvianDOOM,Rap,60,
+2014,SEPTEMBER,Perfume Genius,Too Bright,Indie Pop,70,Fool
+2014,SEPTEMBER,The Preatures,Blue Planet Eyes,Indie Rock,80,Somebody's Talking
+2014,SEPTEMBER,Raury,Indigo Child,Rap,70,Armor
+2014,SEPTEMBER,SBTRKT,Wonder Where We Land,Electronic,60,
+2014,SEPTEMBER,The Script,No Sound Without Silence,Pop,60,Superheroes
+2014,SEPTEMBER,Thom Yorke,Tomorrow's Modern Boxes,Electronic,60,A Brain In A Bottle
+2014,SEPTEMBER,Shellac,Dude Incredible,Indie Rock,40,
+2014,SEPTEMBER,Sinkane,Mean Love,R&B,70,How We Be
+2014,SEPTEMBER,Tennis,Ritual In Repeat,Indie Pop,80,Never Work For Free
+2014,SEPTEMBER,Various Artists (Hyperdub Record Label),Hyperdub 10.3,Electronic,60,
+2014,SEPTEMBER,Zammuto,Anchor,Electronic,40,
+2014,OCTOBER,Allo Darlin',We Come From the Same Place,Indie Pop,60,
+2014,OCTOBER,Caribou,Our Love,Electronic,80,Our Love
+2014,OCTOBER,Cold War Kids,Hold My Home,Indie Rock,70,Go Quietly
+2014,OCTOBER,Ex Hex,Rips,Indie Rock,70,Hot and Cold
+2014,OCTOBER,Flying Lotus,You're Dead!,Electronic,80,Never Catch Me (feat. Kendrick Lamar)
+2014,OCTOBER,Foxygen,...And Star Power,Indie Rock,60,How Can You Really
+2014,OCTOBER,Grouper,Ruins,Ambient,90,Clearing
+2014,OCTOBER,Iceage,Plowing Into the Field of Love,Garage Rock,70,How Many
+2014,OCTOBER,Jessie Ware,Tough Love,Indie Pop,90,Tough Love
+2014,OCTOBER,Kindness,Otherness,Indie Pop,60,Geneva
+2014,OCTOBER,Mono,The Last Dawn,Post Rock,80,Katana
+2014,OCTOBER,Mono,Rays of Darkness,Post Rock,70,Surrender
+2014,OCTOBER,Objekt,Flatland,Electronic,50,
+2014,OCTOBER,Ought,Once More With Feeling... EP,Indie Rock,50,Pill
+2014,OCTOBER,Panda Bear,Mr Noah EP,Psychedelic Pop,80,Mr Noah
+2014,OCTOBER,Peaking Lights,Cosmic Logic,Indie Pop,40,
+2014,OCTOBER,Pharmakon,Bestial Burden,Industrial,10,
+2014,OCTOBER,Run the Jewels,Run the Jewels 2,Rap,60,
+2014,OCTOBER,Stars,No One Is Lost,Indie Pop,60,The Stranger
+2014,OCTOBER,Tinashe,Aquarius,R&B,70,Aquarius
+2014,OCTOBER,The Ting Tings,Super Critical,Indie Pop,40,
+2014,OCTOBER,Vashti Bunyan,Heartleap,Folk,60,
+2014,OCTOBER,Vince Staples,Hell Can Wait EP,Rap,50,
+2014,OCTOBER,Wampire,Bazaar,Synthpop,50,
+2014,OCTOBER,Weezer,Everything Will Be Alright In the End,Indie Rock,70,Cleopatra
+2014,OCTOBER,A Winged Victory For The Sullen,Atomos,Ambient,70,Atomos VII
+2014,OCTOBER,Zola Jesus,Taiga,Electro Pop,60,Dangerous Days
+2014,NOVEMBER,Andy Stott,Faith In Strangers,Electronic,60,
+2014,NOVEMBER,Arca,Xen,Electronic,80,Thievery
+2014,NOVEMBER,Ariel Pink,pom pom,Indie Rock,70,Not Enough Violence
+2014,NOVEMBER,Azealia Banks,Broke With Expensive Taste,Rap,80,212 (feat. Lazy Jay)
+2014,NOVEMBER,Clark,Clark,Electronic,70,Unfurla
+2014,NOVEMBER,Damien Rice,My Favourite Faded Fantasy,Indie Folk,80,My Favourite Faded Fantasy
+2014,NOVEMBER,Dean Blunt,Black Metal,Electronic,70,Forever
+2014,NOVEMBER,Dirty Beaches,Stateless,Ambient,50,
+2014,NOVEMBER,Foo Fighters,Sonic Highways,Rock,60,I Am a River
+2014,NOVEMBER,Giraffage,No Reason,Electronic,70,Chocolate
+2014,NOVEMBER,iamamiwhoami,Blue,Electronic,60,
+2014,NOVEMBER,Jon Hopkins,Asleep Versions EP,Electronic,60,Breathe This Air (Asleep version)
+2014,NOVEMBER,Mark McGuire,Noctilucence EP,Ambient,70,Noctilucence
+2014,NOVEMBER,Mitski,Bury Me At Makeout Creek,Indie Pop,80,First Love / Late Spring
+2014,NOVEMBER,Parkay Quarts,Content Nausea,Indie Rock,60,Uncast Shadow of a Southern Myth
+2014,NOVEMBER,Pink Floyd,The Endless River,Rock,80,Louder Than Words
+2014,NOVEMBER,Royksopp,The Inevitable End,Electronic,70,Sordid Affair
+2014,NOVEMBER,Ryan Hemsworth,Alone For the First Time,Electronic,80,Snow in Newark
+2014,NOVEMBER,Les Sins,Michael,Electronic,60,Why ft. Nate Salman
+2014,NOVEMBER,TV On The Radio,Seeds,Indie Rock,50,
+2014,NOVEMBER,Various Artists (Hyperdub Record Label),Hyperdub 10.4,Electronic,30,
+2014,DECEMBER,Charli XCX,Sucker,Electro Pop,70,Boom Clap
+2014,DECEMBER,D'Angelo and the Vanguard,Black Messiah,Soul,90,Ain't That Easy
+2014,DECEMBER,Ghostface Killah,36 Seasons,Rap,60,Love Don't Live Here No More (feat. Kandace Springs)
+2014,DECEMBER,Nao,So Good EP,R&B,60,So Good (Nao vs. A.K. Paul)
+2014,DECEMBER,Vulfpeck,Fugue State EP,Funk,,
+2014,DECEMBER,Wu-Tang Clan,A Better Tomorrow,Rap,50,Miracle
+2015,JANUARY,Aphex Twin,Computer Controlled Acoustic Instruments Pt2 EP,Electronic,30,
+2015,JANUARY,Belle and Sebastian,Girls in Peacetime Want to Dance,Indie Pop,60,
+2015,JANUARY,Bjork,Vulnicura,Art Pop,90,Stonemilker
+2015,JANUARY,California X,Nights in the Dark,Indie Rock,70,Nights In The Dark
+2015,JANUARY,Dawn Richard,Blackheart,R&B,80,Phoenix (feat. Aundrea Fimbres)
+2015,JANUARY,Death Grips,Fashion Week,Electronic,50,Runway T
+2015,JANUARY,Jessica Pratt,On Your Own Love Again,Indie Folk,60,"Back, Baby"
+2015,JANUARY,Lights & Motion,Chronicle,Post Rock,70,Antlers
+2015,JANUARY,Mikky Ekko,Time,Indie Pop,70,Love You Crazy
+2015,JANUARY,Natalie Prass,Natalie Prass,Indie Folk,90,My Baby Don't Understand Me
+2015,JANUARY,Panda Bear,Panda Bear Meets the Grim Reaper,Psychedelic Pop,80,Lonely Wanderer
+2015,JANUARY,Sleater-Kinney,No Cities to Love,Indie Rock,80,No Cities to Love
+2015,JANUARY,Viet Cong,Viet Cong,Indie Rock,60,Continental Shelf
+2015,JANUARY,Young Ejecta,The Planet EP,Synthpop,70,Welcome to Love
+2015,FEBRUARY,The Amazing,Picture You,Indie Rock,80,Picture You
+2015,FEBRUARY,Anthony Naples,Body Pill,Electronic,60,
+2015,FEBRUARY,BADBADNOTGOOD & Ghostface Killah,Sour Soul,Rap,50,
+2015,FEBRUARY,Dan Deacon,Glass Riffer,Electronic,80,Meme Generator
+2015,FEBRUARY,The Districts,A Flourish and a Spoil,Indie Rock,70,Peaches
+2015,FEBRUARY,Drake,If You're Reading This It's Too Late,Rap,80,Wednesday Night Interlude (feat. PARTYNEXTDOOR)
+2015,FEBRUARY,Dutch Uncles,O Shudder,Indie Pop,70,Babymaking
+2015,FEBRUARY,Emile Haynie,We Fall,Indie Pop,70,Fool Me Too feat. Nate Ruess
+2015,FEBRUARY,Father John Misty,"I Love You, Honeybear",Indie Rock,90,Chateau Lobby 4 (in C for Two Virgins)
+2015,FEBRUARY,Hello Blue Roses,WZO,Indie Folk,50,
+2015,FEBRUARY,Hundred Waters,The Moon Rang Like a Bell (Remixed),Synthpop,80,Show Me Love (Nicole Miglis Acoustic)
+2015,FEBRUARY,Jack U,Skrillex and Diplo present Jack U,Electronic,60,
+2015,FEBRUARY,Jefre Cantu-Ledesma,A Year With 13 Moons,Ambient,40,
+2015,FEBRUARY,Jose Gonzalez,Vestiges & Claws,Indie Folk,50,
+2015,FEBRUARY,Little Comets,Hope Is Just a State of Mind,Indie Rock,70,My Boy William
+2015,FEBRUARY,Marika Hackman,We Slept At Last,Indie Folk,40,
+2015,FEBRUARY,Mount Eerie,Sauna,Lo-Fi,60,
+2015,FEBRUARY,Rone,Creatures,Electronic,60,
+2015,FEBRUARY,Sir Richard Bishop,Tangier Sessions,Instrumental,60,
+2015,FEBRUARY,Susanne Sundfor,Ten Love Songs,Synthpop,80,Kamikaze
+2015,MARCH,Mu-Ziq,XTLP,Electronic,80,XT
+2015,MARCH,Courtney Barnett,"Sometimes I Sit and Think, and Sometimes I Just Sit",Indie Rock,70,Depreston
+2015,MARCH,Death Cab For Cutie,Kintsugi,Indie Rock,70,No Room in Frame
+2015,MARCH,Death Grips,Jenny Death,Rap,40,
+2015,MARCH,Earl Sweatshirt,"I Don't Like Shit, I Don't Go Outside",Rap,60,Grief
+2015,MARCH,Godspeed You! Black Emperor,"Asunder, Sweet and Other Distress",Post Rock,80,Piss Crowns Are Trebled
+2015,MARCH,Jlin,Dark Energy,Electronic,30,
+2015,MARCH,Kendrick Lamar,To Pimp a Butterfly,Rap,90,King Kunta
+2015,MARCH,Levon Vincent,Levon Vincent,Electronic,60,Launch Ramp to tha Sky
+2015,MARCH,Lady Lamb the Beekeper,After,Indie Rock,80,Violet Clementine
+2015,MARCH,Laura Marling,Short Movie,Indie Folk,70,Gurdjieff's Daughter
+2015,MARCH,Lightning Bolt,Fantasy Empire,Noise Rock,30,
+2015,MARCH,Lower Dens,Escape From Evil,Indie Rock,80,To Die in L.A.
+2015,MARCH,Madeon,Adventure,Electronic,70,You're On (feat. Kyan)
+2015,MARCH,Matthew E. White,Fresh Blood,Indie Rock,70,Take Care My Baby
+2015,MARCH,Modest Mouse,Stranger to Ourselves,Indie Rock,70,Coyotes
+2015,MARCH,Nightwish,Endless Forms Most Beautiful,Symphonic Metal,60,Elan
+2015,MARCH,Noel Gallagher's High Flying Birds,Chasing Yesterday,Indie Rock,60,Lock All the Doors
+2015,MARCH,Of Montreal,Aureate Gloom,Indie Rock,60,Bassem Sabry
+2015,MARCH,Purity Ring,Another Eternity,Synthpop,70,Push Pull
+2015,MARCH,Sannhet,Revisionist,Metal,60,
+2015,MARCH,Sufjan Stevens,Carrie & Lowell,Indie Folk,100,No Shade In the Shadow of the Cross
+2015,MARCH,Tinashe,Amethyst,R&B,70,Dreams Are Real
+2015,MARCH,Tobias Jesso Jr.,Goon,Indie Pop,80,Without You
+2015,MARCH,Twin Shadow,Eclipse,Indie Rock,60,To the Top
+2015,MARCH,Will Butler,Policy,Indie Rock,70,Anna
+2015,APRIL,Alabama Shakes,Sound & Color,Indie Rock,70,Gimme All Your Love
+2015,APRIL,Allie X,COLLXTION I,Electro Pop,80,Prime
+2015,APRIL,Bill Fay,Who Is The Sender,Folk,70,War Machine
+2015,APRIL,Blur,The Magic Whip,Indie Rock,70,Ong Ong
+2015,APRIL,Braids,Deep In the Iris,Art Rock,80,Taste
+2015,APRIL,Built to Spill,Untethered Moon,Indie Rock,80,Living Zoo
+2015,APRIL,Calexico,Edge of the Sun,Indie Folk,70,Beneath The City Of Dreams
+2015,APRIL,Colin Stetson & Sarah Neufeld,Never Were the Way She Was,Instrumental,60,The Sun Roars Into View
+2015,APRIL,Doldrums,The Air Conditioned Nightmare,Electronic,50,
+2015,APRIL,East India Youth,Culture of Volume,Electronic,40,
+2015,APRIL,GABI,Sympathy,Indie Pop,70,Fleece
+2015,APRIL,MG,MG,Electronic,50,Europa Hymn
+2015,APRIL,Mew,+ -,Electro Pop,80,The Night Believer
+2015,APRIL,The Mountain Goats,Beat the Champ,Indie Rock,60,Heel Turn 2
+2015,APRIL,Oneohtrix Point Replica,Commissions II EP,Electronic,30,
+2015,APRIL,Passion Pit,Kindred,Electro Pop,70,Lifted Up (1985)
+2015,APRIL,Speedy Ortiz,Foil Deer,Indie Rock,50,
+2015,APRIL,Squarepusher,Damogen Furies,Electronic,70,Stor Eiglass
+2015,APRIL,Toro Y Moi,What For?,Electronic,50,
+2015,APRIL,Tyler the Creator,Cherry Bomb,Rap,50,
+2015,APRIL,Waxahatchee,Ivy Tripp,Indie Rock,70,Air
+2015,APRIL,Westkust,Last Forever,Shoegaze,80,Swirl
+2015,APRIL,Wire,Wire,Rock,50,
+2015,APRIL,Young Thug,Barter 6,Rap,70,Never Had It (feat. Young Dolph)
+2015,MAY,A$AP Rocky,At.Long.Last.A$AP,Rap,70,L$D
+2015,MAY,Ben Khan,1000 EP,Synthpop,50,
+2015,MAY,Best Coast,California Nights,Indie Rock,60,
+2015,MAY,Blanck Mass,Dumb Flesh,Electronic,70,Loam
+2015,MAY,Brandon Flowers,The Desired Effect,Indie Pop,60,Lonely Town
+2015,MAY,Christopher Owens,Chrissybaby Forever,Indie Folk,60,
+2015,MAY,Django Django,Born Under Saturn,Indie Rock,50,
+2015,MAY,Donnie Trumpet & The Social Experiment,Surf,Rap,70,Sunday Candy
+2015,MAY,Faith No More,Sol Invictus,Rock,50,
+2015,MAY,Holly Herndon,Platform,Electronic,90,An Exit
+2015,MAY,Hop Along,Painted Shut,Indie Folk,60,
+2015,MAY,Hot Chip,Why Make Sense?,Electronic,70,Need You Now
+2015,MAY,Jim O'Rourke,Simple Songs,Indie Rock,90,Hotel Blue
+2015,MAY,Kamasi Washington,The Epic,Jazz,80,Henrietta Our Hero
+2015,MAY,Leafcutter John,Resurrection,Electronic,40,
+2015,MAY,Metz,Metz II,Garage Rock,30,
+2015,MAY,Mikal Cronin,MCIII,Indie Rock,60,Made My Mind Up
+2015,MAY,Mumford & Sons,Wilder Mind,Indie Folk,60,
+2015,MAY,My Morning Jacket,The Waterfall,Indie Rock,70,Big Decisions
+2015,MAY,Nao,February 15 EP,R&B,80,Inhale Exhale
+2015,MAY,Nosaj Thing,Fated,Electronic,60,Don't Mind Me (Feat. Whoarei)
+2015,MAY,Nicolas Jaar,Nymphs II EP,Electronic,80,The three sides of Audrey and why she's all alone now
+2015,MAY,Other Lives,Rituals,Indie Folk,50,
+2015,MAY,PC Music,PC Music Volume 1,Electronic,80,Beautiful
+2015,MAY,Prurient,Frozer Niagara Falls,Noise,90,Dragonflies To Sew You Up
+2015,MAY,Shamir,Ratchet,R&B,70,On The Regular
+2015,MAY,The Tallest Man On Earth,Dark Bird Is Home,Indie Folk,80,Darkness of the Dream
+2015,MAY,Torres,Sprinter,Indie Rock,90,Strange Hellos
+2015,MAY,Unknown Mortal Orchestra,Multi-Love,Indie Rock,80,Multi-Love
+2015,JUNE,Dam-Funk,STFU EP,Funk,70,Free
+2015,JUNE,Daughn Gibson,Carnation,Indie Rock,60,Bled to Death
+2015,JUNE,Everything Everything,Get to Heaven,Indie Rock,70,Get To Heaven
+2015,JUNE,Florence + The Machine,"How Big, How Blue, How Beautiful",Pop,70,Ship To Wreck
+2015,JUNE,Giorgio Moroder,Deja Vu,Electronic,80,Deja Vu (feat. Sia)
+2015,JUNE,Hudson Mohawke,Lantern,Electronic,70,Ryderz
+2015,JUNE,Jamie xx,In Colour,Electronic,90,Loud Places [ft. Romy]
+2015,JUNE,Jenny Hval,"Apocalypse, Girl",Art Pop,70,That Battle is Over
+2015,JUNE,Kacey Musgraves,Pageant Material,Country,70,Biscuits
+2015,JUNE,Major Lazer,Peace Is The Mission,Electronic,60,Lean On (feat. MO & DJ Snake)
+2015,JUNE,Miguel,Wildheart,R&B,70,Coffee
+2015,JUNE,Muse,Drones,Rock,60,Revolt
+2015,JUNE,Nicolas Jaar,Nymphs III EP,Electronic,80,Swim
+2015,JUNE,Nicolas Jaar,Pomegranates,Electronic,70,Shame
+2015,JUNE,Refused,Freedom,Punk,60,War On The Palaces
+2015,JUNE,Sharon Van Etten,I Don't Want to Let You Down EP,Indie Folk,80,I Don't Want to Let You Down
+2015,JUNE,Son Lux,Bones,Indie Rock,70,Your Day Will Come
+2015,JUNE,Sun Kil Moon,Universal Themes,Indie Folk,90,Garden of Lavender
+2015,JUNE,Thundercat,The Beyond / Where the Giants Roam EP,R&B,60,Them Changes
+2015,JUNE,Vattnet Viskar,Settler,Metal,80,Coldwar
+2015,JUNE,Vince Staples,Summertime '06,Rap,70,Senorita
+2015,JUNE,Wavves X Cloud Nothings,No Life For Me,Indie Rock,70,How It's Gonna Go
+2015,JULY,The Chemical Brothers,Born In the Echoes,Electronic,70,Go feat. Q-Tip
+2015,JULY,Ducktails,St. Catherine,Indie Rock,60,
+2015,JULY,Four Tet,Morning/Evening,Electronic,60,
+2015,JULY,Future,DS2,Rap,60,
+2015,JULY,Gwenno,Y Dydd Olaf,Indie Pop,70,Stwff
+2015,JULY,Julio Bashmore,Knockin' Boots,Electronic,70,Let Me Be Your Weakness (feat. BIXBY)
+2015,JULY,M.E.S.H.,Piteous Gate,Electronic,40,
+2015,JULY,The Maccabees,Marks To Prove It,Indie Rock,60,
+2015,JULY,Mas Ysa,Seraph,Synthpop,70,Margarita
+2015,JULY,Ratatat,Magnifique,Electronic,80,Cream on Chrome
+2015,JULY,Shura,White Light EP,Synthpop,70,Indecision
+2015,JULY,Tame Impala,Currents,Indie Rock,90,Eventually
+2015,JULY,Titus Andronicus,The Most Lamentable Tragedy,Indie Rock,90,Mr. E. Mann
+2015,JULY,Twin Shadow,Night Rally Mixtape,Indie Rock,70,
+2015,JULY,Wilco,Star Wars,Indie Rock,80,Taste the Ceiling
+2015,AUGUST,AFX,Orphaned Deejay Selek (2006-2008) EP,Electronic,40,
+2015,AUGUST,Beach House,Depression Cherry,Dream Pop,90,Wildflower
+2015,AUGUST,Chelsea Wolfe,Abyss,Neofolk,60,
+2015,AUGUST,Deradoorian,The Expanding Flower Planet,Indie Rock,60,
+2015,AUGUST,Destroyer ,Poison Season,Indie Rock,90,Times Square
+2015,AUGUST,Dr. Dre,Compton,Rap,80,"Deep Water (feat. Kendrick Lamar, Justus & Anderson .Paak)"
+2015,AUGUST,Elysia Crampton,American Drift,Electronic,70,Wing
+2015,AUGUST,FKA Twigs,M3LL155X EP,R&B,80,In Time
+2015,AUGUST,Foals,What Went Down,Indie Rock,70,Mountain At My Gates
+2015,AUGUST,The Fratellis,"Eyes Wide, Tongue Tied",Indie Rock,60,Impostors (Little By Little)
+2015,AUGUST,HEALTH,DEATH MAGIC,Noise Rock,80,Life
+2015,AUGUST,Lil B and Chance the Rapper,Free,Rap,70,Do My Dance
+2015,AUGUST,Mac DeMarco,Another One,Indie Rock,60,
+2015,AUGUST,Panda Bear,Crosswords EP,Psychedelic Pop,60,Crosswords - EP Mix
+2015,AUGUST,The Weeknd,Beauty Behind the Madness,R&B,80,Can't Feel My Face
+2015,SEPTEMBER,Angel Haze,Back to the Woods,Rap,70,Bruises
+2015,SEPTEMBER,Baio,The Names,Electronic,80,Brainwash yyrr Face
+2015,SEPTEMBER,Battles,La Di Da Di,Electronic,80,The Yabba
+2015,SEPTEMBER,Beirut,No No No,Indie Folk,60,No No No
+2015,SEPTEMBER,Big Grams,Big Grams EP,Electro Pop,70,Fell In the Sun
+2015,SEPTEMBER,CHVRCHES,Every Open Eye,Electro Pop,80,Leave A Trace
+2015,SEPTEMBER,Dam-Funk,Invite the Light,Funk,70,The Acceptance
+2015,SEPTEMBER,The Dead Weather,Dodge and Burn,Indie Rock,60,
+2015,SEPTEMBER,Disclosure,Caracal,Electronic,60,Jaded
+2015,SEPTEMBER,DJ Richard,Grind,Electronic,50,Vampire Dub
+2015,SEPTEMBER,Doe Paoro,After,Indie Pop,70,Nostalgia
+2015,SEPTEMBER,Drake & Future,What A Time to Be Alive,Rap,60,Diamonds Dancing
+2015,SEPTEMBER,Empress Of,Me,Indie Pop,70,Standard
+2015,SEPTEMBER,Fetty Wap,Fetty Wap,Rap,80,Trap Queen
+2015,SEPTEMBER,Jay Rock,90059,Rap,60,Money Trees Deuce (feat. Lance Skiiiwalker)
+2015,SEPTEMBER,Julia Holter,Have You In My Wilderness,Art Pop,80,Feel You
+2015,SEPTEMBER,Kurt Vile,b'lieve i'm goin down...,Indie Rock,90,Pretty Pimpin
+2015,SEPTEMBER,Lana del Rey,Honeymoon,Indie Pop,80,Music To Watch Boys To
+2015,SEPTEMBER,Laurel Halo,In Situ EP,Electronic,30,
+2015,SEPTEMBER,The Libertines,Anthems For Doomed Youth,Indie Rock,70,Gunga Din
+2015,SEPTEMBER,Max Richter,From Sleep,Ambient,70,Dream 13 (minus even)
+2015,SEPTEMBER,Natasha Kmeto,Inevitable,Electronic,80,Inevitable
+2015,SEPTEMBER,New Order,Music Complete,Indie Rock,70,Academic
+2015,SEPTEMBER,Ought,Sun Coming Down,Indie Rock,70,Beautiful Blue Sky
+2015,SEPTEMBER,Petite Noir,La Vie Est Belle / Life Is Beautiful,R&B,80,Seventeen (Stay)
+2015,SEPTEMBER,Ryan Adams,1989,Indie Rock,70,Bad Blood
+2015,SEPTEMBER,Sean Nicholas Savage,Other Death,Indie Pop,70,Propaganda
+2015,SEPTEMBER,Sexwitch,Sexwitch,Indie Folk,40,
+2015,SEPTEMBER,Silversun Pickups,Better Nature,Indie Rock,60,
+2015,SEPTEMBER,Skylar Spence,Prom King,Electronic,80,Prom King
+2015,SEPTEMBER,Steve Hauschildt,Where All Is Fled,Electronic,70,Where All Is Fled
+2015,SEPTEMBER,The World Is A Beautiful Place & I Am No Longer Afraid To Die,Harmlessness,Indie Rock,80,You Can't Live There Forever
+2015,SEPTEMBER,Youth Lagoon,Savage Hills Ballroom,Dream Pop,70,Rotten Human
+2015,OCTOBER,!!!,As If,Indie Rock,50,
+2015,OCTOBER,Autre Ne Veut,Age of Transparecy,Electro Pop,80,Get Out
+2015,OCTOBER,Beach House,Thank Your Lucky Stars,Dream Pop,80,One Thing
+2015,OCTOBER,Car Seat Headrest,Teens of Style,Indie Rock,80,Strangers
+2015,OCTOBER,Chad Valley,Entirely New Blue,Synthpop,80,True
+2015,OCTOBER,D.R.A.M.,Gahdamn! EP,Rap,60,$ (feat. Donnie Trumpet) [Explicit]
+2015,OCTOBER,Deafheaven,New Bermuda,Metal,90,Brought to the Water
+2015,OCTOBER,Deerhunter,Fading Frontier,Indie Rock,80,Breaker
+2015,OCTOBER,Editors,In Dream,Indie Rock,60,
+2015,OCTOBER,EL VY,Return to the Moon,Indie Rock,70,Paul Is Alive
+2015,OCTOBER,Gun Outfit,Dream All Over,Indie Rock,60,
+2015,OCTOBER,Janet Jackson,Unbreakable,R&B,80,No Sleeep
+2015,OCTOBER,Joanna Newsom,Divers,Indie Folk,90,Sapokanikan
+2015,OCTOBER,Kelela,Hallucinogen EP,R&B,70,Rewind
+2015,OCTOBER,Majical Cloudz,Are You Alone?,Chamber Pop,80,Downtown
+2015,OCTOBER,Martin Courtney,Many Moons,Indie Rock,60,
+2015,OCTOBER,Neon Indian,VEGA INTL. Night School,Synthpop,70,Slumlord
+2015,OCTOBER,Nicolas Jaar,Nymphs IV EP,Electronic,70,Fight
+2015,OCTOBER,Nicole Dollanganger,Natural Born Losers,Electro Pop,80,Angels of Porn II
+2015,OCTOBER,Vulfpeck,Thrill of the Arts,Funk,,
+2015,OCTOBER,Wavves,V,Indie Rock,50,
+2015,NOVEMBER,Adele,25,Pop,60,When We Were Young
+2015,NOVEMBER,Arca,Mutant,Electronic,70,Vanity
+2015,NOVEMBER,A Sunny Day In Glasgow,Planning Weed Like It's Acid/Life Is Loss EP,Indie Rock,60,I Can't Live Without Your Love
+2015,NOVEMBER,Boots,Aquaria,Electronic,40,
+2015,NOVEMBER,Erykah Badu,But You Caint Use My Phone,R&B,80,Hello
+2015,NOVEMBER,Floatings Points,Elaenia,Electronic,80,"Silhouettes (I, II & III)"
+2015,NOVEMBER,Foo Fighters,Saint Cecilia EP,Rock,60,Saint Cecilia
+2015,NOVEMBER,Frankie Cosmos,Fit Me In EP,Indie Pop,60,Young
+2015,NOVEMBER,Grimes,Art Angels,Electro Pop,80,Realiti
+2015,NOVEMBER,I Love Makonnen,I Love Makonnen 2 EP,Rap,60,Second Chance
+2015,NOVEMBER,James Ferraro,Skid Row,Electronic,80,Trash & Escalate
+2015,NOVEMBER,Jamie Woon,Making Time,Electronic,70,Celebration
+2015,NOVEMBER,Kode9,Nothing,Electronic,40,
+2015,NOVEMBER,Oneohtrix Point Never,Garden of Delete,Electronic,90,I Bite Through It
+2015,NOVEMBER,Sophie,Product,Electronic,70,Bipp
+2015,NOVEMBER,Ty Dolla $ign,Free TC,Rap,70,Saved (feat. E-40)
+2015,DECEMBER,Archy Marshall,A New Place 2 Drown,Rap,40,
+2015,DECEMBER,Baroness,Purple,Metal,70,Chlorine & Wine
+2015,DECEMBER,Coldplay,A Head Full of Dreams,Pop,60,Hymn For The Weekend
+2015,DECEMBER,JennyLee,Right On!,Indie Rock,60,Never
+2015,DECEMBER,Jeremih,Late Nights,R&B,70,Oui
+2015,DECEMBER,Pusha T,King Push - Darkest Before Dawn: The Prelude,Rap,70,"M.P.A. (feat. Kanye West, A$AP Rocky & The-Dream)"
+2016,JANUARY,Anderson .Paak,Malibu,Rap,70,The Season | Carry Me
+2016,JANUARY,Bloc Party,Hymns,Indie Rock,60,Into The Earth
+2016,JANUARY,Chairlift,Moth,Electro Pop,80,Polymorphing
+2016,JANUARY,Daughter,Not To Disappear,Indie Folk,80,How
+2016,JANUARY,David Bowie,Blackstar,Rock,80,Blackstar
+2016,JANUARY,Eleanor Friedberger,New View,Indie Pop,80,He Didn't Mention His Mother
+2016,JANUARY,Federico Albanese,The Blue Hour,Ambient,80,Migrants
+2016,JANUARY,Jesu & Sun Kil Moon,Jesu / Sun Kil Moon,Indie Folk,80,Exodus
+2016,JANUARY,Kevin Gates,Islah,Rap,80,Hard For
+2016,JANUARY,Majical Cloudz,Wait & See EP,Chamber Pop,70,Wait & See
+2016,JANUARY,Rihanna,ANTI,Pop,80,Kiss It Better
+2016,JANUARY,Savages,Adore Life,Indie Rock,70,Adore
+2016,JANUARY,Shearwater,Jet Plane and Oxbow,Indie Rock,70,Only Child
+2016,JANUARY,Sia,This Is Acting,Pop,70,Reaper
+2016,JANUARY,Suede,Final Thoughts,Indie Rock,80,Outsiders
+2016,JANUARY,Tindersticks,The Waiting Room,Indie Folk,80,Second Chance Man
+2016,JANUARY,Tortoise,The Catastrophist,Post Rock,60,
+2016,JANUARY,Ty Segall,Emotional Mugger,Indie Rock,40,
+2016,FEBRUARY,The 1975,"I Like It When You Sleep, For You Are So Beautiful Yet So Unaware of It",Indie Rock,90,Somebody Else
+2016,FEBRUARY,Animal Collective,Painting With,Psychedelic Pop,60,
+2016,FEBRUARY,CFCF,On Vacation,Electronic,70,Arto
+2016,FEBRUARY,Charli XCX,Vroom Vroom EP,Electro Pop,60,
+2016,FEBRUARY,DIIV,Is the Is Are,Indie Rock,60,Bent (Roi's Song)
+2016,FEBRUARY,Field Music,Commontime,Indie Rock,50,
+2016,FEBRUARY,Future,EVOL,Rap,50,
+2016,FEBRUARY,Kanye West,The Life of Pablo,Rap,90,Real Friends
+2016,FEBRUARY,LNZNDRF,LNZNDRF,Indie Rock,50,
+2016,FEBRUARY,Lucinda Williams,The Ghosts of Highway 20,Country,80,Place in My Heart
+2016,FEBRUARY,Mothers,When You Walk a Long Distance You Are Tired,Indie Folk,70,It Hurts Until It Doesn't
+2016,FEBRUARY,Mount Moriah,How To Dance,Country,60,How To Dance
+2016,FEBRUARY,Pinegrove,Cardinal,Indie Rock,80,Old Friends
+2016,FEBRUARY,Porches,Pool,Electro Pop,80,Be Apart
+2016,FEBRUARY,Sarah Neufeld,The Ridge,Instrumental,70,Where The Light Comes In
+2016,FEBRUARY,School of Seven Bells,SVIIB,Dream Pop,60,Open Your Eyes
+2016,FEBRUARY,Seth Bogart,Seth Bogart,Synthpop,60,Plastic!
+2016,FEBRUARY,Wild Nothing,Life of Pause,Dream Pop,70,Life of Pause
+2016,FEBRUARY,Yuck,Stranger Things,Indie Rock,70,As I Walk Away
+2016,MARCH,Anenon,Petrol,Electronic,70,Machines
+2016,MARCH,Anna Meredith,Varmints,Electronic,80,Something Helpful
+2016,MARCH,Azealia Banks,SLAY-Z,Rap,70,Queen of Clubs
+2016,MARCH,Cullen Omory,New Misery,Indie Rock,60,Cinnamon
+2016,MARCH,Esperanza Spalding,Emily's D+Evolution,R&B,80,Rest in Pleasure
+2016,MARCH,Gun Outfit,Two Way Player EP,Indie Rock,70,Expansion Pact
+2016,MARCH,Iggy Pop,Post Pop Depression,Rock,70,Sunday
+2016,MARCH,Into It. Over It.,Standards,Indie Rock,70,Old Lace & Ivory
+2016,MARCH,Ital Tek,Hollowed,Electronic,60,Murmur
+2016,MARCH,Kamaiyah,A Good Night in the Ghetto,Rap,60,How Does It Feel
+2016,MARCH,Kendrick Lamar,untitled unmastered.,Rap,80,untitled 08 | 09.06.2014.
+2016,MARCH,La Sera,Music for Listening to Music to,Indie Pop,50,
+2016,MARCH,Lust For Youth,Compassion,Synthpop,60,In Return
+2016,MARCH,M. Ward,More Rain,Indie Folk,60,Slow Driving Man
+2016,MARCH,Polica,United Crushers,Indie Rock,80,Summer Please
+2016,MARCH,Primal Scream,Chaosmosis,Indie Rock,70,Where the Light Gets In
+2016,MARCH,The Range,Potential,Electronic,80,Florida
+2016,MARCH,SBTRKT,Save Yourself,Electronic,60,Gemini
+2016,MARCH,Sheer Mag,III EP,Punk,70,Can't Stop Fighting
+2016,MARCH,Underworld,"Barbara Barbara, We Face a Shining Future",Electronic,70,Low Burn
+2016,MARCH,Vijay Iyer & Wadada Leo Smith,A Cosmic Rhythm With Each Stroke,Jazz,40,Passage
+2016,APRIL,Andrew Bird,Are You Serious,Indie Folk,80,Left Handed Kisses
+2016,APRIL,Andy Stott,Too Many Voices,Electronic,60,
+2016,APRIL,A$AP Ferg,Always Strive and Prosper,Rap,20,
+2016,APRIL,Beyonce,Lemonade,R&B,90,All Night
+2016,APRIL,Black Mountain,IV,Rock,70,Line Them All Up
+2016,APRIL,Brian Eno,The Ship,Ambient,80,Fickle Sun (II) The Hour Is Thin
+2016,APRIL,Colin Stetson,Sorrow: A Reimagining Of Gorecki's 3rd Symphony,Classical,80,Sorrow I
+2016,APRIL,Deakin,Sleep Cycle,Psychedelic Pop,60,Just Am
+2016,APRIL,Deftones,Gore,Rock,70,Prayers/Triangles
+2016,APRIL,Drake,Views,Rap,80,Feel No Ways
+2016,APRIL,dvsn,Sept. 5th,R&B,90,The Line
+2016,APRIL,Explosions In the Sky,The Wilderness,Post Rock,80,Disintegration Anxiety
+2016,APRIL,The Field,The Follower,Electronic,70,Soft Streams
+2016,APRIL,Frankie Cosmos,Next Thing,Indie Pop,70,Floated In
+2016,APRIL,Frightened Rabbit,Painting of a Panic Attack,Indie Rock,60,
+2016,APRIL,Gallant,Ology,R&B,70,Bone + Tissue
+2016,APRIL,Kevin Morby,Singing Saw,Indie Rock,70,I Have Been to the Mountain
+2016,APRIL,The Last Shadow Puppets,Everything You've Come To Expect,Indie Rock,60,Miracle Aligner
+2016,APRIL,Leon Vynehall,Rojus,Electronic,80,Blush
+2016,APRIL,M83,Junk,Synthpop,70,Atlantique Sud
+2016,APRIL,Moderat,III,Electronic,70,Eating Hooks
+2016,APRIL,Mogwai,Atomic,Post Rock,70,Are You a Dancer?
+2016,APRIL,Niki and the Dove,Everybody's Heart Is Broken Now,Electro Pop,80,So Much It Hurts
+2016,APRIL,Parquet Courts,Human Performance,Indie Rock,50,
+2016,APRIL,PJ Harvey,The Hope Six Demolition Project,Indie Rock,70,The Community Of Hope
+2016,APRIL,Sturgill Simpson,A Sailor's Guide to Earth,Country,80,Welcome to Earth (Pollywog)
+2016,APRIL,Tim Hecker,Love Streams,Ambient,80,Castrati Stack
+2016,APRIL,Travis,Everything at Once,Indie Rock,70,Idlewild (feat. Josephine Oniyama)
+2016,APRIL,Weezer,The White Album,Indie Rock,70,L.A. Girlz
+2016,APRIL,Woods,City Sun Eater in the River of Light,Folk Rock,70,Sun City Creeps
+2016,MAY,ANOHNI,HOPELESSNESS,Art Pop,90,Hopelessness
+2016,MAY,Big Thief,Masterpiece,Indie Rock,80,Paul
+2016,MAY,Braids,Companion EP,Art Rock,60,Companion
+2016,MAY,Car Seat Headrest,Teens of Denial,Indie Rock,80,Drunk Drivers / Killer Whales
+2016,MAY,Chance the Rapper,Coloring Book,Rap,90,"Finish Line / Drown (feat. T-Pain, Kirk Franklin, Eryn Allen Kane, Noname)"
+2016,MAY,Death Grips,Bottomless Pit,Rap,30,
+2016,MAY,Digitalism,Mirage,Electronic,70,Utopia
+2016,MAY,Flume,Skin,Electronic,70,Lose It (feat. Vic Mensa)
+2016,MAY,The Hotelier,Goodness,Punk Rock,80,You in This Light
+2016,MAY,James Blake,The Colour in Anything,Electronic,80,I Need A Forest Fire (feat. Bon Iver)
+2016,MAY,Jessy Lanza,Oh No,Electronic,80,It Means I Love You
+2016,MAY,Julianna Barwick,Will,Ambient,70,See Know
+2016,MAY,Kaytranada,99.9%,Electronic,70,Track Uno
+2016,MAY,Kristin Kontrol,X-Communicate,Indie Pop,50,X-Communicate
+2016,MAY,Lone,Levitate,Electronic,50,
+2016,MAY,LUH,Spiritual Songs for Lovers to Sing,Indie Rock,80,Lament
+2016,MAY,Mark Kozelek,Mark Kozelek Sings Favorites,Indie Folk,70,Float On
+2016,MAY,Mark Pritchard,Under the Sun,Electronic,70,Beautiful People (feat. Thom Yorke)
+2016,MAY,Marissa Nadler,Strangers,Indie Folk,60,
+2016,MAY,Mutual Benefit,Skip a Sinking Stone,Indie Folk,60,
+2016,MAY,Pantha du Prince,The Triad,Electronic,70,Wallflower for Pale Saints
+2016,MAY,Radiohead,A Moon Shaped Pool,Indie Rock,90,Identikit
+2016,MAY,White Lung,Paradise,Punk Rock,80,Below
+2016,JUNE,Band of Horses,Why Are You OK,Indie Rock,60,In A Drawer
+2016,JUNE,case/lang/veirs,case/lang/veirs,Indie Folk,80,Atomic Number
+2016,JUNE,Classixx,Faraway Reach,Electronic,60,Just Let Go (feat. How to Dress Well)
+2016,JUNE,Delorean,Muzik,Electro Pop,70,Limbo
+2016,JUNE,Desiigner,New English,Rap,40,Panda
+2016,JUNE,DJ Shadow,The Mountain Will Fall,Electronic,70,Ashes to Oceans
+2016,JUNE,G.L.O.S.S.,Trans Day of Revenge EP,Punk,60,
+2016,JUNE,Huerco S.,For Those Of You Who Have Never (And Also Those Who Have),Ambient,80,Promises Of Fertility
+2016,JUNE,If These Trees Could Talk,The Bones of a Dying World,Post Rock,70,The Here and Hereafter
+2016,JUNE,James Ferraro,Human Story 3,Electronic,70,Market Collapse
+2016,JUNE,Joey Purp,iiiDrops,Rap,80,GIRLS @ (feat. Chance the Rapper)
+2016,JUNE,Minor Victories,Minor Victories,Indie Rock,80,Scattered Ashes (Song for Richard)
+2016,JUNE,Mitski,Puberty 2,Indie Pop,80,Your Best American Girl / I Bet on Losing Dogs
+2016,JUNE,Red Hot Chili Peppers,The Getaway,Rock,80,Sick Love
+2016,JUNE,The Strokes,Future Present Past EP,Indie Rock,70,Oblivius
+2016,JUNE,Swans,The Glowing Man,Indie Rock,70,When Will I Return?
+2016,JUNE,Tegan and Sara,Love You to Death,Indie Pop,80,Boyfriend
+2016,JUNE,Whitney,Light Upon the Lake,Indie Rock,80,Dave's Song
+2016,JULY,The Amazing,Ambulance,Indie Rock,80,Ambulance
+2016,JULY,Aphex Twin,Cheetah EP,Electronic,70,CHEETAHT7b
+2016,JULY,AraabMuzik,Dream World,Electronic,60,Chasing Pirates (feat. Raiche)
+2016,JULY,Arca,Entranas EP,Electronic,60,
+2016,JULY,The Avalanches,Wildflower,Electronic,90,If I Was A Folkstar (feat. Toro y Moi)
+2016,JULY,BADBADNOTGOOD,IV,Jazz,60,
+2016,JULY,Bat For Lashes,The Bride,Indie Pop,50,Sunday Love
+2016,JULY,Blood Orange,Freetown Sound,R&B,90,Hadron Collider
+2016,JULY,Clams Casino,32 Levels,Electronic,70,A Breath Away (Feat. Kelela)
+2016,JULY,Elysia Crampton,Elysia Crampton Presents: Demon City,Electronic,70,Red Eyez
+2016,JULY,Elza Soares,A Mulher do Fim do Mundo,World Music,60,Coracao do Mar / Mulher do Fim do Mundo
+2016,JULY,Floating Points,Kuiper EP,Electronic,60,For Marmish Part II
+2016,JULY,Ian William Craig,Centres,Ambient,70,Contain (Cedar Version)
+2016,JULY,Jamila Woods,HEAVN,R&B,80,VRY BLK ft. Noname (prod. by oddCouple and Kweku Collins)
+2016,JULY,Jay Som,Turn Into,Indie Rock,70,Unlimited Touch
+2016,JULY,Jeremih,Late Nights: Europe,R&B,70,"London Feat. Stefflon Don, Krept & Konan"
+2016,JULY,Maxwell,blackSUMMERS'night,R&B,80,Gods
+2016,JULY,Michael Kiwanuka,Love & Hate,Soul,80,Cold Little Heart
+2016,JULY,Nao,For All We Know,R&B,60,Bad Blood
+2016,JULY,Schoolboy Q,Blank Face,Rap,70,Neva CHange (feat. SZA)
+2016,JULY,Shura,Nothing's Real,Synthpop,80,Touch
+2016,AUGUST,Cass McCombs,Mangy Love,Indie Folk,80,Medusa's Outhouse
+2016,AUGUST,Crystal Castles,AMNESTY (I),Electronic,80,Kept
+2016,AUGUST,Dinosaur Jr.,Give a Glimpse of What Yer Not,Indie Rock,70,Be A Part
+2016,AUGUST,Frank Ocean,Blond,R&B,90,Nights
+2016,AUGUST,Frank Ocean,Endless,R&B,80,Slide On Me
+2016,AUGUST,Jefre Cantu-Ledesma,In Summer EP,Ambient,60,Love's Refrain
+2016,AUGUST,Kyle Dixon & Michael Stein,"Stranger Things, Vol. 1",OST,80,
+2016,AUGUST,Lydia Loveless,Real,Country,80,Longer
+2016,AUGUST,Of Montreal,Innocence Reaches,Indie Rock,50,
+2016,AUGUST,Porches,Water EP,Electro Pop,60,Black Dress
+2016,AUGUST,Russian Circles,Guidance,Post Rock,70,Afrika
+2016,AUGUST,Vince Staples,Prima Donna EP,Rap,50,
+2016,AUGUST,Wild Beasts,Boy King,Indie Rock,60,Dreamliner
+2016,AUGUST,Young Thug,"No, My Name is JEFFERY",Rap,80,Kanye West (feat. Wyclef Jean)
+2016,SEPTEMBER,Alcest,Kodama,Post Metal,80,Eclosion
+2016,SEPTEMBER,AlunaGeorge,I Remember,Electro Pop,70,Full Swing
+2016,SEPTEMBER,Angel Olsen,My Woman,Indie Folk,90,Sister
+2016,SEPTEMBER,Bon Iver,"22, A Million",Indie Folk,90,33 GOD
+2016,SEPTEMBER,Cymbals Eat Guitars,Pretty Years,Indie Rock,80,Dancing Days
+2016,SEPTEMBER,Danny Brown,Atrocity Exhibition,Rap,50,
+2016,SEPTEMBER,Drive-By Truckers,American Band,Indie Rock,80,When The Sun Don't Shine
+2016,SEPTEMBER,Francis and the Lights,"Farewell, Starlite!",Indie Pop,70,Friends (feat. Bon Iver and Kanye West)
+2016,SEPTEMBER,Hamilton Leithauser + Rostam,I Had A Dream That You Were Mine,Indie Rock,80,A 1000 Times
+2016,SEPTEMBER,How to Dress Well,Care,Electro Pop,70,Salt Song
+2016,SEPTEMBER,Isaiah Rashad,The Sun's Tirade,Rap,80,4r Da Squaw
+2016,SEPTEMBER,James Vincent McMorrow,We Move,Indie Folk,70,Last Story
+2016,SEPTEMBER,Jenny Hval,Blood Bitch,Art Pop,80,Conceptual Romance
+2016,SEPTEMBER,Julius Eastman,Femenine,Electronic,,
+2016,SEPTEMBER,Kaitlyn Aurelia Smith / Suzanne Ciani,Sunergy,Electronic,50,
+2016,SEPTEMBER,Kyle Dixon & Michael Stein,"Stranger Things, Vol. 2",OST,70,
+2016,SEPTEMBER,Local Natives,Sunlit Youth,Indie Rock,60,Past Lives
+2016,SEPTEMBER,M.I.A.,A.I.M.,Rap,60,Freedun
+2016,SEPTEMBER,Merchandise,A Corpse Wired For Sound,Indie Rock,60,Right Back To The Start
+2016,SEPTEMBER,Nick Cave and The Bad Seeds,Skeleton Tree,Indie Rock,90,I Need You
+2016,SEPTEMBER,Nicolas Jaar,Nymphs,Electronic,80,The three sides of Audrey and why she's all alone now
+2016,SEPTEMBER,Nicolas Jaar,Sirens,Electronic,70,No
+2016,SEPTEMBER,Okkervil River,Away,Indie Rock,80,Call Yourself Renee
+2016,SEPTEMBER,Pixies,Head Carrier,Rock,70,Tenement Song
+2016,SEPTEMBER,Preoccupations,Preoccupations,Indie Rock,70,Degraded
+2016,SEPTEMBER,serpentwithfeet,blisters EP,R&B,70,blisters
+2016,SEPTEMBER,Solange,A Seat at the Table,R&B,70,Don't Touch My Hair
+2016,SEPTEMBER,Tycho,Epoch,Electronic,60,Glider
+2016,SEPTEMBER,Warpaint,Heads Up,Indie Rock,60,New Song
+2016,SEPTEMBER,Wilco,Schmilco,Indie Rock,60,If I Ever Was a Child
+2016,OCTOBER,American Football,American Football,Indie Rock,80,Give Me the Gun
+2016,OCTOBER,D.R.A.M.,Big Baby D.R.A.M.,Rap,70,Monticello Ave
+2016,OCTOBER,Empire of the Sun,Two Vines,Synthpop,60,There's No Need
+2016,OCTOBER,Jamie Lidell,Building a Beginning,Electro Pop,60,
+2016,OCTOBER,Kings of Leon,WALLS,Rock,80,Around the World
+2016,OCTOBER,Leonard Cohen,You Want It Darker,Folk,80,Treaty
+2016,OCTOBER,Moby & The Void Pacific Choir,These Systems Are Failing,Electronic,40,
+2016,OCTOBER,Mono,Requiem For Hell,Post Rock,70,Requiem For Hell
+2016,OCTOBER,NxWorries,Yes Lawd!,Rap,70,Can't Stop
+2016,OCTOBER,Phantogram,Three,Electro Pop,50,Calling All
+2016,OCTOBER,Powell,Sport,Electronic,30,
+2016,OCTOBER,The Radio Dept.,Running Out of Love,Dream Pop,80,Swedish Guns
+2016,OCTOBER,Ricky Eat Acid,Talk To You Soon,Electronic,70,Call My Name
+2016,OCTOBER,Two Door Cinema Club,Gameshow,Electro Pop,60,
+2016,OCTOBER,Weyes Blood,Front Row Seat to Earth,Indie Folk,80,Do You Need My Love
+2016,NOVEMBER,Burial,Young Death EP,Electronic,60,
+2016,NOVEMBER,Dawn Richard,Redemption,R&B,80,LA (feat. Trombone Shorty)
+2016,NOVEMBER,Hope Sandoval & the Warm Inventions,Until the Hunter,Indie Folk,60,Let Me Get There (feat. Kurt Vile)
+2016,NOVEMBER,Jim James,Eternally Even,Indie Folk,70,We Ain't Getting Any Younger Pt. 1
+2016,NOVEMBER,Justice,Woman,Electronic,70,Fire
+2016,NOVEMBER,Kate Bush,Before the Dawn,Baroque Pop,80,Sunset
+2016,NOVEMBER,Lambchop,FLOTUS,Indie Rock,80,In Care Of 8675309
+2016,NOVEMBER,The Men,Devil Music,Indie Rock,50,Devil Music
+2016,NOVEMBER,Sleigh Bells,Jessica Rabbit,Noise Pop,60,I Can't Stand You Anymore
+2016,NOVEMBER,A Tribe Called Quest,We Got It From Here... Thank You 4 Your Service,Rap,50,
+2016,NOVEMBER,The Weeknd,Starboy,R&B,60,Sidewalks (feat. Kendrick Lamar)
+2016,DECEMBER,Grouper,Paradise Valley EP,Ambient,80,I'm Clean Now
+2016,DECEMBER,Nine Inch Nails,Not the Actual Events EP,Rock,30,
+2016,DECEMBER,Vulfpeck,The Beautiful Game,Funk,,
+2017,JANUARY,Brian Eno,Reflection,Ambient,50,
+2017,JANUARY,CEP,Drawing the Target Around the Arrow,Ambient,30,
+2017,JANUARY,Cloud Nothings,Life Without Sound,Indie Rock,70,Up to the Surface
+2017,JANUARY,The Flaming Lips,Oczy Mlody,Indie Rock,50,The Castle
+2017,JANUARY,Foxygen,Hang,Indie Rock,80,Follow the Leader
+2017,JANUARY,Japandroids,Near to the Wild Heart of Life,Rock,60,
+2017,JANUARY,Julie Byrne,Not Even Happiness,Indie Folk,80,Follow My Voice
+2017,JANUARY,Migos,Culture,Rap,70,Bad and Boujee (feat. Lil Uzi Vert)
+2017,JANUARY,Neil Cicierega,Mouth Moods,Electronic,80,The Starting Line
+2017,JANUARY,Priests,Nothing Feels Natural,Punk,50,Nothing Feels Natural
+2017,JANUARY,Run the Jewels,Run the Jewels 3,Rap,60,2100 (feat. BOOTS)
+2017,JANUARY,William Basinski,A Shadow in Time,Ambient,60,
+2017,JANUARY,The xx,I See You,Indie Pop,90,On Hold
+2017,FEBRUARY,Dirty Projectors,Dirty Projectors,Indie Rock,80,Cool Your Heart
+2017,FEBRUARY,Jens Lekman,Life Will See You Now,Indie Pop,80,What's That Perfume That You Wear?
+2017,FEBRUARY,Jesca Hoop,Memories Are Now,Indie Folk,80,The Lost Sky
+2017,FEBRUARY,Peter Silberman ,Impermanence ,Indie Rock,60,
+2017,FEBRUARY,Power Trip,Nightmare Logic,Metal,60,
+2017,FEBRUARY,Ryan Adams,Prisoner,Indie Rock,90,Anything I Say To You Now
+2017,FEBRUARY,Sampha,Process,R&B,80,(No One Knows Me) Like The Piano
+2017,FEBRUARY,Sun Kil Moon,Common As Light and Love Are Red Valleys of Blood,Indie Folk,60,Bergen to Trondheim
+2017,FEBRUARY,Thundercat,Drunk,R&B,70,Walk On By (feat. Kendrick Lamar)
+2017,FEBRUARY,Vagabon,Infinite Worlds,Indie Rock,80,Cold Apartment
+2017,FEBRUARY,Visible Cloaks,Reassemblage,Electronic,70,Neume (feat. Matt Carlson)
+2017,FEBRUARY,Xiu Xiu,Forget,Art Rock,80,Get Up
+2017,MARCH,Aimee Mann,Mental Illness,Indie Rock,70,Goose Snow Cone
+2017,MARCH,ANOHNI,PARADISE EP,Art Pop,70,In My Dreams
+2017,MARCH,Blanck Mass,World Eater,Electronic,80,Silent Treatment
+2017,MARCH,Charli XCX,Number 1 Angel,Electro Pop,70,ILY2
+2017,MARCH,Drake,More Life,Rap,70,Passionfruit
+2017,MARCH,Jay Som,Everybody Works,Indie Rock,90,Baybee
+2017,MARCH,Kelly Lee Owens,Kelly Lee Owens,Electronic,60,
+2017,MARCH,Laura Marling,Semper Femina,Indie Folk,60,Wild Fire
+2017,MARCH,Lydia Ainsworth,Darling of the Afterglow,Indie Pop,70,The Road
+2017,MARCH,Mount Eerie,A Crow Looked At Me,Lo-Fi,70,Ravens
+2017,MARCH,Passion Pit,Tremendous Sea of Love,Electro Pop,80,The Undertow
+2017,MARCH,Pallbearer,Heartless,Metal,80,A Plea for Understanding
+2017,MARCH,Pharmakon,Contact,Industrial,10,
+2017,MARCH,Real Estate,In Mind,Indie Rock,70,Darling
+2017,MARCH,The Shins,Heartworms,Indie Rock,70,Fantasy Island
+2017,MARCH,Spoon,Hot Thoughts,Indie Rock,70,Tear It Down
+2017,MARCH,Tennis,Yours Conditionally,Indie Pop,80,In The Morning I'll Be Better
+2017,MARCH,Valerie June,The Order of Time,Country,70,Got Soul
+2017,MARCH,Various Artists,Mono No Aware,Electronic,80,Limerence
+2017,MARCH,Yaeji,Yaeji EP,Electronic,50,
+2017,APRIL,Actress,AZD,Electronic,60,
+2017,APRIL,Arca,Arca,Electronic,90,Desafio
+2017,APRIL,Colin Stetson,All This I Do For Glory,Jazz,50,
+2017,APRIL,Father John Misty,Pure Comedy,Indie Rock,70,Total Entertainment Forever
+2017,APRIL,Feist,Pleasure,Indie Pop,70,A Man Is Not His Song
+2017,APRIL,Future Islands,The Far Field,Indie Rock,80,Shadows
+2017,APRIL,Gas,Narkopop,Ambient,70,Narkopop 3
+2017,APRIL,Gorillaz,Humanz,Indie Rock,70,Andromeda (feat. D.R.A.M.)
+2017,APRIL,Kendrick Lamar,DAMN.,Rap,90,LOVE. (FEAT. ZACARI.)
+2017,APRIL,The New Pornographers,Whiteout Conditions,Indie Rock,60,We've Been Here Before
+2017,APRIL,The New Year,Snow,Indie Rock,50,Recent History
+2017,APRIL,Ryuichi Sakamoto,Async,Ambient,70,andata
+2017,APRIL,Timber Timbre,"Sincerely, Future Pollution",Indie Folk,60,
+2017,APRIL,Woods,Love Is Love,Folk Rock,70,Bleeding Blue
+2017,MAY,The Afghan Whigs,In Spades,Indie Rock,70,The Spell
+2017,MAY,Burial,Subtemple EP,Electronic,50,
+2017,MAY,Forest Swords,Compassion,Electronic,80,War It
+2017,MAY,Girlpool,Powerplant,Indie Rock,70,It Gets More Blue
+2017,MAY,Jesu & Sun Kil Moon,30 Seconds to the Decline of Planet Earth,Indie Folk,60,
+2017,MAY,Jlin,Black Origami,Electronic,40,
+2017,MAY,Johnny Jewel,Windswept,Synthpop,70,Saturday
+2017,MAY,Mac DeMarco,This Old Dog,Indie Rock,70,One More Love Song
+2017,MAY,The Mountain Goats,Goths,Indie Rock,80,Andrew Eldritch Is Moving Back To Leeds
+2017,MAY,Paramore,After Laughter,Pop Rock,80,Pool
+2017,MAY,Perfume Genius,No Shape,Indie Pop,80,Sides
+2017,MAY,(Sandy) Alex G,Rocket,Indie Rock,80,Bobby
+2017,MAY,Sam Amidon,The Following Mountain,Folk,50,Gendel in 5
+2017,MAY,Slowdive,Slowdive,Shoegaze,90,Sugar for the Pill
+2017,JUNE,Algiers,The Underside of Power,Indie Rock,60,The Underside of Power
+2017,JUNE,Allie X,COLLXTION II,Electro Pop,80,Vintage
+2017,JUNE,Alt-J,Relaxer,Indie Rock,60,Last Year
+2017,JUNE,Amber Coffman,City of No Reply,Indie Folk,70,Under the Sun
+2017,JUNE,Baio,Man of the World,Electronic,60,I'm Not Curious
+2017,JUNE,Beach House,B-Sides and Rarities,Dream Pop,70,Chariot
+2017,JUNE,Big Boi,Boomiverse,Rap,80,Order of Operations
+2017,JUNE,Big Thief,Capacity,Indie Rock,80,Mary
+2017,JUNE,BROCKHAMPTON,SATURATION,Rap,,
+2017,JUNE,Calvin Harris,Funk Wav Bounces Vol. 1,Pop,60,Slide (feat. Frank Ocean & Migos)
+2017,JUNE,Cigarettes After Sex,Cigarettes After Sex,Dream Pop,80,Apocalypse
+2017,JUNE,Clams Casino,Instrumental 4,Electronic,60,
+2017,JUNE,Cornelius,Mellow Waves,Electronic,70,If You're Here
+2017,JUNE,DJ Sports,Modern Species,Electronic,80,Entry Mode
+2017,JUNE,Fleet Foxes,Crack-Up,Indie Folk,70,Fool's Errand
+2017,JUNE,Jay Z,04:44,Rap,60,04:44
+2017,JUNE,Kevin Morby,City Music,Indie Rock,70,Pearly Gates
+2017,JUNE,Kirin J Callinan,Bravado,Indie Rock,90,Bravado
+2017,JUNE,Laurel Halo,Dust,Electronic,70,Moontalk
+2017,JUNE,Lorde,Melodrama,Pop,90,Perfect Places
+2017,JUNE,Marika Hackman,I'm Not Your Man,Indie Folk,60,My Lover Cindy
+2017,JUNE,MIKE,May God Bless Your Hustle,Rap,60,
+2017,JUNE,Phoenix,Ti Amo,Indie Rock,70,J-Boy
+2017,JUNE,Saint Etienne,Home Counties,Indie Pop,60,Out of My Mind
+2017,JUNE,"Sufjan Stevens, Bryce Dessner, Nico Muhly & James McAlister",Planetarium,Indie Folk,80,Neptune
+2017,JUNE,SZA,CTRL,R&B,80,Supermodel
+2017,JUNE,Vince Staples,Big Fish Theory,Rap,80,Crabs In A Bucket
+2017,JUNE,Washed Out,Mister Mellow,Synthpop,50,
+2017,JUNE,Young Thug,Beautiful Thugger Girls,Rap,80,Relationship (feat. Future)
+2017,JULY,Arcade Fire,Everything Now,Indie Rock,70,Put Your Money on Me
+2017,JULY,Avey Tare,Eucalyptus,Indie Rock,40,
+2017,JULY,Broken Social Scene,Hug of Thunder,Indie Rock,90,Mouth Guards of the Apocalypse
+2017,JULY,HAIM,Something to Tell You,Indie Pop,80,You Never Knew
+2017,JULY,Lana del Rey,Lust For Life,Indie Pop,80,Change
+2017,JULY,Manchester Orchestra,A Black Mile to the Surface,Indie Rock,60,The Gold
+2017,JULY,Nine Inch Nails,Add Violence EP,Rock,50,
+2017,JULY,Shabazz Palaces,Quazarz: Born on a Gangster Star,Rap,40,Shine a Light (feat. Thaddillac)
+2017,JULY,Shabazz Palaces,Quazarz Vs. The Jealous Machines,Rap,30,
+2017,JULY,Sheer Mag,Need to Feel Your Love,Punk,60,
+2017,JULY,Toro Y Moi,Boo Boo,Electronic,70,Girl Like You
+2017,JULY,"Tyler, the Creator",Flower Boy,Rap,50,Boredom
+2017,JULY,Vic Mensa,The Autobiography,Rap,60,Homewrecker (feat. Weezer)
+2017,JULY,Waxahatchee,Out In the Storm,Indie Rock,70,Silver
+2017,AUGUST,Alice Glass,Alice Glass EP,Electro Pop,40,
+2017,AUGUST,Brand New,Science Fiction,Rock,90,Can't Get It Out
+2017,AUGUST,BROCKHAMPTON,SATURATION II,Rap,,
+2017,AUGUST,EMA,Exile in the Outer Ring,Indie Rock,50,7 Years
+2017,AUGUST,Frankie Rose,Cage Tropical,Indie Rock,60,
+2017,AUGUST,Grizzly Bear,Painted Ruins,Indie Rock,70,Aquarian
+2017,AUGUST,Joseph Shabason,Aytche,Jazz,70,Aytche
+2017,AUGUST,Lil B,Black Ken,Rap,40,
+2017,AUGUST,Photay,Onism,Electronic,80,Outre Lux (feat. Madison McFerrin)
+2017,AUGUST,Samantha Urbani,Policies of Power EP,Indie Pop,80,U Know I Know
+2017,AUGUST,The War On Drugs,A Deeper Understanding,Indie Rock,90,Thinking Of A Place
+2017,SEPTEMBER,Alex Cameron,Forced Witness,Indie Rock,90,Stranger's Kiss (Duet with Angel Olsen)
+2017,SEPTEMBER,Ariel Pink,Dedicated to Bobby Jameson,Indie Rock,50,
+2017,SEPTEMBER,Alvvays,Antisocialites,Indie Pop,70,Dreams Tonite
+2017,SEPTEMBER,Ben Frost,The Center Cannot Hold,Electronic,60,
+2017,SEPTEMBER,Chelsea Wolfe,Hiss Spun,Neofolk,,
+2017,SEPTEMBER,Cut Copy,Haiku From Zero,Electronic,60,
+2017,SEPTEMBER,Foo Fighters,Concrete and Gold,Rock,,
+2017,SEPTEMBER,Four Tet,New Energy,Electronic,90,Scientists
+2017,SEPTEMBER,Godspeed! You Black Emperor,Luciferian Towers,Post Rock,80,Anthem For No State
+2017,SEPTEMBER,Hercules & Love Affair,Omnion,Electronic,70,Are You Still Certain? (feat. Mashrou. Leila)
+2017,SEPTEMBER,The Horrors,V,Indie Rock,,
+2017,SEPTEMBER,Hundred Waters,Communicating,Synthpop,70,Fingers
+2017,SEPTEMBER,Ibeyi,Ash,R&B,80,Deathless (feat.  Kamasi Washington)
+2017,SEPTEMBER,Iglooghost,Ne? Wax Bloom,Electronic,,
+2017,SEPTEMBER,Kamasi Washington,Harmony of Difference EP,Jazz,80,Perspective
+2017,SEPTEMBER,The Killers,Wonderful Wonderful,Indie Rock,60,Some Kind of Love
+2017,SEPTEMBER,LCD Soundsystem,American Dream,Indie Rock,80,call the police
+2017,SEPTEMBER,Mogwai,Every Country's Sun,Post Rock,80,Don't Believe the Fife
+2017,SEPTEMBER,Moses Sumney,Aromanticism,R&B,80,Doomed
+2017,SEPTEMBER,Mount Kimbie,Love What Survives,Electronic,70,How We Got By
+2017,SEPTEMBER,The National,Sleep Well Beast,Indie Rock,80,The System Only Dreams In Total Darkness
+2017,SEPTEMBER,Nosaj Thing,Parallels,Electronic,60,Way We Were
+2017,SEPTEMBER,The Pains of Being Pure at Heart,The Echo of Pleasure,Indie Rock,60,
+2017,SEPTEMBER,Phoebe Bridgers,Stranger in the Alps,Indie Folk,,
+2017,SEPTEMBER,Protomartyr,Relatives in Descent,Punk,,
+2017,SEPTEMBER,Rostam,Half-Light,Indie Rock,70,Hold You (feat. Angel Deradoorian)
+2017,SEPTEMBER,Susanne Sundfor,Music For People In Trouble,Synthpop,90,Undercover
+2017,SEPTEMBER,Torres,Three Futures,Indie Rock,80,Skim
+2017,SEPTEMBER,Various Artists,Twin Peaks (Limited Event Series Soundtrack),OST,70,Twin Peaks Theme
+2017,SEPTEMBER,Various Artists,Twin Peaks (Music from the Limited Event Series),OST,80,No Stars
+2017,SEPTEMBER,The World Is A Beautiful Place & I Am No Longer Afraid To Die,Always Foreign,Indie Rock,,
+2017,SEPTEMBER,Yves Tumor,Experiencing The Deposit Of Faith,Experimental,70,AfricaAshes
+2017,SEPTEMBER,Zola Jesus,Okovi,Electro Pop,80,Siphon
+2017,OCTOBER,Beck,Colors,Indie Rock,70,Wow
+2017,OCTOBER,Courtney Barnett & Kurt Vile,Lotta Sea Lice,Indie Rock,70,Over Everything
+2017,OCTOBER,Cults,Offering,Indie Pop,70,Offering
+2017,OCTOBER,Daphni,Joli Mai,Electronic,60,Carry On
+2017,OCTOBER,Destroyer,ken,Indie Rock,80,Saw You at the Hospital
+2017,OCTOBER,dvsn,Morning After,R&B,70,Mood
+2017,OCTOBER,Fever Ray,Plunge,Electronic,60,
+2017,OCTOBER,Jessie Ware,Glasshouse,Indie Pop,90,Last Of The True Believers
+2017,OCTOBER,John Maus,Screen Memories,Ambient,40,
+2017,OCTOBER,Julien Baker,Turn Out the Lights,Indie Folk,80,Turn Out the Lights
+2017,OCTOBER,Kelela,Take Me Apart,R&B,70,Frontline
+2017,OCTOBER,King Krule,The Ooz,Indie Rock,60,Dum Surfer
+2017,OCTOBER,Lindstrom,It's Alright Between Us As It Is,Electronic,70,Drift
+2017,OCTOBER,Rina Sawayama,Rina EP,Indie Pop,80,Cyber Stockholm Syndrome
+2017,OCTOBER,St. Vincent,MASSEDUCTION,Indie Rock,70,New York
+2017,OCTOBER,Weezer,Pacific Daydream,Indie Rock,70,Any Friend of Diane's
+2017,OCTOBER,Wild Beasts,Punk Drunk and Trembling EP,Indie Rock,50,
+2017,NOVEMBER,Angel Olsen,Phases,Indie Folk,60,
+2017,NOVEMBER,Baths,Romaplasm,Electronic,70,Yeoman
+2017,NOVEMBER,Bibio,Phantom Brickworks,Ambient,70,Phantom Brickworks II
+2017,NOVEMBER,Bjork,Utopia,Art Pop,80,Saint
+2017,NOVEMBER,Charlotte Gainsbourg,Rest,Indie Pop,70,Rest
+2017,NOVEMBER,Converge,The Dusk In Us,Metal,,
+2017,NOVEMBER,Gun Outfit,Out of Range,Indie Rock,,
+2017,NOVEMBER,Morrissey,Low In High School,Indie Rock,,
+2017,NOVEMBER,Sam Smith,The Thrill of It All,Pop,70,Too Good At Goodbyes
+2017,NOVEMBER,Sleigh Bells,Kid Kruschev,Noise Pop,50,
+2017,NOVEMBER,Sufjan Stevens,"The Greatest Gift Mixtape - Outtakes, Remixes & Demos from Carrie & Lowell",Indie Folk,80,City of Roses
+2017,NOVEMBER,Tennis,We Can Die Happy EP,Indie Pop,60,No Exit
+2017,NOVEMBER,Vulfpeck,Mr. Finish Line,Funk,70,"Birds of a Feather, We Rock Together (feat. Antwaun Stanley)"
+2017,NOVEMBER,Yaeji,Yaeji EP2,Electronic,60,passionfruit
+2017,DECEMBER,BROCKHAMPTON,SATURATION III,Rap,,
+2017,DECEMBER,Charli XCX,Pop 2,Electro Pop,60,Out of My Head (feat. Tove Lo and ALMA)
+2017,DECEMBER,Francis and the Lights,Just For Us,Indie Pop,60,Just For Us
+2017,DECEMBER,Miguel,War & Leisure,R&B,80,Banana Clip
+2017,DECEMBER,Prurient,Rainbow Mirror,Noise,,
+2017,DECEMBER,Visible Cloaks,Lex EP,Electronic,70,World
+2018,JANUARY,cupcakKe,Ephorize,Rap,,
+2018,JANUARY,First Aid Kit,Ruins,Indie Folk,,
+2018,JANUARY,Jeff Rosenstock,POST-,Indie Rock,90,9/10
+2018,JANUARY,Johnny Jewel,Digital Rain,Synthpop,70,
+2018,JANUARY,Migos,Culture II,Rap,,
+2018,JANUARY,Nils Frahm,All Melody,Ambient,70,#2
+2018,JANUARY,Panda Bear,A Day With the Homies EP,Psychedelic Pop,40,
+2018,JANUARY,Pendant,Make Me Know You Sweet,Ambient,50,
+2018,JANUARY,Porches,The House,Electro Pop,70,Now the Water
+2018,JANUARY,tUnE-yArDs,I Can Feel You Creep Into My Private Life,Indie Rock,,
+2018,FEBRUARY,A.A.L (Against All Logic),2012-2017,Electronic,90,I Never Dream
+2018,FEBRUARY,Car Seat Headrest,Twin Fantasy,Indie Rock,90,Sober to Death
+2018,FEBRUARY,Ezra Furman,Transangelic Exodus,Indie Rock,,
+2018,FEBRUARY,Justin Timberlake,Man of the Woods,Pop,40,
+2018,FEBRUARY,MGMT,Little Dark Age,Indie Rock,70,Me and Michael
+2018,FEBRUARY,Ought,Room Inside the World,Indie Rock,,
+2018,FEBRUARY,Rhye,Blood,R&B,60,Blood Knows
+2018,FEBRUARY,S. Carey,Hundred Acres,Indie Folk,70,More I See
+2018,FEBRUARY,SOB X RBE,Gangin,Rap,60,Anti Social
+2018,FEBRUARY,Son Lux,Brighter Wounds,Indie Rock,80,Labor
+2018,FEBRUARY,U.S. Girls,In A Poem Unlimited,Indie Pop,60,
+2018,MARCH,Amen Dunes,Freedom,Indie Rock,70,Blue Rose
+2018,MARCH,David Byrne,American Utopia,Art Pop,,
+2018,MARCH,Frankie Cosmos,Vessel,Indie Pop,,
+2018,MARCH,Jack White,Boarding House Reach,Rock,,
+2018,MARCH,Kacey Musgraves,Golden Hour,Country,90,Lonely Weekend
+2018,MARCH,Lucy Dacus,Historian,Indie Rock,,
+2018,MARCH,The Men,Drift,Rock,60,So High
+2018,MARCH,Mount Eerie,Now Only,Lo-Fi,,
+2018,MARCH,Of Montreal,White Is Relic/Irrealis Mood,Indie Rock,,
+2018,MARCH,Preoccupations,New Material,Indie Rock,,
+2018,MARCH,Soccer Mommy,Clean,Indie Pop,70,Still Clean
+2018,MARCH,Titus Andronicus,A Productive Cough,Indie Rock,60,(I'm) Like a Rolling Stone
+2018,MARCH,The Weeknd,My Dear Melancholy EP,R&B,60,Wasted Times
+2018,MARCH,Yo La Tengo,There's a Riot Going On,Indie Rock,70,For You Too
+2018,APRIL,The Amazing,In Transit,Indie Rock,,
+2018,APRIL,Cardi B,Invasion of Privacy,Rap,60,Thru Your Phone
+2018,APRIL,Grouper,Grid of Points,Ambient,,
+2018,APRIL,Hop Along,"Bark Your Head Off, Dog",Indie Folk,,
+2018,APRIL,Jean Grae / Quelle Chris,Everything's Fine,Rap,,
+2018,APRIL,Janelle Mone,Dirty Computer,R&B,90,Pynk (feat. Grimes)
+2018,APRIL,John Maus,Addendum,Ambient,,
+2018,APRIL,Kali Uchis,Isolation,R&B,60,In My Dreams
+2018,APRIL,Mouse on Mars,Dimensional People,Electronic,50,Dimensional People Part III
+2018,APRIL,Paul White,Rejuvenate,Electronic,,
+2018,APRIL,Ricky Eat Acid,"am i happy, singing_",Electronic,,
+2018,APRIL,Saba,CARE FOR ME,Rap,,
+2018,APRIL,Sleep,The Sciences,Metal,,
+2018,APRIL,Speedy Ortiz,Twerp Verse,Indie Rock,,
+2018,APRIL,Tinashe,Joyride,R&B,,
+2018,APRIL,Twin Shadow,Caer,Indie Rock,,
+2018,APRIL,Unknown Mortal Orchestra,Sex & Food,Indie Rock,,
+2018,MAY,A$AP Rocky,Testing,Rap,70,"A$AP Forever (feat. Moby, T.I. & Kid Cudi)"
+2018,MAY,Arctic Monkeys,Tranquility Base Hotel & Casino,Indie Rock,70,Four Out Of Five
+2018,MAY,Beach House,7,Dream Pop,,
+2018,MAY,CHVRCHES,Love Is Dead,Electro Pop,70,Really Gone
+2018,MAY,Courtney Barnett,Tell Me How You Really Feel,Indie Rock,50,Need a Little Time
+2018,MAY,DJ Koze,Knock Knock,Electronic,90,Bonfire
+2018,MAY,Eleanor Friedberger,Rebound,Indie Pop,,
+2018,MAY,GAS,Rausch,Electronic,,
+2018,MAY,Iceage,Beyondless,Garage Rock,,
+2018,MAY,Jenny Hval,The Long Sleep EP,Art Pop,,
+2018,MAY,Johnny Jewel,Themes For Television,Synthpop,70,Shadow (Opening Titles)
+2018,MAY,Jon Hopkins,Singularity,Electronic,90,C O S M
+2018,MAY,Parquet Courts,Wide Awake!,Indie Rock,,
+2018,MAY,Playboi Carti,Die Lit,Rap,,
+2018,MAY,Pusha T,DAYTONA,Rap,80,Come Back Baby
+2018,MAY,Skee Mask,Compro,Electronic,70,50 Euro to Break Boost
+2018,JUNE,Beyonce & JAY-Z,EVERYTHING IS LOVE,Rap,60,SUMMER
+2018,JUNE,Chromeo,Head Over Heels,Electro Pop,,
+2018,JUNE,Death Grips,Year of the Snitch,Rap,,
+2018,JUNE,Drake,Scorpion,Rap,60,Nice For What
+2018,JUNE,Father John Misty,God's Favorite Customer,Indie Rock,70,The Songwriter
+2018,JUNE,Florence + The Machine,High as Hope,Pop,,
+2018,JUNE,Gang Gang Dance,Kazuashita,Electronic,80,J-TREE
+2018,JUNE,Gorillaz,The Now Now,Indie Rock,,
+2018,JUNE,Jay Rock,Redemption,Rap,,
+2018,JUNE,Jim James,Uniform Distortion,Indie Folk,,
+2018,JUNE,Kamasi Washington,Heaven and Earth,Jazz,,
+2018,JUNE,Kanye West,ye,Rap,90,No Mistakes
+2018,JUNE,Kids See Ghosts,Kids See Ghosts,Rap,,
+2018,JUNE,Let's Eat Grandma,I'm All Ears,Art Pop,80,Donnie Darko
+2018,JUNE,Lykke Li,so sad so sexy,Indie Pop,80,jaguars in the air
+2018,JUNE,Mazzy Star,Still EP,Indie Folk,,
+2018,JUNE,Melody's Echo Chamber,Bon Voyage,Indie Pop,60,
+2018,JUNE,Nas,Nasir,Rap,40,
+2018,JUNE,Natalie Prass,The Future and the Past,Indie Folk,70,The Fire
+2018,JUNE,Neko Case,Hell-On,Indie Rock,,
+2018,JUNE,Oneohtrix Point Never,Age Of,Electronic,70,Still Stuff That Doesn't Happen
+2018,JUNE,serpentwithfeet,soil,R&B,,
+2018,JUNE,Snail Mail,Lush,Indie Rock,80,Pristine
+2018,JUNE,SOPHIE,Oil of Every Pearl's Un-Insides,Electronic,60,It's Okay to Cry
+2018,JUNE,Teyana Taylor,K.T.S.E.,R&B,80,Never Would Have Made It
+2018,JUNE,Tierra Whack,Whack World,Rap,90,Black Nails
+2018,JULY,Deafheaven,Ordinary Corrupt Human Love,Metal,90,You Without End
+2018,JULY,Dirty Projectors,Lamp Lit Prose,Indie Rock,70,Break-Thru
+2018,JULY,The Internet,Hive Mind,R&B,60,Stay the Night
+2018,JULY,Laurel Halo,Raw Silk Uncut Wood,Electronic,50,
+2018,AUGUST,Animal Collective,Tangerine Reef,Psychedelic Pop,,
+2018,AUGUST,Big Red Machine,Big Red Machine,Indie Folk,90,OMDB
+2018,AUGUST,Blood Orange,Negro Swan,R&B,,
+2018,AUGUST,Devon Welsh,Dream Songs,Chamber Pop,,
+2018,AUGUST,Mitski,Be the Cowboy,Indie Pop,80,Nobody
+2018,AUGUST,Tirzah,Devotion,Indie Pop,,
+2018,AUGUST,Trevor Powers,Mulberry Violence,Dream Pop,,
+2018,AUGUST,Wild Nothing,Indigo,Dream Pop,,
+2018,SEPTEMBER,Aphex Twin,Collapse EP,Electronic,60,
+2018,SEPTEMBER,BROCKHAMPTON,Iridiscence,Rap,,
+2018,SEPTEMBER,Christine and the Queens,Chris,Pop,80,The Walker
+2018,SEPTEMBER,The Field,Infinite Moment,Electronic,80,Made Of Steel. Made Of Stone
+2018,SEPTEMBER,Joey Purp,QUATERTHING,Rap,,
+2018,SEPTEMBER,Low,Double Negative,Rock,90,Tempest
+2018,SEPTEMBER,Marissa Nadler,For My Crimes,Indie Folk,,
+2018,SEPTEMBER,Mutual Benefit,Thunder Follows the Light,Indie Folk,,
+2018,SEPTEMBER,Noname,Room 25,Rap,,
+2018,SEPTEMBER,Ryan Hemsworth,Elsewhere,Electronic,,
+2018,SEPTEMBER,Spiritualized,And Nothing Hurt,Indie Rock,70,A Perfect Miracle
+2018,SEPTEMBER,Suede,The Blue Hour,Indie Rock,,
+2018,SEPTEMBER,Tim Hecker,Konoyo,Ambient,,
+2018,SEPTEMBER,Yves Tumor,Safe In the Hands of Love,Experimental,80,Licking An Orchid
+2018,OCTOBER,Adrianne Lenker,Indie Rock,Indie Rock,60,abyss kiss
+2018,OCTOBER,Allie X,Super Sunset,Electro Pop,,
+2018,OCTOBER,Cat Power,Wanderer,Indie Pop,70,Woman (feat. Lana Del Rey)
+2018,OCTOBER,Cloud Nothings,Last Building Burning,Indie Rock,80,The Echo Of The World
+2018,OCTOBER,Empress Of,Us,Indie Pop,,
+2018,OCTOBER,How To Dress Well,The Anteroom,Electro Pop,,
+2018,OCTOBER,Julia Holter,Aviary,Art Pop,,
+2018,OCTOBER,Kurt Vile,Bottle It In,Indie Rock,60,Loading Zones
+2018,OCTOBER,Matthew Dear,Bunny,Electronic,,
+2018,OCTOBER,Phosphorescent,C'est La Vie,Indie Folk,70,Christmas Down Under
+2018,OCTOBER,Robyn,Honey,Electro Pop,,
+2018,OCTOBER,Sheck Wes,MUDBOY,Rap,,
+2018,OCTOBER,St. Vincent,MassEducation,Indie Rock,70,New York
+2018,NOVEMBER,The 1975,A Brief Inquiry Into Online Relationships,Indie Rock,90,Love It If We Made It
+2018,NOVEMBER,Anderson .Paak,Oxnard,Rap,,
+2018,NOVEMBER,boygenius,boygenius EP,Indie Folk,90,"Ketchum, ID"
+2018,NOVEMBER,Earl Sweatshirt,Some Rap Songs,Rap,40,
+2018,NOVEMBER,J Mascis,Elastic Days,Indie Rock,,
+2018,NOVEMBER,JEFF TWEEDY,WARM,Indie Rock,,
+2018,NOVEMBER,Oneohtrix Point Never,Love in the Time of Lexapro EP,Electronic,60,Babylon
+2018,NOVEMBER,Rosalia,El Mal Querer,Flamenco,90,PIENSO EN TU MIRA
+2018,NOVEMBER,Sun Kil Moon,This Is My Dinner,Indie Folk,,
+2018,NOVEMBER,Vince Staples,FM!,Rap,,
+2019,JANUARY,Better Oblivion Community Center,Better Oblivion Community Center,Indie Rock,80,Sleepwalkin'
+2019,JANUARY,Dawn Richard,new breed,R&B,60,jealousy
+2019,JANUARY,Deerhunter,Why Hasn't Everything Already Disappeared?,Indie Rock,50,
+2019,JANUARY,James Blake,Assume Form,Post Dubstep,80,Barefoot In The Park
+2019,JANUARY,LUH,Love Hates What You Become,Indie Rock,70,Love Hates What You Become
+2019,JANUARY,Sharon Van Etten,Remind Me Tomorrow,Indie Folk,80,Seventeen
+2019,JANUARY,Toro Y Moi,Outer Peace,Electronic,70,Fading
+2019,FEBRUARY,Beirut,Gallipoli,Indie Folk,50,
+2019,FEBRUARY,Broken Social Scene,Let's Try the After - Vol. 1,Indie Rock,70,1972
+2019,FEBRUARY,Cass McCombs,Tip of the Sphere,Indie Folk,60,
+2019,FEBRUARY,Default Genders,Main Pop Girl 2019,Electronic,70,secret garden .NUXX
+2019,FEBRUARY,Desperate Journalist,In Search of the Miraculous,Indie Rock,70,Cedars
+2019,FEBRUARY,Jessica Pratt,Quiet Signs,Indie Folk,50,
+2019,FEBRUARY,Julia Jacklin,Crushing,Indie Folk,80,Head Alone
+2019,FEBRUARY,Nivhek,fter its own death / Walking in a spiral towards the house,Ambient,60,
+2019,FEBRUARY,Panda Bear,Buoys,Psychedelic Pop,60,
+2019,FEBRUARY,Xiu Xiu,Girl With Basket of Fruit,Art Rock,20,
+2019,MARCH,American Football,American Football (LP3),Indie Rock,70,Every Wave to Ever Rise (feat. Elizabeth Powell)
+2019,MARCH,Andrew Bird,My Finest Work Yet,Indie Folk,,
+2019,MARCH,Avey Tare,Cown on Hourglass Pond,Indie Rock,,
+2019,MARCH,Chai,PUNK,Indie Rock,,
+2019,MARCH,The Cinematic Orchestra,To Believe,Ambient,,
+2019,MARCH,Fennesz,Agora,Electronic,,
+2019,MARCH,Foals,Everything Not Saved Will Be Lost - Part 1,Indie Rock,,
+2019,MARCH,Flume,Hi This Is Flume,Electronic,70,Jewel
+2019,MARCH,Helado Negro,This Is How You Smile,Electronic,70,Running
+2019,MARCH,The Japanese House,Good at Falling,Indie Pop,90,Maybe You're the Reason
+2019,MARCH,Jenny Lewis,On the Line,Indie Pop,80,Red Bull & Hennessy
+2019,MARCH,Lambchop,This (is what I wanted to tell you),Indie Rock,,
+2019,MARCH,Little Simz,GREY Area,Rap,,
+2019,MARCH,Nilufer Yanya,Miss Universe,Indie Pop,90,Heavyweight Champion of the Year
+2019,MARCH,RAP,EXPORT,Electronic,80,Young Persuasion
+2019,MARCH,Solange,When I Get Home,R&B,60,Stay Flo
+2019,MARCH,These New Puritans,Inside the Rose,Art Rock,60,Six
+2019,APRIL,Anderson .Paak,Ventura,Rap,,
+2019,APRIL,Broken Social Scene,Let's Try the After - Vol. 2,Indie Rock,,
+2019,APRIL,Bruce Hornsby,Absolute Zero,Indie Folk,,
+2019,APRIL,The Flaming Lips,King's Mouth,Indie Rock,,
+2019,APRIL,Fontaines D.C.,Dogrel,Rock,,
+2019,APRIL,Foxygen,Seeing Other People,Indie Rock,,
+2019,APRIL,Kevin Morby,Oh My God,Indie Rock,,
+2019,APRIL,Local Natives,Violet Street,Indie Rock,,
+2019,APRIL,The Mountain Goats,In League With Dragons,Indie Rock,,
+2019,APRIL,Schoolboy Q,CrasH Talk,Rap,,
+2019,APRIL,Sunn O))),Life Metal,Metal,30,
+2019,APRIL,Weyes Blood,Titanic Rising,Indie Folk,90,Movies
+2019,MAY,Big Thief,U.F.O.F.,Indie Rock,,
+2019,MAY,Cate Le Bon,Reward,Indie Folk,,
+2019,MAY,Flying Lotus,Flamagra,Electronic,,
+2019,MAY,Hayden Thorpe,Diviner,Indie Rock,,
+2019,MAY,Holly Herndon,PROTO,Electronic,,
+2019,MAY,Jamila Woods,LEGACY! LEGACY!,R&B,,
+2019,MAY,Mac DeMarco,Indie Rock,Indie Rock,,
+2019,MAY,The National,I Am Easy to Find,Indie Rock,,
+2019,MAY,Rhye,Spirit,R&B,,
+2019,MAY,Slowthai,Nothing Great About Britain,Rap,,
+2019,MAY,Tim Hecker,Anoyo,Electronic,,
+2019,MAY,"Tyler, the Creator",IGOR,Rap,,
+2019,MAY,Vampire Weekend,Father of the Bride,Indie Rock,,
+2019,JUNE,Baroness,Gold & Grey,Metal,,
+2019,JUNE,Bill Callahan,Shepher In a Sheepskin Vest,Indie Folk,,
+2019,JUNE,Black Midi,Schlagenheim,Indie Rock,,
+2019,JUNE,Bruce Springsteen,Western Stars,Rock,,
+2019,JUNE,Denzel Curry,ZUU,Rap,,
+2019,JUNE,Hatchie,Keepsake,Indie Pop,,
+2019,JUNE,Hot Chip,A Bath Full of Ecstasy,Electronic,,
+2019,JUNE,Leif,Loom Dream,Electronic,,
+2019,JUNE,Mannequin Pussy,Patience,Rock,,
+2019,JUNE,Mark Ronson,Late Night Feelings,Pop,,
+2019,JUNE,MIKE,Tears of Joy,Rap,,
+2019,JUNE,Polo G,Die A Legend,Rap,,
+2019,JUNE,Thom Yorke,Anima,Indie Rock,,
+2019,JUNE,Titus Andronicus,An Obelisk,Indie Rock,,
+2019,JULY,Blood Orange,Angel's Pulse,R&B,,
+2019,JULY,Change the Rapper,The Big Day,Rap,,
+2019,JULY,Clark,Kiri Variations,Electronic,,
+2019,JULY,Florist,Emily Alone,Indie Folk,,
+2019,JULY,Jefre-Cantu Ledesma,Tracing Back the Radiance,Electronic,,
+2019,JULY,Maxo Kream,Brandon Banks,Rap,,
+2019,JULY,Moodymann,Sinner,Electronic,,
+2019,JULY,Purple Mountains,Purple Mountains,Indie Rock,,
+2019,JULY,Tycho,Weather,Electronic,,
+2019,AUGUST,Blanck Mass,Animated Violence Mild,Electronic,,
+2019,AUGUST,Bon Iver,"i,i",Indie Folk,,
+2019,AUGUST,BROCKHAMPTON,GINGER,Rap,,
+2019,AUGUST,Burna Boy,African Giant,Rap,,
+2019,AUGUST,Clairo,IMMUNITY,Indie Pop,,
+2019,AUGUST,Drake,Care Package,Rap,,
+2019,AUGUST,Jay Som,Anak Ko,Indie Rock,,
+2019,AUGUST,Lana del Rey,Norman Fucking Rockwell,Indie Pop,,
+2019,AUGUST,Oso Oso,Basking in the Glow,Indie Rock,,
+2019,AUGUST,Sheer Mag,A Distant Call,Rock,,
+2019,AUGUST,Shura,forevher,Synthpop,,
+2019,AUGUST,Sleater-Kinney,The Center Won't Hold,Indie Rock,,
+2019,AUGUST,Whitney,Forever Turned Around,Indie Rock,,
+2019,AUGUST,Young Thug,So Much Fun,Rap,,
+2019,SEPTEMBER,Alex Cameron,Miami Memory,Indie Rock,,
+2019,SEPTEMBER,(Sandy) Alex G,House of Sugar,Indie Rock,,
+2019,SEPTEMBER,Bat For Lashes,Lost Girls,Indie Pop,,
+2019,SEPTEMBER,Brittany Howard,Jaime,Indie Rock,,
+2019,SEPTEMBER,Charli XCX,Charli,Electro Pop,,
+2019,SEPTEMBER,Chelsea Wolfe,Birth of Violence,Neofolk,,
+2019,SEPTEMBER,Dean Blunt,ZUSHI,Electronic,,
+2019,SEPTEMBER,Frankie Cosmos,Close It Quietly,Indie Pop,,
+2019,SEPTEMBER,Lower Dens,The Competition,Indie Rock,,
+2019,SEPTEMBER,M83,DSVII,Electronic,,
+2019,SEPTEMBER,Metronomy,Metronomy Forever,Electronic,,
+2019,SEPTEMBER,The New Pornographers,In the Morse Code of Brake Lights,Indie Rock,,
+2019,SEPTEMBER,Pixies,Beneath the Eyrie,Indie Rock,,
+2019,SEPTEMBER,Tegan and Sara,"Hey, I'm Just Like You",Indie Pop,,
+2019,OCTOBER,Angel Olsen,All Mirrors,Indie Folk,,
+2019,OCTOBER,Anna Meredith,FIBS,Electronic,,
+2019,OCTOBER,Big Thief,Two Hands,Indie Rock,,
+2019,OCTOBER,Caroline Polachek,PANG,Electro Pop,,
+2019,OCTOBER,Chromatics,Closer To Grey,Synthpop,,
+2019,OCTOBER,Cigarettes After Sex,Cry,Dream Pop,,
+2019,OCTOBER,Danny Brown,uknowwhatimsayin',Rap,,
+2019,OCTOBER,Devon Welsh,True Love,Chamber Pop,,
+2019,OCTOBER,DIIV,Deceiver,Indie Rock,,
+2019,OCTOBER,FKA Twigs,MAGDALENE,R&B,,
+2019,OCTOBER,Foals,Everything Not Saved Will Be Lost - Part 2,Indie Rock,,
+2019,OCTOBER,Floating Points,Crush,Electronic,,
+2019,OCTOBER,Kanye West,Jesus Is King,Rap,,
+2019,OCTOBER,Matt Berninger,Serpentine Prison,Indie Rock,,
+2019,OCTOBER,Michael Kiwanuka,KIWANUKA,R&B,,
+2019,OCTOBER,Mikal Cronin,Seeker,Indie Rock,,
+2019,OCTOBER,Nick Cave and The Bad Seeds,Ghostseen,Indie Rock,100,Sun Forest
+2019,OCTOBER,Vagabon,Vagabon,R&B,,
+2019,OCTOBER,Wilco,Ode to Joy,Indie Rock,,
+2019,NOVEMBER,Blood Incantation,Hidden History of the Human Race,Metal,,
+2019,NOVEMBER,Davido,A Good Time,R&B,,
+2019,NOVEMBER,Earl Sheatshirt,Feet of Clay,Rap,,
+2019,DECEMBER,Burial,Tunes 2011-2011,Electronic,,
+2020,JANUARY,Dan Deacon,Mystic Familiar,Electronic,,
+2020,JANUARY,Destroyer,Have We Met,Indie Rock,,
+2020,JANUARY,Jeff Parker,Suite For Max Brown,Jazz,,
+2020,JANUARY,Torres,Silver Tongue,Indie Rock,,
+2020,FEBRUARY,Allie X,Cape God,Electro Pop,,
+2020,FEBRUARY,Against All Logic,2017-2019,Electronic,,
+2020,FEBRUARY,Arca,@@@@@,Electronic,,
+2020,FEBRUARY,Beatrice Dillon,Workaround,Electronic,,
+2020,FEBRUARY,Caribou,Suddenly,Electronic,,
+2020,FEBRUARY,Gil Scott-Heron - Makaya McCraven,We're New Again: A Reimagining by Makaya McCraven,Jazz,,
+2020,FEBRUARY,Grimes,Miss Anthropocene,Electro Pop,,
+2020,FEBRUARY,King Krule,Man Alive!,Indie Rock,,
+2020,FEBRUARY,The Men,Mercy,Indie Rock,,
+2020,FEBRUARY,Moses Sumney,grae Part One,R&B,,
+2020,FEBRUARY,Real Estate,The Main Thing,Indie Rock,,
+2020,FEBRUARY,Soccer Mommy,color theory,Indie Pop,70,circle the drain
+2020,FEBRUARY,Tame Impala,The Slow Rush,Indie Rock,,
+2020,FEBRUARY,Tennis,Swimmer,Indie Pop,,
+2020,FEBRUARY,Tycho,Simulcast,Electronic,,
+2020,MARCH,Bad Bunny,YHLQMDLG,Rap,,
+2020,MARCH,Dogleg,Melee,Indie Rock,,
+2020,MARCH,Dua Lipa,Future Nostalgia,Pop,90,Don't Start Now
+2020,MARCH,Four Tet,Sixteen Oceans,Electronic,,
+2020,MARCH,Jay Electronica,A Written Testimony,Rap,,
+2020,MARCH,Lil Uzi Vert,Eternal Awake,Rap,,
+2020,MARCH,Lyra Pramuk,Fountain,Electronic,,
+2020,MARCH,Nicolas Jaar,Cenizas,Electronic,70,Sunder
+2020,MARCH,Porches,Ricky Music,Electro Pop,,
+2020,MARCH,Porridge Radio,Every Bad,Indie Rock,,
+2020,MARCH,Sufjan Stevens,Aporia,Ambient,,
+2020,MARCH,U.S. Girls,Heavy Light,Indie Pop,,
+2020,MARCH,Waxahatchee,Saint Cloud,Indie Rock,,
+2020,MARCH,The Weeknd,After Hours,R&B,,
+2020,APRIL,Thundercat,It Is What It Is,R&B,,
+2020,APRIL,Yves Tumor,Heaven to a Tortured Mind,Experimental,,
+2020,MAY,Moses Sumney,grae Part Two,R&B,,
