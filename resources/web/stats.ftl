@@ -19,112 +19,53 @@
     </#list>
 </ul>
 
+<br>
+
 <div class="tab-content">
     <div class="tab-pane fade show active" role="tabpanel" id="pills-all-time" aria-labelledby="pills-all-time-tab">
-        <div class="col-sm-6">
-            <canvas id="numberOfAlbumsPerYearChart"></canvas>
+        <div class="row">
+            <#assign numTotalOfAlbumsPerYear = 0>
+            <#list musicByYears as year>
+                <#assign numTotalOfAlbumsPerYear += year?size>
+            </#list>
+            <div class="col-sm-12">
+                <h6>[Total number of albums per year: ${numTotalOfAlbumsPerYear}]</h6>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <canvas id="numberOfAlbumsPerYearChart"></canvas>
+                <#include "charts/number_of_albums_per_year.ftl">
+            </div>
+
+            <div class="col-sm-6">
+                <canvas id="numberOfAlbumsPerYearAverageRatingChart"></canvas>
+                <#include "charts/number_of_albums_per_year_average_rating.ftl">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <#assign numTotalOfAlbumsPerGenre = 0>
+                    <#list musicByGenres as genre>
+                    <#assign numTotalOfAlbumsPerGenre += genre?size>
+                </#list>
+                <h6>[Total number of albums per genre: ${numTotalOfAlbumsPerGenre}]</h6>
+
+                <canvas id="numberOfAlbumsPerGenreChart"></canvas>
+                <#include "charts/number_of_albums_per_genre.ftl">
+        </div>
         </div>
     </div>
     <#list years as year>
         <div class="tab-pane fade"     role="tabpanel" id="pills-${year}" aria-labelledby="pills-${year}-tab">
             <div class="col-sm-6">
-                <canvas id="numberOfAlbumsPerMonthsChart"></canvas>
+<!--                <canvas id="numberOfAlbumsPerMonthsChart"></canvas>-->
 <!--                <canvas id="numberOfAlbumsPerMonthsChart${year}"></canvas>-->
             </div>
         </div>
     </#list>
 </div>
-
-<script type="text/javascript">
-//
-// numberOfAlbumsPerYearChart
-//
-var ctx = document.getElementById('numberOfAlbumsPerYearChart').getContext('2d');
-
-var labelsArray = [<#list years as year>${year},</#list>];
-var dataArray = [<#list musicByYears as year>${year?size},</#list>];
-var backgroundColors = []
-var borderColors = []
-for (var i = 0; i < ${musicByYears?size}; i++)
-{
-    var r = Math.floor(Math.random() * (256));
-    var g = Math.floor(Math.random() * (256));
-    var b = Math.floor(Math.random() * (256));
-
-    var bgColor = 'rgba(' + r + ',' + g + ',' + b + ', 0.2)'
-    var bdColor = 'rgba(' + r + ',' + g + ',' + b + ', 1.0)'
-
-    backgroundColors.push(bgColor)
-    backgroundColors.push(bdColor)
-}
-
-var numberOfAlbumsPerYearChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: labelsArray,
-        datasets: [{
-            label: '# of Albums per Year',
-            data: dataArray,
-            backgroundColor: backgroundColors,
-            borderColor: borderColors,
-            borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero: true
-                }
-            }]
-        }
-    }
-});
-
-//
-// numberOfAlbumsPerMonthsChart
-//
-var ctx1 = document.getElementById('numberOfAlbumsPerMonthsChart').getContext('2d');
-
-var labelsArray1 = [<#list years as year>${year},</#list>];
-var dataArray1 = [<#list musicByYears as year>${year?size},</#list>];
-var backgroundColors1 = []
-var borderColors1 = []
-for (var i = 0; i < ${musicByYears?size}; i++)
-{
-    var r = Math.floor(Math.random() * (256));
-    var g = Math.floor(Math.random() * (256));
-    var b = Math.floor(Math.random() * (256));
-
-    var bgColor = 'rgba(' + r + ',' + g + ',' + b + ', 0.2)'
-    var bdColor = 'rgba(' + r + ',' + g + ',' + b + ', 1.0)'
-
-    backgroundColors1.push(bgColor)
-    backgroundColors1.push(bdColor)
-}
-
-var numberOfAlbumsPerMonthsChart = new Chart(ctx1, {
-    type: 'bar',
-    data: {
-        labels: labelsArray1,
-        datasets: [{
-            label: '# of Albums per Year',
-            data: dataArray1,
-            backgroundColor: backgroundColors1,
-            borderColor: borderColors1,
-            borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero: true
-                }
-            }]
-        }
-    }
-});
-</script>
 
 </@common.page>

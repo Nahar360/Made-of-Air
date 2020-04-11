@@ -2,6 +2,7 @@ package com.madeofair.webapp.pages
 
 import com.madeofair.models.UserSession
 import com.madeofair.models.domain.Music
+import com.madeofair.models.domain.getAllGenresString
 import com.madeofair.models.domain.getAllMonthsString
 import com.madeofair.models.domain.getAllYearsString
 import com.madeofair.repositories.MusicRepository
@@ -28,13 +29,38 @@ fun Route.stats(usersRepository: UsersRepository, musicRepository: MusicReposito
         for (year in years)
             musicByYears.add(musicRepository.getAllByYear("YEAR_$year"))
 
+        val listOfAverageRatings = ArrayList<Double>()
+        for (albumsPerYear in musicByYears)
+        {
+            var avg = 0.0
+            var albumWithRatingPerYear = 0
+            for (album in albumsPerYear)
+            {
+                if (album.rating != "")
+                {
+                    avg += album.rating.toInt()
+                    albumWithRatingPerYear++
+                }
+            }
+
+            listOfAverageRatings.add(avg / albumWithRatingPerYear)
+        }
+
+        val musicByGenres = ArrayList<List<Music>>()
+        val genres = getAllGenresString()
+        for (genre in genres)
+            musicByGenres.add(musicRepository.getAllByGenre(genre.replace(" ", "_").toUpperCase()))
+
         call.respond(
             FreeMarkerContent(
                 "stats.ftl",
                 mapOf(
                     "user" to user,
                     "musicByYears" to musicByYears,
-                    "years" to years
+                    "years" to years,
+                    "listOfAverageRatings" to listOfAverageRatings,
+                    "musicByGenres" to musicByGenres,
+                    "genres" to genres
                 )
             )
         )
