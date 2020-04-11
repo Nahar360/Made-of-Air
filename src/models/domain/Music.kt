@@ -6,7 +6,7 @@ data class Music(
     val month: Months,
     val band: String,
     val album: String,
-    val genre: String,
+    val genre: Genres,
     val rating: String,
     val bestSong: String
 )

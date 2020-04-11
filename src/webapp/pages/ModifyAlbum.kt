@@ -19,7 +19,6 @@ import io.ktor.response.respond
 import io.ktor.routing.Route
 import io.ktor.sessions.get
 import io.ktor.sessions.sessions
-import java.time.Year
 
 const val MODIFY_ALBUM = "music/{id}"
 
@@ -39,6 +38,7 @@ fun Route.modifyAlbum(usersRepository: UsersRepository, musicRepository: MusicRe
             val album = musicRepository.get(id)
 
             val months = getAllMonthsString()
+            val genres = getAllGenresString().map {it.replace(" ", "_").toUpperCase()}
 
             when (album != null) {
                 false -> call.redirect(MusicPerYear("2016"))
@@ -50,7 +50,8 @@ fun Route.modifyAlbum(usersRepository: UsersRepository, musicRepository: MusicRe
                                 "user" to user,
                                 "album" to album,
                                 "years" to years,
-                                "months" to months
+                                "months" to months,
+                                "genres" to genres
                             )
                         )
                     )
@@ -75,7 +76,7 @@ private fun createAlbumToUpdate(params: Parameters): Music {
         month = monthStringToMonthEnum(params.getValue("month")),
         band = params.getValue("band"),
         album = params.getValue("album"),
-        genre = params.getValue("genre"),
+        genre = genreStringToGenreEnumFromDropDown(params.getValue("genre")),
         rating = params.getValue("rating"),
         bestSong = params.getValue("bestSong")
     )

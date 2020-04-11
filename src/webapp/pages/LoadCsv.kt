@@ -1,6 +1,7 @@
 package com.madeofair.webapp.pages
 
 import com.madeofair.models.domain.Music
+import com.madeofair.models.domain.genreStringToGenreEnum
 import com.madeofair.models.domain.monthStringToMonthEnum
 import com.madeofair.models.domain.yearStringToYearEnum
 import com.madeofair.redirect
@@ -14,7 +15,6 @@ import org.apache.commons.csv.CSVParser
 import java.io.BufferedReader
 import java.io.FileReader
 import java.io.IOException
-import java.time.Year
 
 const val LOAD_CSV = "/load_csv"
 
@@ -27,8 +27,6 @@ fun Route.loadCsv(musicRepository: MusicRepository) {
 
         var fileReader: BufferedReader? = null
         var csvParser: CSVParser? = null
-
-//        var genres = ArrayList<String>()
 
         try {
             fileReader = BufferedReader(FileReader("./resources/other/music.csv"))
@@ -47,18 +45,18 @@ fun Route.loadCsv(musicRepository: MusicRepository) {
                 val rating = csvRecord.get("RATING")
                 val bestSong = csvRecord.get("BEST SONG")
 
-                if (year != "" && month != "" && band != "" && album != "" && genre != "") {
-                    // album without rating
-                    val albumToAdd = if (rating == "") {
-                        Music("", yearStringToYearEnum(year), monthStringToMonthEnum(month), band, album, genre, "", bestSong)
-                    } else
-                        Music("", yearStringToYearEnum(year), monthStringToMonthEnum(month), band, album, genre, (rating.toInt() * 10).toString(), bestSong)
+                val albumToAdd = Music(
+                    "",
+                    yearStringToYearEnum(year),
+                    monthStringToMonthEnum(month),
+                    band,
+                    album,
+                    genreStringToGenreEnum(genre),
+                    rating,
+                    bestSong
+                )
 
-//                    if (!genres.contains(genre))
-//                        genres.add((genre))
-
-                    musicRepository.add(albumToAdd)
-                }
+                musicRepository.add(albumToAdd)
             }
         } catch (e: Exception) {
             println("Reading CSV Error!")
@@ -72,10 +70,6 @@ fun Route.loadCsv(musicRepository: MusicRepository) {
                 e.printStackTrace()
             }
         }
-
-//        genres.sort()
-//        for (genre in genres)
-//            println(genre)
 
         call.redirect(Home())
     }

@@ -18,7 +18,6 @@ import io.ktor.response.respond
 import io.ktor.routing.Route
 import io.ktor.sessions.get
 import io.ktor.sessions.sessions
-import java.time.Year
 
 const val ADD_ALBUM = "/add_album"
 
@@ -30,6 +29,7 @@ fun Route.addAlbum(usersRepository: UsersRepository, musicRepository: MusicRepos
         val user = call.sessions.get<UserSession>()?.let { usersRepository.get(it.userId) }
 
         val months = getAllMonthsString()
+        val genres = getAllGenresString().map {it.replace(" ", "_").toUpperCase()}
 
         call.respond(
             FreeMarkerContent(
@@ -37,7 +37,8 @@ fun Route.addAlbum(usersRepository: UsersRepository, musicRepository: MusicRepos
                 mapOf(
                     "user" to user,
                     "years" to years,
-                    "months" to months
+                    "months" to months,
+                    "genres" to genres
                 )
             )
         )
@@ -60,7 +61,7 @@ private fun addAlbum(params: Parameters): Music {
         month = monthStringToMonthEnum(params.getValue("month")),
         band = params.getValue("band"),
         album = params.getValue("album"),
-        genre = params.getValue("genre"),
+        genre = genreStringToGenreEnumFromDropDown(params.getValue("genre")),
         rating = params.getValue("rating"),
         bestSong = params.getValue("bestSong")
     )

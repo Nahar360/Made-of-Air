@@ -2,6 +2,7 @@ package com.madeofair.repositories
 
 import com.madeofair.DatabaseFactory.dbQuery
 import com.madeofair.models.db.MusicDB
+import com.madeofair.models.domain.Genres
 import com.madeofair.models.domain.Months
 import com.madeofair.models.domain.Music
 import com.madeofair.models.domain.Years
@@ -15,11 +16,11 @@ object MusicRepository {
             val insertStatement = transaction {
                 MusicDB.insert {
                     it[id] = createRandomId()
-                    it[year] = music.year.toString()
+                    it[year] = music.year.name
                     it[month] = music.month.name
                     it[band] = music.band
                     it[album] = music.album
-                    it[genre] = music.genre
+                    it[genre] = music.genre.name
                     it[rating] = music.rating
                     it[bestSong] = music.bestSong
                 }
@@ -35,11 +36,11 @@ object MusicRepository {
                 MusicDB.update(
                     where = { MusicDB.id eq music.id!! }
                 ) {
-                    it[year] = music.year.toString()
+                    it[year] = music.year.name
                     it[month] = music.month.name
                     it[band] = music.band
                     it[album] = music.album
-                    it[genre] = music.genre
+                    it[genre] = music.genre.name
                     it[rating] = music.rating
                     it[bestSong] = music.bestSong
                 }
@@ -162,7 +163,7 @@ object MusicRepository {
             month = Months.valueOf(this[MusicDB.month]),
             band = this[MusicDB.band],
             album = this[MusicDB.album],
-            genre = this[MusicDB.genre],
+            genre = Genres.valueOf(this[MusicDB.genre]),
             rating = this[MusicDB.rating],
             bestSong = this[MusicDB.bestSong]
         )
