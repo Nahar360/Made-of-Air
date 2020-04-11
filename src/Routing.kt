@@ -4,13 +4,11 @@ import com.madeofair.models.domain.getAllYearsString
 import com.madeofair.repositories.MusicRepository
 import com.madeofair.repositories.UsersRepository
 import com.madeofair.webapp.pages.*
-import io.ktor.http.content.resources
 import io.ktor.http.content.static
 import io.ktor.routing.Routing
 
 fun Routing.static() {
     static("/static") {
-        resources("images")
     }
 }
 
