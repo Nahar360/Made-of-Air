@@ -70,10 +70,27 @@
                         </thead>
                         <tbody>
                             <#list month as album>
-                                <tr>
+                                    <#if (album.rating != "") && (album.rating?number < 50)>
+                                        <tr bgcolor="#bb2124">
+                                    </#if>
+                                    <#if (album.rating != "") && (album.rating?number >= 50) && (album.rating?number < 80)>
+                                        <tr>
+                                    </#if>
+                                    <#if (album.rating != "") && (album.rating?number >= 80) && (album.rating?number < 90)>
+                                        <tr bgcolor="#cd7f32">
+                                    </#if>
+                                    <#if (album.rating != "") && (album.rating?number >= 90) && (album.rating?number < 100)>
+                                        <tr bgcolor="#c0c0c0">
+                                    </#if>
+                                    <#if (album.rating != "") && (album.rating?number == 100)>
+                                        <tr bgcolor="#d4af37">
+                                    </#if>
+                                    <#if (album.rating == "")>
+                                        <tr bgcolor="#e6e6fa">
+                                    </#if>
                                     <td style="text-align: center; vertical-align: middle;">${album.year[5..]}</td>
                                     <td style="text-align: center; vertical-align: middle;">${album.month}</td>
-                                    <th scope="row" style="text-align: center; vertical-align: middle;">${album.band}</th>
+                                    <td style="text-align: center; vertical-align: middle;"><b>${album.band}</b></td>
                                     <td style="text-align: center; vertical-align: middle;">${album.album}</td>
                                     <td style="text-align: center; vertical-align: middle;">${album.genre}</td>
                                     <td style="text-align: center; vertical-align: middle;">${album.rating}</td>
