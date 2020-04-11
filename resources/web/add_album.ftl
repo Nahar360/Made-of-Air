@@ -13,7 +13,7 @@
             <div class="form-group row">
                 <label for="year" class="col-sm-1 col-form-label">Year</label>
                 <div class="col-sm-7">
-                    <select class="form-control" id="year" name="year">
+                    <select class="form-control" id="year" name="year" required>
                         <#list years as year>
                             <option>${year}</option>
                         </#list>
@@ -25,7 +25,7 @@
             <div class="form-group row">
                 <label for="month" class="col-sm-1 col-form-label">Month</label>
                 <div class="col-sm-7">
-                    <select class="form-control" id="month" name="month">
+                    <select class="form-control" id="month" name="month" required>
                         <#list months as month>
                             <option>${month}</option>
                         </#list>
@@ -37,7 +37,7 @@
             <div class="form-group row">
                 <label for="band" class="col-sm-1 col-form-label">Band</label>
                 <div class="col-sm-7">
-                    <input type="text" class="form-control" id="band" name="band" placeholder="Band">
+                    <input type="text" class="form-control" id="band" name="band" placeholder="Band" required>
                 </div>
             </div>
 
@@ -45,7 +45,7 @@
             <div class="form-group row">
                 <label for="album" class="col-sm-1 col-form-label">Album</label>
                 <div class="col-sm-7">
-                    <input type="text" class="form-control" id="album" name="album" placeholder="Album">
+                    <input type="text" class="form-control" id="album" name="album" placeholder="Album" required>
                 </div>
             </div>
 
@@ -53,7 +53,11 @@
             <div class="form-group row">
                 <label for="genre" class="col-sm-1 col-form-label">Genre</label>
                 <div class="col-sm-7">
-                    <input type="text" class="form-control" id="genre" name="genre" placeholder="Genre">
+                    <select class="form-control" id="genre" name="genre" required>
+                        <#list genres as genre>
+                            <option>${genre}</option>
+                        </#list>
+                    </select>
                 </div>
             </div>
 
@@ -76,7 +80,7 @@
                                 <#if (x > 75) && (x <= 100)>
                                     <label class="btn btn-success">
                                 </#if>
-                                        <input type="radio" id="rating" name="rating" value="${x}"> ${x}
+                                        <input type="radio" id="rating" name="rating" value="${x}" required> ${x}
                                     </label>
                             </#if>
                         </#list>
@@ -88,7 +92,7 @@
             <div class="form-group row">
                 <label for="bestSong" class="col-sm-1 col-form-label">Best song</label>
                 <div class="col-sm-7">
-                    <input type="text" class="form-control" id="bestSong" name="bestSong" placeholder="Best song">
+                    <input type="text" class="form-control" id="bestSong" name="bestSong" placeholder="Best song" required>
                 </div>
             </div>
 
