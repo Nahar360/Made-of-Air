@@ -15,6 +15,23 @@ enum class Years {
     NONE
 }
 
+fun yearEnumToYearString(year: Years): String {
+    return when (year) {
+        Years.YEAR_2010 -> "2010"
+        Years.YEAR_2011 -> "2011"
+        Years.YEAR_2012 -> "2012"
+        Years.YEAR_2013 -> "2013"
+        Years.YEAR_2014 -> "2014"
+        Years.YEAR_2015 -> "2015"
+        Years.YEAR_2016 -> "2016"
+        Years.YEAR_2017 -> "2017"
+        Years.YEAR_2018 -> "2018"
+        Years.YEAR_2019 -> "2019"
+        Years.YEAR_2020 -> "2020"
+        else -> "NONE"
+    }
+}
+
 fun yearStringToYearEnum(year: String): Years {
     return when (year) {
         "2010" -> Years.YEAR_2010
@@ -37,7 +54,7 @@ fun getAllYearsString(): ArrayList<String> {
 
     for (year in Years.values()) {
         if (year != Years.NONE) {
-            yearsString.add(year.name.removePrefix("YEAR_"))
+            yearsString.add(yearEnumToYearString(year))
         }
     }
 

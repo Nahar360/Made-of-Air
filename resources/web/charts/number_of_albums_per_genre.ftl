@@ -1,4 +1,5 @@
 <script>
+
 var ctxPerGenre = document.getElementById('numberOfAlbumsPerGenreChart').getContext('2d');
 
 var labelsArrayPerGenre = [<#list genres as genre>'${genre}',</#list>];

@@ -71,6 +71,6 @@ fun Route.loadCsv(musicRepository: MusicRepository) {
             }
         }
 
-        call.redirect(Home())
+        call.redirect(Stats())
     }
 }

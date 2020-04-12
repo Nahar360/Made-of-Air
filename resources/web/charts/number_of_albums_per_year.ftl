@@ -1,4 +1,5 @@
 <script>
+
 var ctxPerYear = document.getElementById('numberOfAlbumsPerYearChart').getContext('2d');
 
 var labelsArrayPerYear = [<#list years as year>${year},</#list>];

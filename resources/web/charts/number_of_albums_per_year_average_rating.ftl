@@ -1,7 +1,5 @@
 <script>
-//
-// numberOfAlbumsPerYearAverageRatingChart
-//
+
 var ctxPerYearAverageRating = document.getElementById('numberOfAlbumsPerYearAverageRatingChart').getContext('2d');
 
 var labelsArrayPerYearAverageRating = [<#list years as year>${year},</#list>];
