@@ -12,7 +12,7 @@
           <#if user??>
             <a class="dropdown-item" href="/add_album">Add album</a>
           </#if>
-          <#list years as year>
+          <#list years?reverse as year>
             <a class="dropdown-item" href="/music/year/${year}">${year}</a>
           </#list>
         </div>
@@ -23,7 +23,7 @@
           <#if user??>
             <a class="dropdown-item" href="/add_album_pitchfork">Add Pitchfork</a>
           </#if>
-          <#list years as year>
+          <#list years?reverse as year>
             <a class="dropdown-item" href="/pitchfork/year/${year}">${year}</a>
           </#list>
         </div>
