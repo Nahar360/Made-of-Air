@@ -2,6 +2,7 @@ package com.madeofair.webapp.pages
 
 import com.madeofair.models.UserSession
 import com.madeofair.models.domain.Music
+import com.madeofair.models.domain.calendarMonthToMonths
 import com.madeofair.models.domain.getAllMonthsString
 import com.madeofair.redirect
 import com.madeofair.repositories.MusicRepository
@@ -20,6 +21,9 @@ import io.ktor.response.respond
 import io.ktor.routing.Route
 import io.ktor.sessions.get
 import io.ktor.sessions.sessions
+import java.text.SimpleDateFormat
+import java.util.*
+import kotlin.collections.ArrayList
 
 const val MUSIC_PER_YEAR = "/music/year/{year}"
 
@@ -40,12 +44,17 @@ fun Route.musicPerYear(usersRepository: UsersRepository, musicRepository: MusicR
             music.add(musicRepository.getAllByYearAndByMonth("YEAR_$year", month).sortedBy { it.band }
                 .sortedBy { it.month }.sortedBy { it.year })
 
+        val currentYear = Calendar.getInstance().get(Calendar.YEAR).toString()
+        val currentMonth = calendarMonthToMonths(SimpleDateFormat("MMM").format(Calendar.getInstance().time)).name
+
         call.respond(
             FreeMarkerContent(
                 "music.ftl",
                 mapOf(
                     "user" to user,
                     "music" to music,
+                    "currentYear" to currentYear,
+                    "currentMonth" to currentMonth,
                     "months" to months,
                     "year" to year,
                     "years" to years

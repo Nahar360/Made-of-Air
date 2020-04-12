@@ -2,6 +2,7 @@ package com.madeofair.webapp.pages
 
 import com.madeofair.models.UserSession
 import com.madeofair.models.domain.Pitchfork
+import com.madeofair.models.domain.calendarMonthToMonths
 import com.madeofair.models.domain.getAllMonthsString
 import com.madeofair.redirect
 import com.madeofair.repositories.PitchforkRepository
@@ -20,6 +21,9 @@ import io.ktor.response.respond
 import io.ktor.routing.Route
 import io.ktor.sessions.get
 import io.ktor.sessions.sessions
+import java.text.SimpleDateFormat
+import java.util.*
+import kotlin.collections.ArrayList
 
 const val PITCHFORK_PER_YEAR = "/pitchfork/year/{year}"
 
@@ -43,12 +47,17 @@ fun Route.pitchforkPerYear(
         for (month in months)
             pitchfork.add(pitchforkRepository.getAllByYearAndByMonth("YEAR_$year", month).sortedBy { it.day })
 
+        val currentYear = Calendar.getInstance().get(Calendar.YEAR).toString()
+        val currentMonth = calendarMonthToMonths(SimpleDateFormat("MMM").format(Calendar.getInstance().time)).name
+
         call.respond(
             FreeMarkerContent(
                 "pitchfork.ftl",
                 mapOf(
                     "user" to user,
                     "pitchfork" to pitchfork,
+                    "currentYear" to currentYear,
+                    "currentMonth" to currentMonth,
                     "months" to months,
                     "year" to year,
                     "years" to years

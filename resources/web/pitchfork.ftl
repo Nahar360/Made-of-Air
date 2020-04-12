@@ -28,13 +28,18 @@
     <!--  Table  -->
     <div id="table" style="display: block">
         <ul class="nav nav-pills nav-justified">
-            <#list pitchfork as month>
-                <#assign monthIndex = month?counter - 1>
+            <#list months as month>
                 <li class="nav-item">
-                    <#if month?counter == 1>
-                        <a class="nav-link active" role="tab" data-toggle="pill" id="pills-${months[monthIndex]}-tab-table" href="#pills-${months[monthIndex]}-table" aria-controls="pills-${months[monthIndex]}-table" aria-selected="true">${months[monthIndex]}</a>
+                    <#if year == currentYear>
+                        <#if month == currentMonth>
+                            <a class="nav-link active" role="tab" data-toggle="pill" id="pills-${month}-tab-table" href="#pills-${month}-table" aria-controls="pills-${month}-table" aria-selected="true">${month}</a>
+                        <#else>
+                            <a class="nav-link"        role="tab" data-toggle="pill" id="pills-${month}-tab-table" href="#pills-${month}-table" aria-controls="pills-${month}-table" aria-selected="false">${month}</a>
+                        </#if>
+                    <#elseif month?counter == 1>
+                        <a class="nav-link active" role="tab" data-toggle="pill" id="pills-${month}-tab-table" href="#pills-${month}-table" aria-controls="pills-${month}-table" aria-selected="true">${month}</a>
                     <#else>
-                        <a class="nav-link"        role="tab" data-toggle="pill" id="pills-${months[monthIndex]}-tab-table" href="#pills-${months[monthIndex]}-table" aria-controls="pills-${months[monthIndex]}-table" aria-selected="false">${months[monthIndex]}</a>
+                        <a class="nav-link"        role="tab" data-toggle="pill" id="pills-${month}-tab-table" href="#pills-${month}-table" aria-controls="pills-${month}-table" aria-selected="false">${month}</a>
                     </#if>
                 </li>
             </#list>
@@ -44,12 +49,20 @@
 
         <div class="tab-content">
             <#list pitchfork as month>
+
                 <#assign monthIndex = month?counter - 1>
-                <#if monthIndex == 0>
+                <#if year == currentYear>
+                    <#if months[monthIndex] == currentMonth>
+                        <div class="tab-pane fade show active" role="tabpanel" id="pills-${months[monthIndex]}-table" aria-labelledby="pills-${months[monthIndex]}-tab-table">
+                    <#else>
+                        <div class="tab-pane fade"             role="tabpanel" id="pills-${months[monthIndex]}-table" aria-labelledby="pills-${months[monthIndex]}-tab-table">
+                    </#if>
+                <#elseif monthIndex == 0>
                     <div class="tab-pane fade show active" role="tabpanel" id="pills-${months[monthIndex]}-table" aria-labelledby="pills-${months[monthIndex]}-tab-table">
                 <#else>
                     <div class="tab-pane fade"             role="tabpanel" id="pills-${months[monthIndex]}-table" aria-labelledby="pills-${months[monthIndex]}-tab-table">
                 </#if>
+
                 <#if (month?size > 0)>
                     <h6>${month?size} albums.</h6>
                     <table class="table table-bordered">
@@ -116,13 +129,18 @@
     <!--  Grid  -->
     <div id="grid" style="display: none">
         <ul class="nav nav-pills nav-justified">
-            <#list pitchfork as month>
-                <#assign monthIndex = month?counter - 1>
+            <#list months as month>
                 <li class="nav-item">
-                    <#if monthIndex == 0>
-                        <a class="nav-link active" role="tab" data-toggle="pill" id="pills-${months[monthIndex]}-tab-grid" href="#pills-${months[monthIndex]}-grid" aria-controls="pills-${months[monthIndex]}-grid" aria-selected="true">${months[monthIndex]}</a>
+                    <#if year == currentYear>
+                        <#if month == currentMonth>
+                            <a class="nav-link active" role="tab" data-toggle="pill" id="pills-${month}-tab-grid" href="#pills-${month}-grid" aria-controls="pills-${month}-grid" aria-selected="true">${month}</a>
+                        <#else>
+                            <a class="nav-link"        role="tab" data-toggle="pill" id="pills-${month}-tab-grid" href="#pills-${month}-grid" aria-controls="pills-${month}-grid" aria-selected="false">${month}</a>
+                        </#if>
+                    <#elseif month?counter == 1>
+                        <a class="nav-link active" role="tab" data-toggle="pill" id="pills-${month}-tab-grid" href="#pills-${month}-grid" aria-controls="pills-${month}-grid" aria-selected="true">${month}</a>
                     <#else>
-                        <a class="nav-link"        role="tab" data-toggle="pill" id="pills-${months[monthIndex]}-tab-grid" href="#pills-${months[monthIndex]}-grid" aria-controls="pills-${months[monthIndex]}-grid" aria-selected="false">${months[monthIndex]}</a>
+                        <a class="nav-link"        role="tab" data-toggle="pill" id="pills-${month}-tab-grid" href="#pills-${month}-grid" aria-controls="pills-${month}-grid" aria-selected="false">${month}</a>
                     </#if>
                 </li>
             </#list>
@@ -132,12 +150,20 @@
 
         <div class="tab-content">
             <#list pitchfork as month>
+
                 <#assign monthIndex = month?counter - 1>
-                <#if monthIndex == 0>
+                <#if year == currentYear>
+                    <#if months[monthIndex] == currentMonth>
+                        <div class="tab-pane fade show active" role="tabpanel" id="pills-${months[monthIndex]}-grid" aria-labelledby="pills-${months[monthIndex]}-tab-grid">
+                    <#else>
+                        <div class="tab-pane fade"             role="tabpanel" id="pills-${months[monthIndex]}-grid" aria-labelledby="pills-${months[monthIndex]}-tab-grid">
+                    </#if>
+                <#elseif monthIndex == 0>
                     <div class="tab-pane fade show active" role="tabpanel" id="pills-${months[monthIndex]}-grid" aria-labelledby="pills-${months[monthIndex]}-tab-grid">
                 <#else>
                     <div class="tab-pane fade"             role="tabpanel" id="pills-${months[monthIndex]}-grid" aria-labelledby="pills-${months[monthIndex]}-tab-grid">
                 </#if>
+
                     <#if (month?size > 0)>
                         <h6>${month?size} albums.</h6>
                         <div class="row">

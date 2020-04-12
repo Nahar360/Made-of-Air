@@ -45,3 +45,21 @@ fun getAllMonthsString(): ArrayList<String> {
 
     return monthsString
 }
+
+fun calendarMonthToMonths(calendarMonth: String) : Months {
+    return when (calendarMonth) {
+        "Jan" -> Months.JANUARY
+        "Feb" -> Months.FEBRUARY
+        "Mar" -> Months.MARCH
+        "Apr" -> Months.APRIL
+        "May" -> Months.MAY
+        "Jun" -> Months.JUNE
+        "Jul" -> Months.JULY
+        "Aug" -> Months.AUGUST
+        "Sep" -> Months.SEPTEMBER
+        "Oct" -> Months.OCTOBER
+        "Nov" -> Months.NOVEMBER
+        "Dec" -> Months.DECEMBER
+        else -> Months.NONE
+    }
+}
