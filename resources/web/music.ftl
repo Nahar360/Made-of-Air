@@ -71,22 +71,22 @@
                         <tbody>
                             <#list month as album>
                                     <#if (album.rating != "") && (album.rating?number < 50)>
-                                        <tr bgcolor="#bb2124">
+                                        <tr bgcolor="#BB2124">
                                     </#if>
                                     <#if (album.rating != "") && (album.rating?number >= 50) && (album.rating?number < 80)>
                                         <tr>
                                     </#if>
                                     <#if (album.rating != "") && (album.rating?number >= 80) && (album.rating?number < 90)>
-                                        <tr bgcolor="#cd7f32">
+                                        <tr bgcolor="#A77044">
                                     </#if>
                                     <#if (album.rating != "") && (album.rating?number >= 90) && (album.rating?number < 100)>
-                                        <tr bgcolor="#c0c0c0">
+                                        <tr bgcolor="#A7A7AD">
                                     </#if>
                                     <#if (album.rating != "") && (album.rating?number == 100)>
-                                        <tr bgcolor="#d4af37">
+                                        <tr bgcolor="#D6AF36">
                                     </#if>
                                     <#if (album.rating == "")>
-                                        <tr bgcolor="#e6e6fa">
+                                        <tr bgcolor="#ffdb99">
                                     </#if>
                                     <td style="text-align: center; vertical-align: middle;">${album.year[5..]}</td>
                                     <td style="text-align: center; vertical-align: middle;">${album.month}</td>
@@ -190,7 +190,7 @@
     <!--  Clear  -->
     <#if user??>
         <div class="form-group row">
-            <form method="post" action="/music/year/${year}" onsubmit="return confirm('Are you sure you want to clear all the music?');">
+            <form method="post" action="/music/year/${year}" onsubmit="return confirm('Are you sure you want to clear all the music from ${year}?');">
                 <div class="col-sm-10">
                     <input type="hidden" name="action" value="clear">
                     <button type="submit" class="btn btn-danger d-flex justify-content-center align-content-between">
