@@ -48,14 +48,44 @@
         <div class="row">
             <div class="col-sm-12">
                 <#assign numTotalOfAlbumsPerGenre = 0>
-                    <#list musicByGenres as genre>
+                <#list musicByGenres as genre>
                     <#assign numTotalOfAlbumsPerGenre += genre?size>
                 </#list>
                 <h6>[Total number of albums per genre: ${numTotalOfAlbumsPerGenre}]</h6>
 
                 <canvas id="numberOfAlbumsPerGenreChart"></canvas>
                 <#include "charts/number_of_albums_per_genre.ftl">
+            </div>
         </div>
+
+        <div class="panel-body">
+            <!--  Export  -->
+            <div class="form-group row float-left">
+                <form method="post" action="/stats">
+                    <div class="col-sm-12">
+                        <input type="hidden" name="action" value="export">
+                        <button type="submit" class="btn btn-primary d-flex justify-content-center align-content-between">
+                            <i class="material-icons">arrow_downward</i>
+                            Export to CSV
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!--  Clear  -->
+            <#if user??>
+                <div class="form-group row float-right">
+                    <form method="post" action="/stats" onsubmit="return confirm('Are you sure you want to clear all the music?');">
+                        <div class="col-sm-12">
+                            <input type="hidden" name="action" value="clear">
+                            <button type="submit" class="btn btn-danger d-flex justify-content-center align-content-between">
+                                <i class="material-icons">clear</i>
+                                Clear
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </#if>
         </div>
     </div>
     <#list years as year>
