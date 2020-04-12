@@ -38,24 +38,21 @@ fun Route.modifyAlbum(usersRepository: UsersRepository, musicRepository: MusicRe
             val album = musicRepository.get(id)
 
             val months = getAllMonthsString()
-            val genres = getAllGenresString().map {it.replace(" ", "_").toUpperCase()}
+            val genres = getAllGenresString().map { it.replace(" ", "_").toUpperCase() }
 
-            when (album != null) {
-                false -> call.redirect(MusicPerYear("2016"))
-                true -> {
-                    call.respond(
-                        FreeMarkerContent(
-                            "modify_album.ftl",
-                            mapOf(
-                                "user" to user,
-                                "album" to album,
-                                "years" to years,
-                                "months" to months,
-                                "genres" to genres
-                            )
+            if (album != null) {
+                call.respond(
+                    FreeMarkerContent(
+                        "modify_album.ftl",
+                        mapOf(
+                            "user" to user,
+                            "album" to album,
+                            "years" to years,
+                            "months" to months,
+                            "genres" to genres
                         )
                     )
-                }
+                )
             }
         }
     }

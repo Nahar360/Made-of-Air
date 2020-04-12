@@ -71,5 +71,5 @@ fun Route.musicPerYear(usersRepository: UsersRepository, musicRepository: MusicR
 }
 
 private fun Parameters.getValue(value: String): String {
-    return this[value] ?: throw IllegalArgumentException("Missing argument: Patient $value")
+    return this[value] ?: throw IllegalArgumentException("Missing argument: Album $value")
 }

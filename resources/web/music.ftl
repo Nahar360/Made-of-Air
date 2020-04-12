@@ -154,7 +154,7 @@
                                     <div class="card border-dark text-center">
                                         <div class="card-header">${album.band} - ${album.album}</div>
                                         <div class="card-body">
-                                            <p class="card-text">${album.year} ${album.month}</p>
+                                            <p class="card-text">${album.year[5..]} ${album.month}</p>
                                             <h5 class="card-title">${album.rating}</h5>
                                             <p class="card-text">${album.genre}</p>
                                             <p class="card-text">${album.bestSong}</p>
