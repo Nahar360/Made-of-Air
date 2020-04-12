@@ -77,7 +77,8 @@ private fun Application.setRouting(repositoryModule: RepositoryModule) {
         static()
         web(
             repositoryModule.users(),
-            repositoryModule.music()
+            repositoryModule.music(),
+            repositoryModule.pitchfork()
         )
     }
 }

@@ -3,6 +3,7 @@ package com.madeofair
 import com.madeofair.Environment.JDBC_DATABASE_PASSWORD
 import com.madeofair.Environment.JDBC_DATABASE_URL
 import com.madeofair.models.db.MusicDB
+import com.madeofair.models.db.PitchforkDB
 import com.madeofair.models.db.UserDB
 import com.madeofair.models.domain.defaultUser
 import com.madeofair.modules.RepositoryModule
@@ -23,6 +24,7 @@ object DatabaseFactory {
         transaction {
             SchemaUtils.create(UserDB)
             SchemaUtils.create(MusicDB)
+            SchemaUtils.create(PitchforkDB)
         }
 
         loadDefaultContent(repositoryModule)

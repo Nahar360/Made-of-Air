@@ -9,18 +9,31 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color: #D3D3D3">Music</a>
         <div class="dropdown-menu">
+          <#if user??>
+            <a class="dropdown-item" href="/add_album">Add album</a>
+          </#if>
           <#list years as year>
             <a class="dropdown-item" href="/music/year/${year}">${year}</a>
           </#list>
         </div>
       </li>
-      <#if user??>
-        <li class="nav-item">
-          <a class="nav-link" href="/add_album" style="color: #D3D3D3">Add album</a>
-        </li>
-      </#if>
-      <li class="nav-item">
-        <a class="nav-link" href="/stats" style="color: #D3D3D3">Stats</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color: #D3D3D3">Pitchfork</a>
+        <div class="dropdown-menu">
+          <#if user??>
+            <a class="dropdown-item" href="/add_album_pitchfork">Add Pitchfork</a>
+          </#if>
+          <#list years as year>
+            <a class="dropdown-item" href="/pitchfork/year/${year}">${year}</a>
+          </#list>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color: #D3D3D3">Stats</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="/stats">Music</a>
+          <a class="dropdown-item" href="/stats_pitchfork">Pitchfork</a>
+        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/about" style="color: #D3D3D3">About</a>
