@@ -1,12 +1,10 @@
 package com.madeofair.webapp.pages
 
 import com.madeofair.models.UserSession
-import com.madeofair.models.domain.Pitchfork
-import com.madeofair.models.domain.getAllMonthsString
-import com.madeofair.models.domain.monthStringToMonthEnum
-import com.madeofair.models.domain.yearStringToYearEnum
+import com.madeofair.models.domain.*
 import com.madeofair.redirect
 import com.madeofair.repositories.PitchforkRepository
+import com.madeofair.repositories.PostsPitchforkRepository
 import com.madeofair.repositories.UsersRepository
 import com.madeofair.webapp.Actions
 import com.madeofair.webapp.getAction
@@ -21,6 +19,7 @@ import io.ktor.response.respond
 import io.ktor.routing.Route
 import io.ktor.sessions.get
 import io.ktor.sessions.sessions
+import org.joda.time.DateTime
 
 const val ADD_ALBUM_PITCHFORK = "/add_album_pitchfork"
 
@@ -30,6 +29,7 @@ class AddAlbumPitchfork
 fun Route.addAlbumPitchfork(
     usersRepository: UsersRepository,
     pitchforkRepository: PitchforkRepository,
+    postsPitchforkRepository: PostsPitchforkRepository,
     years: ArrayList<String>
 ) {
     get<AddAlbumPitchfork> {
@@ -52,8 +52,11 @@ fun Route.addAlbumPitchfork(
     post<AddAlbumPitchfork> {
         val params = call.receiveParameters()
 
+        val user = call.sessions.get<UserSession>()?.let { usersRepository.get(it.userId) }
+
         if (getAction(params) == Actions.ADD) {
-            if (pitchforkRepository.add(addAlbum(params)) != null) {
+            if (pitchforkRepository.add(addAlbum(params)) != null &&
+                postsPitchforkRepository.add(addPitchforkPost(params, user)) != null) {
                 call.redirect(PitchforkPerYear(params.getValue("year")))
             }
         }
@@ -65,8 +68,22 @@ private fun addAlbum(params: Parameters): Pitchfork {
         year = yearStringToYearEnum(params.getValue("year")),
         month = monthStringToMonthEnum(params.getValue("month")),
         day = params.getValue("day").toInt(),
-        band = params.getValue("band"),
-        album = params.getValue("album"),
+        band = params.getValue("band").toUpperCase(),
+        album = params.getValue("album").toUpperCase(),
+        rating = params.getValue("rating")
+    )
+}
+
+private fun addPitchforkPost(params: Parameters, author: User?): PostsPitchfork {
+    return PostsPitchfork(
+        author = author!!.userId,
+        date = DateTime.now(),
+        type = PostType.ADD,
+        year = yearStringToYearEnum(params.getValue("year")),
+        month = monthStringToMonthEnum(params.getValue("month")),
+        day = params.getValue("day").toInt(),
+        band = params.getValue("band").toUpperCase(),
+        album = params.getValue("album").toUpperCase(),
         rating = params.getValue("rating")
     )
 }

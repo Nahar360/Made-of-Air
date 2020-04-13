@@ -4,6 +4,7 @@ import com.madeofair.models.UserSession
 import com.madeofair.models.domain.*
 import com.madeofair.redirect
 import com.madeofair.repositories.MusicRepository
+import com.madeofair.repositories.PostsMusicRepository
 import com.madeofair.repositories.UsersRepository
 import com.madeofair.webapp.Actions
 import com.madeofair.webapp.getAction
@@ -19,13 +20,19 @@ import io.ktor.response.respond
 import io.ktor.routing.Route
 import io.ktor.sessions.get
 import io.ktor.sessions.sessions
+import org.joda.time.DateTime
 
 const val MODIFY_ALBUM = "music/{id}"
 
 @Location(MODIFY_ALBUM)
 class ModifyAlbum(val id: String)
 
-fun Route.modifyAlbum(usersRepository: UsersRepository, musicRepository: MusicRepository, years: ArrayList<String>) {
+fun Route.modifyAlbum(
+    usersRepository: UsersRepository,
+    musicRepository: MusicRepository,
+    postsMusicRepository: PostsMusicRepository,
+    years: ArrayList<String>
+) {
     get<ModifyAlbum> {
         val user = call.sessions.get<UserSession>()?.let { usersRepository.get(it.userId) }
 
@@ -60,13 +67,22 @@ fun Route.modifyAlbum(usersRepository: UsersRepository, musicRepository: MusicRe
     post<ModifyAlbum> {
         val params = call.receiveParameters()
 
-        if (getAction(params) == Actions.MODIFY && musicRepository.update(createAlbumToUpdate(params)) != null) {
+        val user = call.sessions.get<UserSession>()?.let { usersRepository.get(it.userId) }
+
+        if (getAction(params) == Actions.MODIFY && musicRepository.update(createAlbumToUpdate(params)) != null &&
+            postsMusicRepository.add(addMusicPost(params, user)) != null
+        ) {
             call.redirect(MusicPerYear(params.getValue("year")))
         }
     }
 }
 
 private fun createAlbumToUpdate(params: Parameters): Music {
+    var rating = ""
+    if (params.contains("rating")) {
+        rating = params.getValue("rating")
+    }
+
     return Music(
         id = params.getValue("id"),
         year = yearStringToYearEnum(params.getValue("year")),
@@ -74,7 +90,27 @@ private fun createAlbumToUpdate(params: Parameters): Music {
         band = params.getValue("band"),
         album = params.getValue("album"),
         genre = genreStringToGenreEnumFromDropDown(params.getValue("genre")),
-        rating = params.getValue("rating"),
+        rating = rating,
+        bestSong = params.getValue("bestSong")
+    )
+}
+
+private fun addMusicPost(params: Parameters, author: User?): PostsMusic {
+    var rating = ""
+    if (params.contains("rating")) {
+        rating = params.getValue("rating")
+    }
+
+    return PostsMusic(
+        author = author!!.userId,
+        date = DateTime.now(),
+        type = PostType.MODIFY,
+        year = yearStringToYearEnum(params.getValue("year")),
+        month = monthStringToMonthEnum(params.getValue("month")),
+        band = params.getValue("band"),
+        album = params.getValue("album"),
+        genre = genreStringToGenreEnumFromDropDown(params.getValue("genre")),
+        rating = rating,
         bestSong = params.getValue("bestSong")
     )
 }

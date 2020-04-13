@@ -80,7 +80,7 @@
                                 <#if (x > 75) && (x <= 100)>
                                     <label class="btn btn-success">
                                 </#if>
-                                        <input type="radio" id="rating" name="rating" value="${x}" required> ${x}
+                                        <input type="radio" id="rating" name="rating" value="${x}"> ${x}
                                     </label>
                             </#if>
                         </#list>
@@ -92,7 +92,7 @@
             <div class="form-group row">
                 <label for="bestSong" class="col-sm-1 col-form-label">Best song</label>
                 <div class="col-sm-7">
-                    <input type="text" class="form-control" id="bestSong" name="bestSong" placeholder="Best song" required>
+                    <input type="text" class="form-control" id="bestSong" name="bestSong" placeholder="Best song">
                 </div>
             </div>
 

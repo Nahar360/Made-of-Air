@@ -4,7 +4,7 @@ import com.madeofair.auth.hash
 import io.ktor.auth.Principal
 import java.io.Serializable
 
-private const val DEFAULT_USER_ID = "admin"
+private const val DEFAULT_USER_ID = "Joaquin"
 private const val DEFAULT_USER_PASSWORD = "madeofair2020"
 
 data class User(

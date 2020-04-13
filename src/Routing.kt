@@ -1,9 +1,7 @@
 package com.madeofair
 
 import com.madeofair.models.domain.getAllYearsString
-import com.madeofair.repositories.MusicRepository
-import com.madeofair.repositories.PitchforkRepository
-import com.madeofair.repositories.UsersRepository
+import com.madeofair.repositories.*
 import com.madeofair.webapp.pages.*
 import io.ktor.http.content.static
 import io.ktor.routing.Routing
@@ -16,21 +14,23 @@ fun Routing.static() {
 fun Routing.web(
     usersRepository: UsersRepository,
     musicRepository: MusicRepository,
-    pitchforkRepository: PitchforkRepository
+    pitchforkRepository: PitchforkRepository,
+    postsMusicRepository: PostsMusicRepository,
+    postsPitchforkRepository: PostsPitchforkRepository
 ) {
     val years = getAllYearsString()
 
-    home(usersRepository, years)
+    home(usersRepository, postsMusicRepository, postsPitchforkRepository, years)
 
     signIn(usersRepository, years)
     users(usersRepository, years)
     signOut()
 
-    addAlbum(usersRepository, musicRepository, years)
+    addAlbum(usersRepository, musicRepository, postsMusicRepository, years)
     musicPerYear(usersRepository, musicRepository, years)
-    modifyAlbum(usersRepository, musicRepository, years)
+    modifyAlbum(usersRepository, musicRepository, postsMusicRepository, years)
 
-    addAlbumPitchfork(usersRepository, pitchforkRepository, years)
+    addAlbumPitchfork(usersRepository, pitchforkRepository, postsPitchforkRepository, years)
     pitchforkPerYear(usersRepository, pitchforkRepository, years)
     modifyAlbumPitchfork(usersRepository, pitchforkRepository, years)
 

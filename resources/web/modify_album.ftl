@@ -81,39 +81,59 @@
                         <#list 1..100 as x>
                             <#if x % 5 == 0>
                                 <#if (x >= 0) && (x <= 25)>
-                                    <#if x == album.rating?number>
-                                        <label class="btn btn-danger active">
-                                        <input type="radio" id="rating" name="rating" value="${x}" checked required> ${x}
+                                    <#if album.rating != "">
+                                        <#if x == album.rating?number>
+                                            <label class="btn btn-danger active">
+                                            <input type="radio" id="rating" name="rating" value="${x}" checked> ${x}
+                                        <#else>
+                                            <label class="btn btn-danger">
+                                            <input type="radio" id="rating" name="rating" value="${x}"> ${x}
+                                        </#if>
                                     <#else>
                                         <label class="btn btn-danger">
-                                        <input type="radio" id="rating" name="rating" value="${x}" required> ${x}
+                                        <input type="radio" id="rating" name="rating" value="${x}"> ${x}
                                     </#if>
                                 </#if>
                                 <#if (x > 25) && (x <= 50)>
-                                    <#if x == album.rating?number>
-                                        <label class="btn btn-warning active">
-                                        <input type="radio" id="rating" name="rating" value="${x}" checked required> ${x}
+                                    <#if album.rating != "">
+                                        <#if x == album.rating?number>
+                                            <label class="btn btn-warning active">
+                                            <input type="radio" id="rating" name="rating" value="${x}" checked> ${x}
+                                        <#else>
+                                            <label class="btn btn-warning">
+                                            <input type="radio" id="rating" name="rating" value="${x}"> ${x}
+                                        </#if>
                                     <#else>
                                         <label class="btn btn-warning">
-                                        <input type="radio" id="rating" name="rating" value="${x}" required> ${x}
+                                        <input type="radio" id="rating" name="rating" value="${x}"> ${x}
                                     </#if>
                                 </#if>
                                 <#if (x > 50) && (x <= 75)>
-                                    <#if x == album.rating?number>
-                                        <label class="btn btn-info active">
-                                        <input type="radio" id="rating" name="rating" value="${x}" checked required> ${x}
+                                    <#if album.rating != "">
+                                        <#if x == album.rating?number>
+                                            <label class="btn btn-info active">
+                                            <input type="radio" id="rating" name="rating" value="${x}" checked> ${x}
+                                        <#else>
+                                            <label class="btn btn-info">
+                                            <input type="radio" id="rating" name="rating" value="${x}"> ${x}
+                                        </#if>
                                     <#else>
                                         <label class="btn btn-info">
-                                        <input type="radio" id="rating" name="rating" value="${x}" required> ${x}
+                                        <input type="radio" id="rating" name="rating" value="${x}"> ${x}
                                     </#if>
                                 </#if>
                                 <#if (x > 75) && (x <= 100)>
-                                    <#if x == album.rating?number>
-                                        <label class="btn btn-success active">
-                                        <input type="radio" id="rating" name="rating" value="${x}" checked required> ${x}
+                                    <#if album.rating != "">
+                                        <#if x == album.rating?number>
+                                            <label class="btn btn-success active">
+                                            <input type="radio" id="rating" name="rating" value="${x}" checked> ${x}
+                                        <#else>
+                                            <label class="btn btn-success">
+                                            <input type="radio" id="rating" name="rating" value="${x}"> ${x}
+                                        </#if>
                                     <#else>
                                         <label class="btn btn-success">
-                                        <input type="radio" id="rating" name="rating" value="${x}" required> ${x}
+                                        <input type="radio" id="rating" name="rating" value="${x}"> ${x}
                                     </#if>
                                 </#if>
                                 </label>
@@ -127,7 +147,7 @@
             <div class="form-group row">
                 <label for="bestSong" class="col-sm-1 col-form-label">Best song</label>
                 <div class="col-sm-7">
-                    <input type="text" class="form-control" id="bestSong" name="bestSong" value="${album.bestSong}" placeholder="Best song" required>
+                    <input type="text" class="form-control" id="bestSong" name="bestSong" value="${album.bestSong}" placeholder="Best song">
                 </div>
             </div>
 

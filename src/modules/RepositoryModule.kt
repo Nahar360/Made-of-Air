@@ -1,11 +1,11 @@
 package com.madeofair.modules
 
-import com.madeofair.repositories.MusicRepository
-import com.madeofair.repositories.PitchforkRepository
-import com.madeofair.repositories.UsersRepository
+import com.madeofair.repositories.*
 
 interface RepositoryModule {
     fun users(): UsersRepository
     fun music(): MusicRepository
     fun pitchfork(): PitchforkRepository
+    fun postsMusic(): PostsMusicRepository
+    fun postsPitchfork(): PostsPitchforkRepository
 }
