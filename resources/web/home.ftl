@@ -90,7 +90,7 @@
 </div>
 
 <!--  Clear  -->
-<#if (user??) && (postsMusic?size > 0) || (postsPitchfork?size > 0)>
+<#if (user??) && ((postsMusic?size > 0) || (postsPitchfork?size > 0))>
     <div class="form-group row">
         <form method="post" action="/" onsubmit="return confirm('Are you sure you want to clear all the posts?');">
             <div class="col-sm-10">
