@@ -65,59 +65,61 @@
 
                 <#if (month?size > 0)>
                     <h6>${month?size} albums.</h6>
-                    <table class="table table-bordered">
-                        <thead class="thead-dark">
-                            <tr>
-                                <th scope="col">Year</th>
-                                <th scope="col">Month</th>
-                                <th scope="col">Day</th>
-                                <th scope="col">Band</th>
-                                <th scope="col">Album</th>
-                                <th scope="col">Rating</th>
-                                <#if user??>
-                                    <th scope="col"></th>
-                                    <th scope="col"></th>
-                                </#if>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <#list month as album>
-                                    <#if (album.rating != "") && (album.rating?number >= 8.1) && (album.rating?number < 8.6)>
-                                        <tr>
-                                    </#if>
-                                    <#if (album.rating != "") && (album.rating?number >= 8.6) && (album.rating?number < 9.0)>
-                                        <tr bgcolor="#A77044">
-                                    </#if>
-                                    <#if (album.rating != "") && (album.rating?number >= 9.0) && (album.rating?number < 9.5)>
-                                        <tr bgcolor="#A7A7AD">
-                                    </#if>
-                                    <#if (album.rating != "") && (album.rating?number >= 9.5)>
-                                        <tr bgcolor="#D6AF36">
-                                    </#if>
-                                    <td style="text-align: center; vertical-align: middle;">${album.year[5..]}</td>
-                                    <td style="text-align: center; vertical-align: middle;">${album.month}</td>
-                                    <td style="text-align: center; vertical-align: middle;">${album.day}</td>
-                                    <td style="text-align: center; vertical-align: middle;"><b>${album.band}</b></td>
-                                    <td style="text-align: center; vertical-align: middle;">${album.album}</td>
-                                    <td style="text-align: center; vertical-align: middle;">${album.rating}</td>
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Year</th>
+                                    <th scope="col">Month</th>
+                                    <th scope="col">Day</th>
+                                    <th scope="col">Band</th>
+                                    <th scope="col">Album</th>
+                                    <th scope="col">Rating</th>
                                     <#if user??>
-                                        <td style="text-align: center; vertical-align: middle;">
-                                            <form action="/pitchfork/${album.id}">
-                                                <button type="submit" class="btn btn-default btn-circle" title="Modify"><i class="material-icons">edit</i></button>
-                                            </form>
-                                        </td>
-                                        <td style="text-align: center; vertical-align: middle;">
-                                            <form method="post" action="/pitchfork/year/${year}">
-                                                <input type="hidden" name="pitchforkId" value="${album.id}">
-                                                <input type="hidden" name="action" value="delete">
-                                                <button type="submit" class="btn btn-default btn-circle" title="Delete"><i class="material-icons">delete</i></button>
-                                            </form>
-                                        </td>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
                                     </#if>
                                 </tr>
-                            </#list>
-                        </tbody>
-                    </table>
+                            </thead>
+                            <tbody>
+                                <#list month as album>
+                                        <#if (album.rating != "") && (album.rating?number >= 8.1) && (album.rating?number < 8.6)>
+                                            <tr>
+                                        </#if>
+                                        <#if (album.rating != "") && (album.rating?number >= 8.6) && (album.rating?number < 9.0)>
+                                            <tr bgcolor="#A77044">
+                                        </#if>
+                                        <#if (album.rating != "") && (album.rating?number >= 9.0) && (album.rating?number < 9.5)>
+                                            <tr bgcolor="#A7A7AD">
+                                        </#if>
+                                        <#if (album.rating != "") && (album.rating?number >= 9.5)>
+                                            <tr bgcolor="#D6AF36">
+                                        </#if>
+                                        <td style="text-align: center; vertical-align: middle;">${album.year[5..]}</td>
+                                        <td style="text-align: center; vertical-align: middle;">${album.month}</td>
+                                        <td style="text-align: center; vertical-align: middle;">${album.day}</td>
+                                        <td style="text-align: center; vertical-align: middle;"><b>${album.band}</b></td>
+                                        <td style="text-align: center; vertical-align: middle;">${album.album}</td>
+                                        <td style="text-align: center; vertical-align: middle;">${album.rating}</td>
+                                        <#if user??>
+                                            <td style="text-align: center; vertical-align: middle;">
+                                                <form action="/pitchfork/${album.id}">
+                                                    <button type="submit" class="btn btn-default btn-circle" title="Modify"><i class="material-icons">edit</i></button>
+                                                </form>
+                                            </td>
+                                            <td style="text-align: center; vertical-align: middle;">
+                                                <form method="post" action="/pitchfork/year/${year}">
+                                                    <input type="hidden" name="pitchforkId" value="${album.id}">
+                                                    <input type="hidden" name="action" value="delete">
+                                                    <button type="submit" class="btn btn-default btn-circle" title="Delete"><i class="material-icons">delete</i></button>
+                                                </form>
+                                            </td>
+                                        </#if>
+                                    </tr>
+                                </#list>
+                            </tbody>
+                        </table>
+                    </div>
                 <#else>
                     <label class="form-check-label">There are no albums for ${year} ${months[monthIndex]}.</label>
                 </#if>
