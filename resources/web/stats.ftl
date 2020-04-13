@@ -88,14 +88,31 @@
             </#if>
         </div>
     </div>
+
     <#list years as year>
         <div class="tab-pane fade"     role="tabpanel" id="pills-${year}" aria-labelledby="pills-${year}-tab">
-            <div class="col-sm-6">
-<!--                <canvas id="numberOfAlbumsPerMonthsChart"></canvas>-->
-<!--                <canvas id="numberOfAlbumsPerMonthsChart${year}"></canvas>-->
+            <div class="row">
+                <#assign numTotalOfAlbumsPerYear = 0>
+                <#list musicByYears as musicYear>
+                    <#list musicYear as album>
+                        <#if year == album.year[5..]>
+                            <#assign numTotalOfAlbumsPerYear++>
+                        </#if>
+                    </#list>
+                </#list>
+                <div class="col-sm-12">
+                    <h6>[Total number of albums in ${year}: ${numTotalOfAlbumsPerYear}]</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <canvas id="numberOfAlbumsPerMonthChart${year}"></canvas>
+                    <#include "charts/number_of_albums_per_month.ftl">
+                </div>
             </div>
         </div>
     </#list>
+
 </div>
 
 </@common.page>

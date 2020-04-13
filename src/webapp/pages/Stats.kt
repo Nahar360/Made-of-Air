@@ -3,6 +3,7 @@ package com.madeofair.webapp.pages
 import com.madeofair.models.UserSession
 import com.madeofair.models.domain.Music
 import com.madeofair.models.domain.getAllGenresString
+import com.madeofair.models.domain.getAllMonthsString
 import com.madeofair.models.domain.yearEnumToYearString
 import com.madeofair.redirect
 import com.madeofair.repositories.MusicRepository
@@ -60,6 +61,8 @@ fun Route.stats(usersRepository: UsersRepository, musicRepository: MusicReposito
         for (genre in genres)
             musicByGenres.add(musicRepository.getAllByGenre(genre.replace(" ", "_").toUpperCase()))
 
+        val months = getAllMonthsString()
+
         call.respond(
             FreeMarkerContent(
                 "stats.ftl",
@@ -69,7 +72,8 @@ fun Route.stats(usersRepository: UsersRepository, musicRepository: MusicReposito
                     "years" to years,
                     "listOfAverageRatings" to listOfAverageRatings,
                     "musicByGenres" to musicByGenres,
-                    "genres" to genres
+                    "genres" to genres,
+                    "months" to months
                 )
             )
         )

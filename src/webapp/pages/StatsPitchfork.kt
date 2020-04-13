@@ -2,6 +2,7 @@ package com.madeofair.webapp.pages
 
 import com.madeofair.models.UserSession
 import com.madeofair.models.domain.Pitchfork
+import com.madeofair.models.domain.getAllMonthsString
 import com.madeofair.models.domain.yearEnumToYearString
 import com.madeofair.redirect
 import com.madeofair.repositories.PitchforkRepository
@@ -54,6 +55,8 @@ fun Route.statsPitchfork(
             listOfAverageRatings.add(avg / albumsPerYear.size)
         }
 
+        val months = getAllMonthsString()
+
         call.respond(
             FreeMarkerContent(
                 "stats_pitchfork.ftl",
@@ -61,7 +64,8 @@ fun Route.statsPitchfork(
                     "user" to user,
                     "musicByYears" to musicByYears,
                     "years" to years,
-                    "listOfAverageRatings" to listOfAverageRatings
+                    "listOfAverageRatings" to listOfAverageRatings,
+                    "months" to months
                 )
             )
         )
