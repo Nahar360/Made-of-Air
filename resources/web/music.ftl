@@ -108,7 +108,7 @@
                                         <td style="text-align: center; vertical-align: middle;">${album.album}</td>
                                         <td style="text-align: center; vertical-align: middle;">${album.genre}</td>
                                         <td style="text-align: center; vertical-align: middle;">${album.rating}</td>
-                                        <td style="text-align: center; vertical-align: middle;">${album.bestSong}</td>
+                                        <td style="text-align: center; vertical-align: middle;"><i>${album.bestSong}</i></td>
                                         <#if user??>
                                             <td style="text-align: center; vertical-align: middle;">
                                                 <form action="/music/${album.id}">
