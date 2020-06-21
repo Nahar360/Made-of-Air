@@ -1,6 +1,79 @@
 <#import "common/bootstrap.ftl" as common>
 <@common.page>
 <br>
+<h2>Top</h2>
+<br>
+
+<script>
+var apiUrl = "http://ws.audioscrobbler.com/2.0/";
+var methodArtists = "user.getTopArtists";
+var methodAlbums = "user.getTopAlbums";
+var methodTracks = "user.getTopTracks";
+var username = "Nahar360";
+var apiKey = "9ec89d26273968e5f07f6f6d69d09552";
+var limitNumber = "10";
+var formatJsonAndCallback = "&format=json&callback=?";
+
+$(document).ready(function() {
+    var artistsApiCall = apiUrl + "?method=" + methodArtists + "&user=" + username + "&api_key=" + apiKey + "&limit=" + limitNumber + formatJsonAndCallback;
+    $.getJSON(artistsApiCall, function(json) {
+        var artists = "<ol>";
+        $.each(json.topartists.artist, function(i, item) {
+            artists += "<li> <p><a href=" + item.url + " target='_blank'>" + item.name + "</a> [" + item.playcount + "]</p> </li>";
+        });
+        artists += "</ol>";
+        $('#topArtists').append(artists);
+    });
+
+    var albumsApiCall = apiUrl + "?method=" + methodAlbums + "&user=" + username + "&api_key=" + apiKey + "&limit=" + limitNumber + formatJsonAndCallback;
+    $.getJSON(albumsApiCall, function(json) {
+        var albums = "<ol>";
+        $.each(json.topalbums.album, function(i, item) {
+            var image = JSON.stringify(item.image[1]);
+            var imageUrl = image.substring(image.indexOf("text") + 7).slice(0, -2);
+            albums += "<li> <p> <img src=" + imageUrl + "> <a href=" + item.url + " target='_blank'>" + item.artist.name + " - " + item.name + "</a> </p> </li>";
+        });
+        albums += "</ol>";
+        $('#topAlbums').append(albums);
+    });
+
+    var tracksApiCall = apiUrl + "?method=" + methodTracks + "&user=" + username + "&api_key=" + apiKey + "&limit=" + limitNumber + formatJsonAndCallback;
+    $.getJSON(tracksApiCall, function(json) {
+        var tracks = "<ol>";
+        $.each(json.toptracks.track, function(i, item) {
+            tracks += "<li> <p><a href=" + item.url + " target='_blank'>" + item.artist.name + " - " + item.name + "</a></p> </li>";
+        });
+        tracks += "</ol>";
+        $('#topTracks').append(tracks);
+    });
+
+    // Get album cover
+    /*var methodAlbumGetInfo = "album.getinfo";
+    var albumApiCall = apiUrl + "?method=" + methodAlbumGetInfo + "&api_key=" + apiKey + "&artist=" + "Cher" + "&album=" + "Believe" + formatJsonAndCallback;
+    $.getJSON(albumApiCall, function(json) {
+        console.log(json.album);
+        console.log(json.album.name);
+        console.log(json.album.artist);
+        console.log(json.album.image[1]);
+    });*/
+});
+</script>
+
+<div class="row">
+    <div class="col-sm-4" id="topArtists">
+        <h4>Artists</h4>
+    </div>
+    <div class="col-sm-4" id="topAlbums">
+        <h4>Albums</h4>
+    </div>
+    <div class="col-sm-4" id="topTracks">
+        <h4>Tracks</h4>
+    </div>
+</div>
+
+<hr>
+
+<br>
 <h2>News</h2>
 <br>
 
