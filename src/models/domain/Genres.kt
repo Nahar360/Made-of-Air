@@ -82,7 +82,7 @@ fun genreStringToGenreEnum(genre: String): Genres {
         "Industrial" -> Genres.INDUSTRIAL
         "Instrumental" -> Genres.INSTRUMENTAL
         "Jazz" -> Genres.JAZZ
-        "Lo-Fi" -> Genres.LO_FI
+        "Lo Fi" -> Genres.LO_FI
         "Metal" -> Genres.METAL
         "Neofolk" -> Genres.NEOFOLK
         "Noise" -> Genres.NOISE
@@ -98,7 +98,7 @@ fun genreStringToGenreEnum(genre: String): Genres {
         "Psychedelic Pop" -> Genres.PSYCHEDELIC_POP
         "Punk" -> Genres.PUNK
         "Punk Rock" -> Genres.PUNK_ROCK
-        "R&B" -> Genres.R_AND_B
+        "R And B" -> Genres.R_AND_B
         "Rap" -> Genres.RAP
         "Rock" -> Genres.ROCK
         "Shoegaze" -> Genres.SHOEGAZE
