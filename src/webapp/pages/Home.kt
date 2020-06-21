@@ -20,6 +20,7 @@ import io.ktor.sessions.get
 import io.ktor.sessions.sessions
 
 const val HOME = "/"
+const val MAX_NUM_ENTRIES = 25
 
 @Location(HOME)
 class Home
@@ -33,8 +34,8 @@ fun Route.home(
     get<Home> {
         val user = call.sessions.get<UserSession>()?.let { usersRepository.get(it.userId) }
 
-        val postsMusic = postsMusicRepository.getAll().sortedBy { it.date }.reversed()
-        val postsPitchfork = postsPitchforkRepository.getAll().sortedBy { it.date }.reversed()
+        val postsMusic = postsMusicRepository.getAll().sortedBy { it.date }.reversed().take(MAX_NUM_ENTRIES)
+        val postsPitchfork = postsPitchforkRepository.getAll().sortedBy { it.date }.reversed().take(MAX_NUM_ENTRIES)
 
         call.respond(
             FreeMarkerContent(
