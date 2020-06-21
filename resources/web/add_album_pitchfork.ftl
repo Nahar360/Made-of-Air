@@ -15,7 +15,11 @@
                 <div class="col-sm-7">
                     <select class="form-control" id="year" name="year" required>
                         <#list years as year>
-                            <option>${year}</option>
+                            <#if year == currentYear>
+                                <option selected>${year}</option>
+                            <#else>
+                                <option>${year}</option>
+                            </#if>
                         </#list>
                     </select>
                 </div>
@@ -27,7 +31,11 @@
                 <div class="col-sm-7">
                     <select class="form-control" id="month" name="month" required>
                         <#list months as month>
-                            <option>${month}</option>
+                            <#if month == currentMonth>
+                                <option selected>${month}</option>
+                            <#else>
+                                <option>${month}</option>
+                            </#if>
                         </#list>
                     </select>
                 </div>

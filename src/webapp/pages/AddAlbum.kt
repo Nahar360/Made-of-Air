@@ -20,6 +20,8 @@ import io.ktor.routing.Route
 import io.ktor.sessions.get
 import io.ktor.sessions.sessions
 import org.joda.time.DateTime
+import java.text.SimpleDateFormat
+import java.util.*
 
 const val ADD_ALBUM = "/add_album"
 
@@ -38,6 +40,9 @@ fun Route.addAlbum(
         val months = getAllMonthsString()
         val genres = getAllGenresString().map { it.replace(" ", "_").toUpperCase() }
 
+        val currentYear = Calendar.getInstance().get(Calendar.YEAR).toString()
+        val currentMonth = calendarMonthToMonths(SimpleDateFormat("MMM").format(Calendar.getInstance().time)).name
+
         call.respond(
             FreeMarkerContent(
                 "add_album.ftl",
@@ -45,7 +50,9 @@ fun Route.addAlbum(
                     "user" to user,
                     "years" to years,
                     "months" to months,
-                    "genres" to genres
+                    "genres" to genres,
+                    "currentYear" to currentYear,
+                    "currentMonth" to currentMonth
                 )
             )
         )

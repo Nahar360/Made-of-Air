@@ -20,6 +20,8 @@ import io.ktor.routing.Route
 import io.ktor.sessions.get
 import io.ktor.sessions.sessions
 import org.joda.time.DateTime
+import java.text.SimpleDateFormat
+import java.util.*
 
 const val ADD_ALBUM_PITCHFORK = "/add_album_pitchfork"
 
@@ -37,13 +39,18 @@ fun Route.addAlbumPitchfork(
 
         val months = getAllMonthsString()
 
+        val currentYear = Calendar.getInstance().get(Calendar.YEAR).toString()
+        val currentMonth = calendarMonthToMonths(SimpleDateFormat("MMM").format(Calendar.getInstance().time)).name
+
         call.respond(
             FreeMarkerContent(
                 "add_album_pitchfork.ftl",
                 mapOf(
                     "user" to user,
                     "years" to years,
-                    "months" to months
+                    "months" to months,
+                    "currentYear" to currentYear,
+                    "currentMonth" to currentMonth
                 )
             )
         )
