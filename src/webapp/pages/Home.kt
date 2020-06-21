@@ -9,6 +9,7 @@ import com.madeofair.webapp.Actions
 import com.madeofair.webapp.getAction
 import io.ktor.application.call
 import io.ktor.freemarker.FreeMarkerContent
+import io.ktor.http.Parameters
 import io.ktor.locations.Location
 import io.ktor.locations.get
 import io.ktor.locations.post
@@ -53,9 +54,18 @@ fun Route.home(
 
         if (getAction(params) == Actions.CLEAR) {
             postsMusicRepository.clearAll()
-            postsPitchforkRepository.clearAll()
-            
+            // postsPitchforkRepository.clearAll()
+
             call.redirect(Home())
+        } else if (getAction(params) == Actions.DELETE) {
+            val id = params.getValue("postId")
+            if (postsMusicRepository.remove(id)) {
+                call.redirect(Home())
+            }
         }
     }
+}
+
+private fun Parameters.getValue(value: String): String {
+    return this[value] ?: throw IllegalArgumentException("Missing argument: Album $value")
 }

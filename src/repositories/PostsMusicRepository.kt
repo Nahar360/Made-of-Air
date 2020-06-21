@@ -1,9 +1,11 @@
 package com.madeofair.repositories
 
 import com.madeofair.DatabaseFactory.dbQuery
+import com.madeofair.models.db.MusicDB
 import com.madeofair.models.db.PostsMusicDB
 import com.madeofair.models.domain.*
 import org.jetbrains.exposed.sql.*
+import org.jetbrains.exposed.sql.SqlExpressionBuilder.eq
 import org.jetbrains.exposed.sql.transactions.transaction
 
 object PostsMusicRepository {
@@ -44,6 +46,21 @@ object PostsMusicRepository {
         return dbQuery {
             PostsMusicDB.selectAll().mapNotNull {
                 it.toPostsMusic()
+            }
+        }
+    }
+
+    suspend fun remove(id: String): Boolean {
+        return dbQuery {
+            val count = transaction {
+                PostsMusicDB.deleteWhere {
+                    PostsMusicDB.id eq id
+                }
+            }
+
+            when (count) {
+                0 -> false
+                else -> true
             }
         }
     }

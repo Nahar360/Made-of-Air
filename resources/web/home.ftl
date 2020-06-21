@@ -48,6 +48,15 @@
                 </div>
                 <div class="card-footer border-dark text-white">
                     <small class="text-muted">${post.date[0..9]} / ${post.date[11..18]}</small>
+                    <#if (user??)>
+                        <form method="post" action="/">
+                            <input type="hidden" name="postId" value="${post.id}">
+                            <input type="hidden" name="action" value="delete">
+                            <button type="submit" class="btn btn-default btn-circle" title="Delete">
+                                <i class="material-icons">delete</i>
+                            </button>
+                        </form>
+                    </#if>
                 </div>
             </div>
         </#list>
