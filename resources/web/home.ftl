@@ -12,11 +12,10 @@ var methodAlbums = "user.getTopAlbums";
 var methodTracks = "user.getTopTracks";
 var username = "Nahar360";
 var apiKey = "9ec89d26273968e5f07f6f6d69d09552";
-var limitNumber = "10";
 var formatJsonAndCallback = "&format=json&callback=?";
 
 $(document).ready(function() {
-    var artistsApiCall = apiUrl + "?method=" + methodArtists + "&user=" + username + "&api_key=" + apiKey + "&limit=" + limitNumber + formatJsonAndCallback;
+    var artistsApiCall = apiUrl + "?method=" + methodArtists + "&user=" + username + "&api_key=" + apiKey + "&limit=20" + formatJsonAndCallback;
     $.getJSON(artistsApiCall, function(json) {
         var artists = "<ol>";
         $.each(json.topartists.artist, function(i, item) {
@@ -26,7 +25,7 @@ $(document).ready(function() {
         $('#topArtists').append(artists);
     });
 
-    var albumsApiCall = apiUrl + "?method=" + methodAlbums + "&user=" + username + "&api_key=" + apiKey + "&limit=" + limitNumber + formatJsonAndCallback;
+    var albumsApiCall = apiUrl + "?method=" + methodAlbums + "&user=" + username + "&api_key=" + apiKey + "&limit=10" + formatJsonAndCallback;
     $.getJSON(albumsApiCall, function(json) {
         var albums = "<ol>";
         $.each(json.topalbums.album, function(i, item) {
@@ -38,7 +37,7 @@ $(document).ready(function() {
         $('#topAlbums').append(albums);
     });
 
-    var tracksApiCall = apiUrl + "?method=" + methodTracks + "&user=" + username + "&api_key=" + apiKey + "&limit=" + limitNumber + formatJsonAndCallback;
+    var tracksApiCall = apiUrl + "?method=" + methodTracks + "&user=" + username + "&api_key=" + apiKey + "&limit=20" + formatJsonAndCallback;
     $.getJSON(tracksApiCall, function(json) {
         var tracks = "<ol>";
         $.each(json.toptracks.track, function(i, item) {
