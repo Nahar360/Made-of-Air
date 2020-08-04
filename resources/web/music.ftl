@@ -69,6 +69,7 @@
                         <table class="table table-bordered">
                             <thead class="thead-dark">
                                 <tr>
+                                    <th scope="col"></th>
                                     <th scope="col">Year</th>
                                     <th scope="col">Month</th>
                                     <th scope="col">Band</th>
@@ -100,8 +101,39 @@
                                             <tr bgcolor="#D6AF36">
                                         </#if>
                                         <#if (album.rating == "")>
-                                            <tr bgcolor="#ffdb99">
+                                            <tr bgcolor="#FFDB99">
                                         </#if>
+
+                                        <#assign
+                                        artistFormatted = album.month
+                                                        + album.band?replace(" ", "")?replace(".", "")?replace("&", "")?replace("-", "")?replace("'", "")?replace("$", "")?replace("/", "")?replace("+", "")?replace(",", "")?replace("(", "")?replace(")", "")?replace("!", "")
+                                                        + album.year[5..]
+                                        >
+
+                                        <td style="text-align: center; vertical-align: middle;" id=${artistFormatted}>
+                                            <script>
+                                                var apiUrl = "http://ws.audioscrobbler.com/2.0/";
+                                                var methodAlbumGetInfo = "album.getinfo";
+                                                var apiKey = "9ec89d26273968e5f07f6f6d69d09552";
+                                                var formatJsonAndCallback = "&format=json&callback=?";
+
+                                                var albumApiCall = apiUrl + "?method=" + methodAlbumGetInfo + "&api_key=" + apiKey + "&artist=" + "${album.band}" + "&album=" + "${album.album}" + formatJsonAndCallback;
+                                                $.getJSON(albumApiCall, function(json) {
+                                                    if (typeof json.album !== 'undefined') {
+                                                        var image = JSON.stringify(json.album.image[1]);
+                                                        var imageUrl = image.substring(image.indexOf("text") + 7).slice(0, -18);
+                                                        var cover = "<img src=" + imageUrl + ">";
+
+                                                        $(${artistFormatted}).append(cover);
+                                                    }
+                                                    else {
+                                                        var cover = "<img src="//:0">";
+
+                                                        $(${artistFormatted}).append(cover);
+                                                    }
+                                                });
+                                            </script>
+                                        </td>
                                         <td style="text-align: center; vertical-align: middle;">${album.year[5..]}</td>
                                         <td style="text-align: center; vertical-align: middle;">${album.month}</td>
                                         <td style="text-align: center; vertical-align: middle;"><b>${album.band}</b></td>

@@ -1,5 +1,6 @@
 <#import "common/bootstrap.ftl" as common>
 <@common.page>
+
 <br>
 <h2>Top</h2>
 <br>
@@ -46,16 +47,6 @@ $(document).ready(function() {
         tracks += "</ol>";
         $('#topTracks').append(tracks);
     });
-
-    // Get album cover
-    /*var methodAlbumGetInfo = "album.getinfo";
-    var albumApiCall = apiUrl + "?method=" + methodAlbumGetInfo + "&api_key=" + apiKey + "&artist=" + "Cher" + "&album=" + "Believe" + formatJsonAndCallback;
-    $.getJSON(albumApiCall, function(json) {
-        console.log(json.album);
-        console.log(json.album.name);
-        console.log(json.album.artist);
-        console.log(json.album.image[1]);
-    });*/
 });
 </script>
 
