@@ -12,6 +12,7 @@ enum class Years {
     YEAR_2018,
     YEAR_2019,
     YEAR_2020,
+    YEAR_2021,
     NONE
 }
 
@@ -28,6 +29,7 @@ fun yearEnumToYearString(year: Years): String {
         Years.YEAR_2018 -> "2018"
         Years.YEAR_2019 -> "2019"
         Years.YEAR_2020 -> "2020"
+        Years.YEAR_2021 -> "2021"
         else -> "NONE"
     }
 }
@@ -45,6 +47,7 @@ fun yearStringToYearEnum(year: String): Years {
         "2018" -> Years.YEAR_2018
         "2019" -> Years.YEAR_2019
         "2020" -> Years.YEAR_2020
+        "2021" -> Years.YEAR_2021
         else -> Years.NONE
     }
 }
