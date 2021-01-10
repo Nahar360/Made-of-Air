@@ -43,7 +43,7 @@ object DatabaseFactory {
             jdbcUrl = System.getenv(JDBC_DATABASE_URL)
             maximumPoolSize = 3
             transactionIsolation = "TRANSACTION_REPEATABLE_READ"
-            password = System.getenv(JDBC_DATABASE_PASSWORD)
+//            password = System.getenv(JDBC_DATABASE_PASSWORD)
             config.validate()
         }
 
