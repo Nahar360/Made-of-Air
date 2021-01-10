@@ -35,15 +35,19 @@
           <a class="dropdown-item" href="/stats_pitchfork">Pitchfork</a>
         </div>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color: #D3D3D3">Articles</a>
-        <div class="dropdown-menu">
-          <#if user??>
-            <a class="dropdown-item" href="/add_article">Add article</a>
-          </#if>
-          <a class="dropdown-item" href="/view_articles">View</a>
-        </div>
-      </li>
+      <#if user??>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color: #D3D3D3">Articles</a>
+          <div class="dropdown-menu">
+              <a class="dropdown-item" href="/add_article">Add article</a>
+            <a class="dropdown-item" href="/articles">Articles</a>
+          </div>
+        </li>
+      <#else>
+        <li class="nav-item">
+          <a class="nav-link" href="/articles" style="color: #D3D3D3">Articles</a>
+        </li>
+      </#if>
       <li class="nav-item">
         <a class="nav-link" href="/about" style="color: #D3D3D3">About</a>
       </li>

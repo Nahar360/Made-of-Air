@@ -9,18 +9,18 @@ import io.ktor.response.*
 import io.ktor.routing.*
 import io.ktor.sessions.*
 
-const val VIEW_ARTICLES = "/view_articles"
+const val ARTICLES = "/articles"
 
-@Location(VIEW_ARTICLES)
-class View_Articles
+@Location(ARTICLES)
+class Articles
 
-fun Route.viewArticles(usersRepository: UsersRepository, years: ArrayList<String>) {
-    get<View_Articles> {
+fun Route.articles(usersRepository: UsersRepository, years: ArrayList<String>) {
+    get<Articles> {
         val user = call.sessions.get<UserSession>()?.let { usersRepository.get(it.userId) }
 
         call.respond(
             FreeMarkerContent(
-                "view_articles.ftl",
+                "articles.ftl",
                 mapOf(
                     "user" to user,
                     "years" to years

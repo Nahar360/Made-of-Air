@@ -38,7 +38,7 @@ fun Routing.web(
     statsPitchfork(usersRepository, pitchforkRepository, years)
 
     addArticle(usersRepository, years)
-    viewArticles(usersRepository, years)
+    articles(usersRepository, years)
 
     about(usersRepository, years)
 
