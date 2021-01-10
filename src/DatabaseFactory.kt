@@ -25,6 +25,7 @@ object DatabaseFactory {
             SchemaUtils.create(PitchforkDB)
             SchemaUtils.create(PostsMusicDB)
             SchemaUtils.create(PostsPitchforkDB)
+            SchemaUtils.create(ArticlesDB)
         }
 
         loadDefaultContent(repositoryModule)
