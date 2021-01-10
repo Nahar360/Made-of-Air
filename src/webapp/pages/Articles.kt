@@ -1,6 +1,7 @@
 package com.madeofair.webapp.pages
 
 import com.madeofair.models.UserSession
+import com.madeofair.repositories.ArticlesRepository
 import com.madeofair.repositories.UsersRepository
 import io.ktor.application.*
 import io.ktor.freemarker.*
@@ -14,7 +15,7 @@ const val ARTICLES = "/articles"
 @Location(ARTICLES)
 class Articles
 
-fun Route.articles(usersRepository: UsersRepository, years: ArrayList<String>) {
+fun Route.articles(usersRepository: UsersRepository, articlesRepository: ArticlesRepository, years: ArrayList<String>) {
     get<Articles> {
         val user = call.sessions.get<UserSession>()?.let { usersRepository.get(it.userId) }
 

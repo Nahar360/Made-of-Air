@@ -72,7 +72,8 @@ private fun Application.setRouting(repositoryModule: RepositoryModule) {
             repositoryModule.music(),
             repositoryModule.pitchfork(),
             repositoryModule.postsMusic(),
-            repositoryModule.postsPitchfork()
+            repositoryModule.postsPitchfork(),
+            repositoryModule.articles()
         )
     }
 }

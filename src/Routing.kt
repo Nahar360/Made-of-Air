@@ -16,7 +16,8 @@ fun Routing.web(
     musicRepository: MusicRepository,
     pitchforkRepository: PitchforkRepository,
     postsMusicRepository: PostsMusicRepository,
-    postsPitchforkRepository: PostsPitchforkRepository
+    postsPitchforkRepository: PostsPitchforkRepository,
+    articlesRepository: ArticlesRepository
 ) {
     val years = getAllYearsString()
 
@@ -37,8 +38,8 @@ fun Routing.web(
     stats(usersRepository, musicRepository, years)
     statsPitchfork(usersRepository, pitchforkRepository, years)
 
-    addArticle(usersRepository, years)
-    articles(usersRepository, years)
+    addArticle(usersRepository, articlesRepository, years)
+    articles(usersRepository, articlesRepository, years)
 
     about(usersRepository, years)
 

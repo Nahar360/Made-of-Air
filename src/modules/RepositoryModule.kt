@@ -8,4 +8,5 @@ interface RepositoryModule {
     fun pitchfork(): PitchforkRepository
     fun postsMusic(): PostsMusicRepository
     fun postsPitchfork(): PostsPitchforkRepository
+    fun articles(): ArticlesRepository
 }

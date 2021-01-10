@@ -8,5 +8,6 @@ object ProductionRepositoryModule : RepositoryModule {
     override fun pitchfork() = PitchforkRepository
     override fun postsMusic() = PostsMusicRepository
     override fun postsPitchfork() = PostsPitchforkRepository
+    override fun articles() = ArticlesRepository
 
 }
