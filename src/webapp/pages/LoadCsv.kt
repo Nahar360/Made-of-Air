@@ -4,10 +4,9 @@ import com.madeofair.models.domain.*
 import com.madeofair.redirect
 import com.madeofair.repositories.MusicRepository
 import com.madeofair.repositories.PitchforkRepository
-import io.ktor.application.call
-import io.ktor.locations.Location
-import io.ktor.locations.get
-import io.ktor.routing.Route
+import io.ktor.application.*
+import io.ktor.locations.*
+import io.ktor.routing.*
 import org.apache.commons.csv.CSVFormat
 import org.apache.commons.csv.CSVParser
 import java.io.BufferedReader

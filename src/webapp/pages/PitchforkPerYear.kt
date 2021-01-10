@@ -9,21 +9,17 @@ import com.madeofair.repositories.PitchforkRepository
 import com.madeofair.repositories.UsersRepository
 import com.madeofair.webapp.Actions
 import com.madeofair.webapp.getAction
-import io.ktor.application.call
-import io.ktor.freemarker.FreeMarkerContent
-import io.ktor.http.HttpStatusCode
-import io.ktor.http.Parameters
-import io.ktor.locations.Location
+import io.ktor.application.*
+import io.ktor.freemarker.*
+import io.ktor.http.*
+import io.ktor.locations.*
 import io.ktor.locations.get
-import io.ktor.locations.post
-import io.ktor.request.receiveParameters
-import io.ktor.response.respond
+import io.ktor.request.*
+import io.ktor.response.*
 import io.ktor.routing.Route
-import io.ktor.sessions.get
-import io.ktor.sessions.sessions
+import io.ktor.sessions.*
 import java.text.SimpleDateFormat
 import java.util.*
-import kotlin.collections.ArrayList
 
 const val PITCHFORK_PER_YEAR = "/pitchfork/year/{year}"
 

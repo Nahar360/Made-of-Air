@@ -1,6 +1,6 @@
 package com.madeofair.webapp
 
-import io.ktor.http.Parameters
+import io.ktor.http.*
 
 const val ACTION = "action"
 

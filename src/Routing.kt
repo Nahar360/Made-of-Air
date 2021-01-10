@@ -3,8 +3,8 @@ package com.madeofair
 import com.madeofair.models.domain.getAllYearsString
 import com.madeofair.repositories.*
 import com.madeofair.webapp.pages.*
-import io.ktor.http.content.static
-import io.ktor.routing.Routing
+import io.ktor.http.content.*
+import io.ktor.routing.*
 
 fun Routing.static() {
     static("/static") {

@@ -7,23 +7,15 @@ import com.madeofair.modules.ProductionRepositoryModule
 import com.madeofair.modules.RepositoryModule
 import com.ryanharter.ktor.moshi.moshi
 import freemarker.cache.ClassTemplateLoader
-import io.ktor.application.Application
-import io.ktor.application.call
-import io.ktor.application.install
-import io.ktor.features.CallLogging
-import io.ktor.features.ContentNegotiation
-import io.ktor.features.DefaultHeaders
-import io.ktor.features.StatusPages
-import io.ktor.freemarker.FreeMarker
-import io.ktor.http.ContentType
-import io.ktor.http.HttpStatusCode
-import io.ktor.jackson.jackson
-import io.ktor.locations.Locations
-import io.ktor.response.respondText
-import io.ktor.routing.routing
-import io.ktor.sessions.SessionTransportTransformerMessageAuthentication
-import io.ktor.sessions.Sessions
-import io.ktor.sessions.cookie
+import io.ktor.application.*
+import io.ktor.features.*
+import io.ktor.freemarker.*
+import io.ktor.http.*
+import io.ktor.jackson.*
+import io.ktor.locations.*
+import io.ktor.response.*
+import io.ktor.routing.*
+import io.ktor.sessions.*
 
 fun main(args: Array<String>): Unit = io.ktor.server.netty.EngineMain.main(args)
 
