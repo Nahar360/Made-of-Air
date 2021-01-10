@@ -37,6 +37,9 @@ fun Routing.web(
     stats(usersRepository, musicRepository, years)
     statsPitchfork(usersRepository, pitchforkRepository, years)
 
+    addArticle(usersRepository, years)
+    viewArticles(usersRepository, years)
+
     about(usersRepository, years)
 
     loadCsv(musicRepository, pitchforkRepository)
